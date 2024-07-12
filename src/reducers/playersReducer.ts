@@ -1,31 +1,60 @@
-export type IPlayer = {
-    id: string;
-    name: string;
-    score: number;
-}
-export function playersReducer(players: IPlayer[], action: {type:string, player: IPlayer }) {
-    switch (action.type) {
-      case 'addPlayer': {
-        return [
-          ...players,
-          action.player
-        ];
-      }
-      case 'editPlayer': {
-        return players.map((player) => {
+import { ACTION_TYPES, IPlayer, IState } from "../types/types";
+
+export function playersReducer(
+  state: IState,
+  action: { type: string; player: IPlayer, scoreToAdd?: number, scoreToSubtract?: number }
+): IState {
+
+  switch (action.type) {
+    case ACTION_TYPES.ADD: {
+      return {
+        players: [...state.players, action.player],
+      };
+    }
+    case ACTION_TYPES.EDIT: {
+      return {
+        players: state.players.map((player) => {
           if (player.id === action.player.id) {
             return action.player;
           } else {
             return player;
           }
-        });
-      }
-      case 'deletePlayer': {
-        return players.filter((player) => player.id !== action.player.id);
-      }
-      default: {
-        throw Error('Unknown action: ' + action.type);
-      }
+        }),
+      };
+    }
+    case ACTION_TYPES.DELETE: {
+      return {
+        players: state.players.filter(
+          (player) => player.id !== action.player.id
+        ),
+      };
+    }
+    case ACTION_TYPES.ADD_SCORE: {
+      return {
+        players: state.players.map((player) => {
+          if (player.id === action.player.id) {
+            const newScore = action.scoreToAdd? action.scoreToAdd + player.score : player.score;
+            return { ...player, score: newScore };
+          } else {
+            return player;
+          }
+        }),
+      };
+    }
+    case ACTION_TYPES.SUBTRACT_SCORE: {
+      return {
+        players: state.players.map((player) => {
+          if (player.id === action.player.id) {
+            const newScore = action.scoreToSubtract? player.score - action.scoreToSubtract : player.score;
+            return { ...player, score: newScore };
+          } else {
+            return player;
+          }
+        }),
+      };
+    }
+    default: {
+      throw Error("Unknown action: " + action.type);
     }
   }
-  
+}
