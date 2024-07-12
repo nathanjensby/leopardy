@@ -1,43 +1,13 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Box, Button, Flex, Input } from "theme-ui";
-import { IPlayer } from "../reducers/playersReducer";
+import { PlayersContext } from "../contexts/playersContext";
 
-type IPlayerList = {
-  players: IPlayer[];
-  onEditPlayer: (player: IPlayer) => void;
-  onDeletePlayer: (player: IPlayer) => void;
-};
+import { IPlayer, ACTION_TYPES } from "../types/types";
 
-export default function PlayerList({
-  players,
-  onEditPlayer,
-  onDeletePlayer,
-}: IPlayerList) {
-  return (
-    <ul>
-      {players.map((player: IPlayer) => (
-        <Box as="li" sx={{ listStyleType: "none" }} key={player.id}>
-          <Player
-            player={player}
-            onChange={onEditPlayer}
-            onDelete={onDeletePlayer}
-          />
-        </Box>
-      ))}
-    </ul>
-  );
-}
-
-function Player({
-  player,
-  onChange,
-  onDelete,
-}: {
-  player: IPlayer;
-  onChange: (player: IPlayer) => void;
-  onDelete: (player: IPlayer) => void;
-}) {
+function Player({ player }: { player: IPlayer }) {
   const [isEditing, setIsEditing] = useState(false);
+  const [, dispatch] = useContext(PlayersContext);
+
   let playerName;
   if (isEditing) {
     playerName = (
@@ -45,9 +15,12 @@ function Player({
         <Input
           value={player.name}
           onChange={(e) => {
-            onChange({
-              ...player,
-              name: e.target.value,
+            dispatch({
+              type: ACTION_TYPES.EDIT,
+              player: {
+                ...player,
+                name: e.target.value,
+              },
             });
           }}
         />
@@ -65,7 +38,31 @@ function Player({
   return (
     <Flex>
       {playerName}
-      <Button onClick={() => onDelete(player)}>Delete</Button>
+      <Button
+        onClick={() => {
+          dispatch({
+            type: ACTION_TYPES.DELETE,
+            player,
+          });
+        }}
+      >
+        Delete
+      </Button>
     </Flex>
+  );
+}
+
+export default function PlayerList() {
+  const [state] = useContext(PlayersContext);
+  const { players } = state;
+
+  return (
+    <ul>
+      {players.map((player: IPlayer) => (
+        <Box as="li" sx={{ listStyleType: "none" }} key={player.id}>
+          <Player player={player} />
+        </Box>
+      ))}
+    </ul>
   );
 }

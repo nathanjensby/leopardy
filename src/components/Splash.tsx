@@ -1,37 +1,17 @@
-import { useReducer, useState } from "react";
+import { useContext, useState } from "react";
 import { Box, Button, Input, Label } from "theme-ui";
-import { playersReducer, IPlayer } from "../reducers/playersReducer";
 import PlayerList from "./PlayerList";
+import { PlayersContext } from "../contexts/playersContext";
+import { ACTION_TYPES } from "../types/types";
 
 const Splash = ({
   setIsPlaying,
 }: {
   setIsPlaying: (isPlaying: boolean) => void;
 }) => {
-  const [players, dispatch] = useReducer(playersReducer, []);
+  const [, dispatch] = useContext(PlayersContext);
+
   const [playerName, setPlayerName] = useState("");
-
-  const handleAddPlayer = () => {
-    dispatch({
-      type: "addPlayer",
-      player: { name: playerName, score: 0, id: playerName },
-    });
-    setPlayerName("");
-  };
-
-  const handleDeletePlayer = (player: IPlayer) => {
-    dispatch({
-      type: "deletePlayer",
-      player: player,
-    });
-  };
-
-  const handleEditPlayer = (player: IPlayer) => {
-    dispatch({
-      type: "editPlayer",
-      player: player,
-    });
-  };
 
   return (
     <Box>
@@ -47,13 +27,19 @@ const Splash = ({
           value={playerName}
           onChange={(e) => setPlayerName(e.target.value)}
         />
-        <Button onClick={handleAddPlayer}>Add Player</Button>
+        <Button
+          onClick={() => {
+            setPlayerName("");
+            dispatch({
+              type: ACTION_TYPES.ADD,
+              player: { name: playerName, score: 0, id: playerName },
+            });
+          }}
+        >
+          Add Player
+        </Button>
       </Box>
-      <PlayerList
-        players={players}
-        onDeletePlayer={handleDeletePlayer}
-        onEditPlayer={handleEditPlayer}
-      />
+      <PlayerList />
       <Button
         onClick={(e) => {
           e.preventDefault();
