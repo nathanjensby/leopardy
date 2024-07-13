@@ -2,14 +2,12 @@ import { useContext, useState } from "react";
 import { Box, Button, Input, Label } from "theme-ui";
 import PlayerList from "./PlayerList";
 import { PlayersContext } from "../contexts/playersContext";
-import { ACTION_TYPES } from "../types/types";
+import { ACTION_TYPES, GAME_STATE_ACTION_TYPES } from "../types/types";
+import { GameContext } from "../contexts/gameContext";
 
-const Splash = ({
-  setIsPlaying,
-}: {
-  setIsPlaying: (isPlaying: boolean) => void;
-}) => {
-  const [, dispatch] = useContext(PlayersContext);
+const Splash = () => {
+  const [, playersDispatch] = useContext(PlayersContext);
+  const [, gameDispatch] = useContext(GameContext);
 
   const [playerName, setPlayerName] = useState("");
 
@@ -30,7 +28,7 @@ const Splash = ({
         <Button
           onClick={() => {
             setPlayerName("");
-            dispatch({
+            playersDispatch({
               type: ACTION_TYPES.ADD,
               player: { name: playerName, score: 0, id: playerName },
             });
@@ -43,7 +41,9 @@ const Splash = ({
       <Button
         onClick={(e) => {
           e.preventDefault();
-          setIsPlaying(true);
+          gameDispatch({
+            type: GAME_STATE_ACTION_TYPES.SINGLE_LEOPARDY,
+          });
         }}
       >
         Let's go

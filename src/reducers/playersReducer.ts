@@ -2,9 +2,13 @@ import { ACTION_TYPES, IPlayer, IState } from "../types/types";
 
 export function playersReducer(
   state: IState,
-  action: { type: string; player: IPlayer, scoreToAdd?: number, scoreToSubtract?: number }
+  action: {
+    type: string;
+    player: IPlayer;
+    scoreToAdd?: number;
+    scoreToSubtract?: number;
+  }
 ): IState {
-
   switch (action.type) {
     case ACTION_TYPES.ADD: {
       return {
@@ -33,7 +37,9 @@ export function playersReducer(
       return {
         players: state.players.map((player) => {
           if (player.id === action.player.id) {
-            const newScore = action.scoreToAdd? action.scoreToAdd + player.score : player.score;
+            const newScore = action.scoreToAdd
+              ? action.scoreToAdd + player.score
+              : player.score;
             return { ...player, score: newScore };
           } else {
             return player;
@@ -45,12 +51,19 @@ export function playersReducer(
       return {
         players: state.players.map((player) => {
           if (player.id === action.player.id) {
-            const newScore = action.scoreToSubtract? player.score - action.scoreToSubtract : player.score;
+            const newScore = action.scoreToSubtract
+              ? player.score - action.scoreToSubtract
+              : player.score;
             return { ...player, score: newScore };
           } else {
             return player;
           }
         }),
+      };
+    }
+    case ACTION_TYPES.RESET: {
+      return {
+        players: [],
       };
     }
     default: {
