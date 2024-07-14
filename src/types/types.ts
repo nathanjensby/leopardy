@@ -1,3 +1,5 @@
+import { Dispatch, SetStateAction } from "react";
+
 export enum ACTION_TYPES {
   ADD = "ADD_PLAYER",
   EDIT = "EDIT_PLAYER",
@@ -13,7 +15,11 @@ export enum GAME_STATE_ACTION_TYPES {
   DOUBLE_LEOPARDY = "DOUBLE_LEOPARDY",
   FINAL_LEOPARDY = "FINAL_LEOPARDY",
   RESULTS = "RESULTS",
-  //   ACTIVATED_QUESTION = "ACTIVATED_QUESTION",
+}
+
+export enum ACTIVATED_QUESTIONS_TYPES {
+  ACTIVATED_QUESTION = "ACTIVATED_QUESTION",
+  CLEAR_ALL = "CLEAR_ALL",
 }
 
 export type StartGameAction = {
@@ -36,13 +42,26 @@ export type ResultsGameAction = {
   type: typeof GAME_STATE_ACTION_TYPES.RESULTS;
 };
 
-// export type ActivatedQuestionAction = {
-//   type: typeof GAME_STATE_ACTION_TYPES.ACTIVATED_QUESTION;
-//   activatedQuestion: IQuestion;
-// };
+export type ActivatedQuestionAction = {
+  type: typeof ACTIVATED_QUESTIONS_TYPES.ACTIVATED_QUESTION;
+  activatedQuestion: IQuestion;
+};
 
-export type IState = {
+export type ClearActivatedQuestionAction = {
+  type: typeof ACTIVATED_QUESTIONS_TYPES.CLEAR_ALL;
+};
+
+export type IPlayersState = {
   players: IPlayer[];
+};
+
+export type IGameState = {
+  gameState: keyof typeof GAME_STATE_ACTION_TYPES;
+};
+
+export type IQuestionsState = {
+  activatedQuestions: IQuestion[];
+  currentQuestion: IQuestion;
 };
 
 export type IPlayer = {
@@ -69,27 +88,19 @@ export type EditPlayerAction = {
 export type AddScorePlayerAction = {
   type: typeof ACTION_TYPES.ADD_SCORE;
   player: IPlayer;
-  scoreToAdd: number;
+  value: number;
 };
 
 export type SubtractScorePlayerAction = {
   type: typeof ACTION_TYPES.SUBTRACT_SCORE;
   player: IPlayer;
-  scoreToSubtract: number;
+  value: number;
 };
 
 export type ResetPlayersAction = {
   type: typeof ACTION_TYPES.RESET;
   player: IPlayer;
 };
-
-export type ActionTypes =
-  | AddPlayerAction
-  | DeletePlayerAction
-  | EditPlayerAction
-  | AddScorePlayerAction
-  | SubtractScorePlayerAction
-  | ResetPlayersAction;
 
 export type IPlayerList = {
   players: IPlayer[];
@@ -112,13 +123,27 @@ export type IQuestion = {
   value: number;
 };
 
-export type IGameState = {
-  gameState: keyof typeof GAME_STATE_ACTION_TYPES;
-};
-
 export type GameStateActionTypes =
   | StartGameAction
   | SingleLeopardyGameAction
   | DoubleLeopardyGameAction
   | FinalLeopardyGameAction
   | ResultsGameAction;
+
+export type ActionTypes =
+  | AddPlayerAction
+  | DeletePlayerAction
+  | EditPlayerAction
+  | AddScorePlayerAction
+  | SubtractScorePlayerAction
+  | ResetPlayersAction;
+
+export type QuestionsActionsTypes =
+  | ActivatedQuestionAction
+  | ClearActivatedQuestionAction;
+
+export type IModal = {
+  isOpen: boolean;
+  toggleModal: () => void;
+  setIsOpen: Dispatch<SetStateAction<boolean>>;
+};

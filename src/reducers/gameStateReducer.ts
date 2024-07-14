@@ -35,15 +35,6 @@ export function gameStateReducer(
         gameState: action.type,
       };
     }
-    // case GAME_STATE_ACTION_TYPES.ACTIVATED_QUESTION: {
-    //   return {
-    //     ...state,
-    //     activatedQuestions: [
-    //       ...state.activatedQuestions,
-    //       action.activatedQuestion,
-    //     ],
-    //   };
-    // }
 
     default: {
       throw Error("Unknown action: " + action.type);
