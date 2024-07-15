@@ -1,14 +1,13 @@
-import { ACTION_TYPES, IPlayer, IState } from "../types/types";
+import { ACTION_TYPES, IPlayer, IPlayersState } from "../types/types";
 
 export function playersReducer(
-  state: IState,
+  state: IPlayersState,
   action: {
     type: string;
     player: IPlayer;
-    scoreToAdd?: number;
-    scoreToSubtract?: number;
+    value?: number;
   }
-): IState {
+): IPlayersState {
   switch (action.type) {
     case ACTION_TYPES.ADD: {
       return {
@@ -37,8 +36,8 @@ export function playersReducer(
       return {
         players: state.players.map((player) => {
           if (player.id === action.player.id) {
-            const newScore = action.scoreToAdd
-              ? action.scoreToAdd + player.score
+            const newScore = action.value
+              ? action.value + player.score
               : player.score;
             return { ...player, score: newScore };
           } else {
@@ -51,8 +50,8 @@ export function playersReducer(
       return {
         players: state.players.map((player) => {
           if (player.id === action.player.id) {
-            const newScore = action.scoreToSubtract
-              ? player.score - action.scoreToSubtract
+            const newScore = action.value
+              ? player.score - action.value
               : player.score;
             return { ...player, score: newScore };
           } else {

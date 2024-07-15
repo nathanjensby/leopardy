@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { Button } from "theme-ui";
 import { PlayersContext } from "../contexts/playersContext";
 import { GameContext } from "../contexts/gameContext";
