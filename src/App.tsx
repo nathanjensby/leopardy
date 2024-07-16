@@ -14,7 +14,7 @@ import {
 import { gameStateReducer } from "./reducers/gameStateReducer";
 import { GameContext } from "./contexts/gameContext";
 import Results from "./components/Results";
-import { ModalContext } from "./contexts/ModalContext";
+import { ModalContext } from "./contexts/modalContext";
 import Modal from "react-modal";
 import useModal from "./hooks/useModal";
 import { QuestionsContext } from "./contexts/questionsContext";

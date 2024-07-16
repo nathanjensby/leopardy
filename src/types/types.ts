@@ -147,3 +147,8 @@ export type IModal = {
   toggleModal: () => void;
   setIsOpen: Dispatch<SetStateAction<boolean>>;
 };
+
+export type IQuestionData = {
+  stage: string;
+  categories: ICategory[];
+};

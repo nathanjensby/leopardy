@@ -21,6 +21,7 @@ export function questionsReducer(
           }
         : { ...state };
     }
+
     case ACTIVATED_QUESTIONS_TYPES.CLEAR_ALL: {
       return {
         ...state,
