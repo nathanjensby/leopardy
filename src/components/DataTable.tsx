@@ -1,32 +1,40 @@
 import { Grid, Box, Button, Text, Flex } from "theme-ui";
-import testData from "../assets/questions.json";
 import {
   ICategory,
   IQuestion,
   ACTIVATED_QUESTIONS_TYPES,
+  IQuestionData,
 } from "../types/types";
 import { useContext } from "react";
-import { ModalContext } from "../contexts/ModalContext";
+import { ModalContext } from "../contexts/modalContext";
 import { QuestionsContext } from "../contexts/questionsContext";
 
-const DataTable = () => {
+const DataTable = ({
+  leopardyStageData,
+}: {
+  leopardyStageData: IQuestionData;
+}) => {
   const [questionsState, questionsDispatch] = useContext(QuestionsContext);
-  const { categories } = testData.data;
-  const pointValues = [100, 200, 300, 400, 500];
   const { setIsOpen } = useContext(ModalContext);
+
+  if (!leopardyStageData || !leopardyStageData.categories) {
+    return;
+  }
+
+  const { categories } = leopardyStageData;
 
   const columnNamesArr = categories.map((category) => category.name);
 
-  const getDataByValue = (value: number): IQuestion[] =>
-    categories
-      .map((category: ICategory) =>
-        category.questions.filter(
-          (question: IQuestion) => question.value === value
-        )
-      )
-      .flat();
+  const values = categories[0].questions.map((question) => question.value);
 
-  const handleAnsweredQuestion = (question: IQuestion) => {
+  const getDataByValue = (value: number): IQuestion[] =>
+    categories.flatMap((category: ICategory) =>
+      category.questions.filter(
+        (question: IQuestion) => question.value === value
+      )
+    );
+
+  const handleActivatedQuestion = (question: IQuestion) => {
     setIsOpen(true);
     questionsDispatch({
       type: ACTIVATED_QUESTIONS_TYPES.ACTIVATED_QUESTION,
@@ -52,7 +60,7 @@ const DataTable = () => {
           </Text>
         </Flex>
       ))}
-      {pointValues.map((value) =>
+      {values.map((value) =>
         getDataByValue(value).map((question, index) => (
           <Box key={index}>
             {questionsState.activatedQuestions.indexOf(question) === -1 && (
@@ -60,7 +68,7 @@ const DataTable = () => {
                 sx={{
                   variant: "buttons.dataTable",
                 }}
-                onClick={() => handleAnsweredQuestion(question)}
+                onClick={() => handleActivatedQuestion(question)}
               >
                 ${question.value}
               </Button>

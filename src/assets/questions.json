@@ -1,61 +1,72 @@
-{ "data": {
+{ "data": [{
+    "stage" : "SINGLE_LEOPARDY",
     "categories": [{
-        "name": "Potent potables",
+        "name": "potent potables",
         "id": 1,
         "questions": [{
             "id": 1,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 100
+            "value": 100,
+            "category": "potent potables"
         }, {
             "id": 2,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 200
+            "value": 200,
+            "category": "potent potables"
         }, {
             "id": 3,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 300
+            "value": 300,
+            "category": "potent potables"
         }, {
             "id": 4,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 400
+            "value": 400,
+            "category": "potent potables"
         }, {
             "id": 5,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 500
+            "value": 500,
+            "category": "potent potables"
         }]
     },{
-        "name": "Category 2",
+        "name": "category 2",
         "id": 2,
         "questions": [{
             "id": 1,
             "answer": "Imitation Crab Meat",
             "question": "What is Lorem Ipsum",
-            "value": 100
+            "value": 100,
+            "category": "category 2"
         }, {
             "id": 2,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 200
+            "value": 200,
+            "category": "category 2"
         }, {
             "id": 3,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 300
+            "value": 300,
+            "category": "category 2"
         }, {
             "id": 4,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 400
+            "value": 400,
+            "category": "category 2"
         }, {
             "id": 5,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 500
+            "value": 500,
+            "category": "category 2"
         }]
     },{
         "name": "Category 3",
@@ -64,27 +75,32 @@
             "id": 1,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 100
+            "value": 100,
+            "category": "category 3"
         }, {
             "id": 2,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 200
+            "value": 200,
+            "category": "category 3"
         }, {
             "id": 3,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 300
+            "value": 300,
+            "category": "category 3"
         }, {
             "id": 4,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 400
+            "value": 400,
+            "category": "category 3"
         }, {
             "id": 5,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 500
+            "value": 500,
+            "category": "category 3"
         }]
     },{
         "name": "Category 4",
@@ -93,27 +109,32 @@
             "id": 1,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 100
+            "value": 100,
+            "category": "category 4"
         }, {
             "id": 2,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 200
+            "value": 200,
+            "category": "category 4"
         }, {
             "id": 3,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 300
+            "value": 300,
+            "category": "category 4"
         }, {
             "id": 4,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 400
+            "value": 400,
+            "category": "category 4"
         }, {
             "id": 5,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 500
+            "value": 500,
+            "category": "category 4"
         }]
     },{
         "name": "Category 5",
@@ -122,27 +143,32 @@
             "id": 1,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 100
+            "value": 100,
+            "category": "category 5"
         }, {
             "id": 2,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 200
+            "value": 200,
+            "category": "category 5"
         }, {
             "id": 3,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 300
+            "value": 300,
+            "category": "category 5"
         }, {
             "id": 4,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 400
+            "value": 400,
+            "category": "category 5"
         }, {
             "id": 5,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 500
+            "value": 500,
+            "category": "category 5"
         }]
     }, {
         "name": "Category 6",
@@ -151,27 +177,262 @@
             "id": 1,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 100
+            "value": 100,
+            "category": "category 6"
         }, {
             "id": 2,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 200
+            "value": 200,
+            "category": "category 6"
         }, {
             "id": 3,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 300
+            "value": 300,
+            "category": "category 6"
         }, {
             "id": 4,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 400
+            "value": 400,
+            "category": "category 6"
         }, {
             "id": 5,
             "answer": "Lorem Ipsum",
             "question": "What is Lorem Ipsum",
-            "value": 500
+            "value": 500,
+            "category": "category 6"
         }]
     }]
-}}
+}, {
+    "stage" : "DOUBLE_LEOPARDY",
+    "categories": [{
+        "name": "potent potables",
+        "id": 1,
+        "questions": [{
+            "id": 1,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 200,
+            "category": "potent potables"
+        }, {
+            "id": 2,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 400,
+            "category": "potent potables"
+        }, {
+            "id": 3,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 600,
+            "category": "potent potables"
+        }, {
+            "id": 4,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 800,
+            "category": "potent potables"
+        }, {
+            "id": 5,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 1000,
+            "category": "potent potables"
+        }]
+    },{
+        "name": "category 2",
+        "id": 2,
+        "questions": [{
+            "id": 1,
+            "answer": "Imitation Crab Meat",
+            "question": "What is Lorem Ipsum",
+            "value": 200,
+            "category": "category 2"
+        }, {
+            "id": 2,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 400,
+            "category": "category 2"
+        }, {
+            "id": 3,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 600,
+            "category": "category 2"
+        }, {
+            "id": 4,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 800,
+            "category": "category 2"
+        }, {
+            "id": 5,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 1000,
+            "category": "category 2"
+        }]
+    },{
+        "name": "Category 3",
+        "id": 3,
+        "questions": [{
+            "id": 1,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 200,
+            "category": "category 3"
+        }, {
+            "id": 2,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 400,
+            "category": "category 3"
+        }, {
+            "id": 3,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 600,
+            "category": "category 3"
+        }, {
+            "id": 4,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 800,
+            "category": "category 3"
+        }, {
+            "id": 5,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 1000,
+            "category": "category 3"
+        }]
+    },{
+        "name": "Category 4",
+        "id": 4,
+        "questions": [{
+            "id": 1,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 200,
+            "category": "category 4"
+        }, {
+            "id": 2,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 400,
+            "category": "category 4"
+        }, {
+            "id": 3,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 600,
+            "category": "category 4"
+        }, {
+            "id": 4,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 800,
+            "category": "category 4"
+        }, {
+            "id": 5,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 1000,
+            "category": "category 4"
+        }]
+    },{
+        "name": "Category 5",
+        "id": 5,
+        "questions": [{
+            "id": 1,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 200,
+            "category": "category 5"
+        }, {
+            "id": 2,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 400,
+            "category": "category 5"
+        }, {
+            "id": 3,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 600,
+            "category": "category 5"
+        }, {
+            "id": 4,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 800,
+            "category": "category 5"
+        }, {
+            "id": 5,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 1000,
+            "category": "category 5"
+        }]
+    }, {
+        "name": "Category 6",
+        "id": 6,
+        "questions": [{
+            "id": 1,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 200,
+            "category": "category 6"
+        }, {
+            "id": 2,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 400,
+            "category": "category 6"
+        }, {
+            "id": 3,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 600,
+            "category": "category 6"
+        }, {
+            "id": 4,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 800,
+            "category": "category 6"
+        }, {
+            "id": 5,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 1000,
+            "category": "category 6"
+        }]
+    }]
+}, {
+    "stage" : "FINAL_LEOPARDY",
+    "categories": [{
+        "name": "Final potent potables",
+        "id": 1,
+        "questions": [{
+            "id": 1,
+            "answer": "Lorem Ipsum",
+            "question": "What is Lorem Ipsum",
+            "value": 0,
+            "category": "potent potables"
+        }]
+    },{
+        "name": "Final category 2",
+        "id": 2,
+        "questions": [{
+            "id": 1,
+            "answer": "Imitation Crab Meat",
+            "question": "What is Lorem Ipsum",
+            "value": 0,
+            "category": "category 2"
+        }]
+    }]
+}]}

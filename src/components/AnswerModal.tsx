@@ -1,20 +1,41 @@
-import { Button, Card, useThemeUI, Text, Grid, Flex } from "theme-ui";
+import {
+  Button,
+  Card,
+  useThemeUI,
+  Text,
+  Grid,
+  Flex,
+  Input,
+  Box,
+} from "theme-ui";
 import Modal, { Styles } from "react-modal";
-import { useContext } from "react";
-import { ModalContext } from "../contexts/ModalContext";
+import { useContext, useState } from "react";
+import { ModalContext } from "../contexts/modalContext";
 import { PlayersContext } from "../contexts/playersContext";
-import { ACTION_TYPES, IPlayer, ActionTypes } from "../types/types";
+import {
+  ACTION_TYPES,
+  IPlayer,
+  ActionTypes,
+  GAME_STATE_ACTION_TYPES,
+} from "../types/types";
 import { QuestionsContext } from "../contexts/questionsContext";
+import { GameContext } from "../contexts/gameContext";
 
 const AnswerModal = () => {
   const { isOpen, setIsOpen } = useContext(ModalContext);
   const [playersState, playersDispatch] = useContext(PlayersContext);
   const [questionsState] = useContext(QuestionsContext);
+  const [gameContext, gameDispatch] = useContext(GameContext);
   const context = useThemeUI();
   const { theme } = context;
 
+  const [wager, setWager] = useState(0);
+
   const { currentQuestion } = questionsState;
   const { players } = playersState;
+
+  const isFinalLeopardy =
+    gameContext.gameState === GAME_STATE_ACTION_TYPES.FINAL_LEOPARDY;
 
   const handleButtonClick = ({
     type,
@@ -23,12 +44,21 @@ const AnswerModal = () => {
     type: ACTION_TYPES.ADD_SCORE | ACTION_TYPES.SUBTRACT_SCORE;
     player: IPlayer;
   }) => {
-    setIsOpen(false);
     playersDispatch({
       type,
       player,
-      value: currentQuestion.value,
+      value: isFinalLeopardy ? wager : currentQuestion.value,
     } as ActionTypes);
+    if (!isFinalLeopardy) {
+      setIsOpen(false);
+    }
+  };
+
+  const handleResultsTransition = () => {
+    setIsOpen(false);
+    gameDispatch({
+      type: GAME_STATE_ACTION_TYPES.RESULTS,
+    });
   };
 
   const modalStyles = {
@@ -80,6 +110,15 @@ const AnswerModal = () => {
                     {player.name}
                   </Text>
                   <Text sx={{ fontSize: 18, mb: 2 }}>${player.score}</Text>
+                  {isFinalLeopardy && (
+                    <Box sx={{ mb: 4, color: "text" }}>
+                      <Text>Wager:</Text>
+                      <Input
+                        onChange={(e) => setWager(+e.target.value)}
+                        placeholder={`$${currentQuestion.value}`}
+                      />
+                    </Box>
+                  )}
                   <Flex>
                     <Button
                       sx={{ variant: "buttons.scoring", mr: 2 }}
@@ -106,6 +145,21 @@ const AnswerModal = () => {
                   </Flex>
                 </Card>
               ))}
+              {isFinalLeopardy && (
+                <Card
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    p: 2,
+                    border: "1px solid background",
+                  }}
+                >
+                  <Button onClick={() => handleResultsTransition()}>
+                    Results
+                  </Button>
+                </Card>
+              )}
             </Flex>
           </Grid>
         </Card>
