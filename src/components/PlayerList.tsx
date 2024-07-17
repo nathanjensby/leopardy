@@ -11,7 +11,7 @@ function Player({ player }: { player: IPlayer }) {
   let playerName;
   if (isEditing) {
     playerName = (
-      <>
+      <Box sx={{ maxWidth: "50%" }}>
         <Input
           value={player.name}
           onChange={(e) => {
@@ -24,30 +24,34 @@ function Player({ player }: { player: IPlayer }) {
             });
           }}
         />
-        <Button onClick={() => setIsEditing(false)}>Save</Button>
-      </>
+      </Box>
     );
   } else {
-    playerName = (
-      <>
-        {player.name}
-        <Button onClick={() => setIsEditing(true)}>Edit</Button>
-      </>
-    );
+    playerName = <>{player.name}</>;
   }
   return (
-    <Flex>
+    <Flex sx={{ justifyContent: "space-between", width: "100%", my: 2 }}>
       {playerName}
-      <Button
-        onClick={() => {
-          dispatch({
-            type: ACTION_TYPES.DELETE,
-            player,
-          });
-        }}
-      >
-        Delete
-      </Button>
+      <Box>
+        <Button
+          sx={{ variant: "buttons.playerActions" }}
+          onClick={() => setIsEditing(!isEditing)}
+        >
+          {isEditing ? "Save" : "Edit"}
+        </Button>
+
+        <Button
+          sx={{ variant: "buttons.playerActions" }}
+          onClick={() => {
+            dispatch({
+              type: ACTION_TYPES.DELETE,
+              player,
+            });
+          }}
+        >
+          Delete
+        </Button>
+      </Box>
     </Flex>
   );
 }
@@ -57,12 +61,16 @@ export default function PlayerList() {
   const { players } = state;
 
   return (
-    <ul>
+    <Flex as="ul" sx={{ flexDirection: "column" }}>
       {players.map((player: IPlayer) => (
-        <Box as="li" sx={{ listStyleType: "none" }} key={player.id}>
+        <Flex
+          as="li"
+          sx={{ listStyleType: "none", justifyContent: "space-between" }}
+          key={player.id}
+        >
           <Player player={player} />
-        </Box>
+        </Flex>
       ))}
-    </ul>
+    </Flex>
   );
 }

@@ -1,10 +1,11 @@
 import type { Theme } from "theme-ui";
+import "./App.css";
 import "@fontsource/roboto";
 
 export const theme: Theme = {
   fonts: {
     body: "system-ui, sans-serif",
-    heading: '"Avenir Next", sans-serif',
+    heading: '"Geopardy", sans-serif',
     monospace: "Menlo, monospace",
     primary: "Roboto, sans-serif",
   },
@@ -17,12 +18,19 @@ export const theme: Theme = {
   buttons: {
     dataTable: {
       width: "100%",
+      p: 2,
       fontSize: [52],
       fontWeight: 900,
       color: "secondary",
+      overflow: "hidden",
     },
     scoring: {
       border: "1px solid white",
+    },
+    playerActions: {
+      m: 2,
+      p: 2,
+      width: "90px",
     },
   },
 };

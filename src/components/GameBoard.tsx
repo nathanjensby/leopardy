@@ -14,7 +14,6 @@ const GameBoard = () => {
 
   return (
     <Box>
-      <Box>{gameState.gameState}</Box>
       <Grid sx={{ gridTemplateColumns: "5fr 1fr" }}>
         {gameState.gameState === GAME_STATE_ACTION_TYPES.FINAL_LEOPARDY ? (
           <FinalLeopardy leopardyStageData={loadedQuestions} />
