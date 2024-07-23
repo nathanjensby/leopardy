@@ -26,6 +26,7 @@ const AnswerModal = () => {
   const [playersState, playersDispatch] = useContext(PlayersContext);
   const [questionsState] = useContext(QuestionsContext);
   const [gameContext, gameDispatch] = useContext(GameContext);
+  const [showQuestion, setShowQuestion] = useState(false);
   const context = useThemeUI();
   const { theme } = context;
 
@@ -52,6 +53,7 @@ const AnswerModal = () => {
     if (!isFinalLeopardy) {
       setIsOpen(false);
     }
+    setShowQuestion(false);
   };
 
   const handleResultsTransition = () => {
@@ -81,6 +83,7 @@ const AnswerModal = () => {
               gridTemplateRows: "auto min-content",
               alignContent: "stretch",
               height: "100%",
+              maxHeight: "100vh",
             }}
           >
             <Flex
@@ -88,12 +91,31 @@ const AnswerModal = () => {
                 justifyContent: "center",
                 alignItems: "center",
                 textAlign: "center",
+                flexDirection: "column",
               }}
             >
-              <Text as="h2" sx={{ fontSize: 128, fontWeight: "900" }}>
+              <Text
+                as="h2"
+                sx={{
+                  fontSize: "clamp( 24px, 6vw, 128px)",
+                  fontWeight: "900",
+                }}
+              >
                 {currentQuestion.answer}
               </Text>
+              {showQuestion && (
+                <Text
+                  sx={{
+                    color: "text",
+                    fontSize: "clamp( 24px, 5vw, 96px)",
+                    fontWeight: "900",
+                  }}
+                >
+                  {currentQuestion.question}
+                </Text>
+              )}
             </Flex>
+
             <Flex sx={{ justifyContent: "space-around" }}>
               {players.map((player, index) => (
                 <Card
@@ -162,6 +184,11 @@ const AnswerModal = () => {
               )}
             </Flex>
           </Grid>
+          <Card sx={{ position: "absolute", right: 0, top: 0 }}>
+            <Button onClick={() => setShowQuestion(!showQuestion)}>
+              Question
+            </Button>
+          </Card>
         </Card>
       )}
     </Modal>

@@ -19,7 +19,7 @@ const Splash = () => {
         as="h1"
         sx={{
           mb: 6,
-          fontSize: 128,
+          fontSize: "clamp(36px, 12vw, 128px)",
           color: "secondary",
           fontFamily: "Geopardy",
         }}

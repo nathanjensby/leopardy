@@ -18,11 +18,12 @@ export const theme: Theme = {
   buttons: {
     dataTable: {
       width: "100%",
+      minHeight: "100px",
       p: 2,
-      fontSize: [52],
+      overflow: "hidden",
+      fontSize: "clamp(16px, 4vw, 42px)",
       fontWeight: 900,
       color: "secondary",
-      overflow: "hidden",
     },
     scoring: {
       border: "1px solid white",
