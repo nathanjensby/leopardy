@@ -23,7 +23,7 @@
             "category": "WAMBSGANSMS"
         }, {
             "id": 4,
-            "answer": "I wonder if the _________ I\"d be without you would be less than the _________ I get from being with you",
+            "answer": "I wonder if the _________ I'd be without you would be less than the _________ I get from being with you",
             "question": "What is \"sad\"?",
             "value": 800,
             "category": "WAMBSGANSMS"
@@ -51,19 +51,19 @@
             "category": "ALSO A TAYLOR SWIFT SONG"
         }, {
             "id": 3,
-            "answer": "Seen here wearing his signature hat, this country singer was inducted into the Headwear Hall of Fame in 2014",
+            "answer": "This American country singer, known for hits like \"Live Like You Were Dying\" and \"Humble and Kind,\" is married to fellow country artist Faith Hill",
             "question": "Who is \"Tim McGraw\"?",
             "value": 600,
             "category": "ALSO A TAYLOR SWIFT SONG"
         }, {
             "id": 4,
-            "answer": "It\"s not yours! It\"s this word that comes before \"craft\" & \"sweeper\" in the names of popular video games",
+            "answer": "It's not yours! It's this word that comes before \"craft\" & \"sweeper\" in the names of popular video games",
             "question": "What is \"mine\"?",
             "value": 800,
             "category": "ALSO A TAYLOR SWIFT SONG"
         }, {
             "id": 5,
-            "answer": "While crossing the George Washington Bridge from N.J., drivers are greeted by a sign with these 4 words (it\"s been waiting for you)",
+            "answer": "While crossing the George Washington Bridge from N.J., drivers are greeted by a sign with these 4 words (it's been waiting for you)",
             "question": "What is \"Welcome to New York\"?",
             "value": 1000,
             "category": "ALSO A TAYLOR SWIFT SONG"
@@ -91,7 +91,7 @@
             "category": "THE REALITY OF TV"
         }, {
             "id": 4,
-            "answer": "The 2021 \"Homecoming\" of the L.A. season of this \"90s MTV show had the cast including David & Tami relive the blanket incident",
+            "answer": "The 2021 \"Homecoming\" of the L.A. season of this '90s MTV show had the cast including David & Tami relive the blanket incident",
             "question": "What is The Real World?",
             "value": 800,
             "category": "THE REALITY OF TV"
@@ -154,7 +154,7 @@
         }, {
             "id": 3,
             "answer": "This actor portrayed the title character in the iconic film series \"Harry Potter.\"",
-            "question": "Who is Harry Potter?",
+            "question": "Who is Daniel Radcliffe?",
             "value": 600,
             "category": "HARRY'S NAMESAKES"
         }, {
@@ -236,7 +236,7 @@
             "category": "MUSIC FROM THE 2000s"
         }, {
             "id": 5,
-            "answer": "\"Stand Up\" in 2005 was the 4th No. 1 studio album in a row by the band named for this S. Afr.-born man; they\"re big live too",
+            "answer": "\"Stand Up\" in 2005 was the 4th No. 1 studio album in a row by the band named for this S. Afr.-born man; they're big live too",
             "question": "Who is The Dave Matthews Band",
             "value": 2000,
             "category": "MUSIC FROM THE 2000s"
@@ -271,7 +271,7 @@
         }, {
             "id": 5,
             "answer": "Filming at south congress cafe? Gosling, Portman - show yourselves!",
-            "question": "Who is Danielle Locklear",
+            "question": "Who is Danielle Locklear?",
             "value": 2000,
             "category": "IN THE ROOM"
         }]
@@ -327,12 +327,12 @@
         }, {
             "id": 3,
             "answer": "Kyle Craven is the real name of the hapless guy in the meme format \"Bad Luck\" this first name",
-            "question": "Who is Bad Luck Brian?",
+            "question": "What is Brian?",
             "value": 1200,
             "category": "INTERNET CELEBRITIES"
         }, {
             "id": 4,
-            "answer": ": This meme, originating from the song \"Never Gonna Give You Up\" by Rick Astley, involves tricking someone into watching the music video",
+            "answer": "This meme, originating from the song \"Never Gonna Give You Up\" by Rick Astley, involves tricking someone into watching the music video",
             "question": "What is Rickrolling?",
             "value": 1600,
             "category": "INTERNET CELEBRITIES"
