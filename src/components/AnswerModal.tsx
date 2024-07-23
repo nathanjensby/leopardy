@@ -1,25 +1,12 @@
-import {
-  Button,
-  Card,
-  useThemeUI,
-  Text,
-  Grid,
-  Flex,
-  Input,
-  Box,
-} from "theme-ui";
+import { Button, Card, useThemeUI, Text, Grid, Flex } from "theme-ui";
 import Modal, { Styles } from "react-modal";
 import { useContext, useState } from "react";
 import { ModalContext } from "../contexts/modalContext";
 import { PlayersContext } from "../contexts/playersContext";
-import {
-  ACTION_TYPES,
-  IPlayer,
-  ActionTypes,
-  GAME_STATE_ACTION_TYPES,
-} from "../types/types";
+import { GAME_STATE_ACTION_TYPES } from "../types/types";
 import { QuestionsContext } from "../contexts/questionsContext";
 import { GameContext } from "../contexts/gameContext";
+import PlayerCard from "./PlayerCard";
 
 const AnswerModal = () => {
   const { isOpen, setIsOpen } = useContext(ModalContext);
@@ -30,31 +17,11 @@ const AnswerModal = () => {
   const context = useThemeUI();
   const { theme } = context;
 
-  const [wager, setWager] = useState(0);
-
   const { currentQuestion } = questionsState;
   const { players } = playersState;
 
   const isFinalLeopardy =
     gameContext.gameState === GAME_STATE_ACTION_TYPES.FINAL_LEOPARDY;
-
-  const handleButtonClick = ({
-    type,
-    player,
-  }: {
-    type: ACTION_TYPES.ADD_SCORE | ACTION_TYPES.SUBTRACT_SCORE;
-    player: IPlayer;
-  }) => {
-    playersDispatch({
-      type,
-      player,
-      value: isFinalLeopardy ? wager : currentQuestion.value,
-    } as ActionTypes);
-    if (!isFinalLeopardy) {
-      setIsOpen(false);
-    }
-    setShowQuestion(false);
-  };
 
   const handleResultsTransition = () => {
     setIsOpen(false);
@@ -76,7 +43,7 @@ const AnswerModal = () => {
   return (
     <Modal isOpen={isOpen} style={modalStyles as Styles}>
       {currentQuestion && (
-        <Card sx={{ height: "100%" }}>
+        <Card sx={{ height: "100%", p: 4 }}>
           <Grid
             sx={{
               gridTemplateColumns: "1fr",
@@ -118,54 +85,14 @@ const AnswerModal = () => {
 
             <Flex sx={{ justifyContent: "space-around" }}>
               {players.map((player, index) => (
-                <Card
-                  sx={{
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                    p: 2,
-                    border: "1px solid background",
-                  }}
+                <PlayerCard
                   key={index}
-                >
-                  <Text sx={{ fontWeight: 700, fontSize: 24 }}>
-                    {player.name}
-                  </Text>
-                  <Text sx={{ fontSize: 18, mb: 2 }}>${player.score}</Text>
-                  {isFinalLeopardy && (
-                    <Box sx={{ mb: 4, color: "text" }}>
-                      <Text>Wager:</Text>
-                      <Input
-                        onChange={(e) => setWager(+e.target.value)}
-                        placeholder={`$${currentQuestion.value}`}
-                      />
-                    </Box>
-                  )}
-                  <Flex>
-                    <Button
-                      sx={{ variant: "buttons.scoring", mr: 2 }}
-                      onClick={() =>
-                        handleButtonClick({
-                          type: ACTION_TYPES.ADD_SCORE,
-                          player,
-                        })
-                      }
-                    >
-                      Correct
-                    </Button>
-                    <Button
-                      sx={{ variant: "buttons.scoring" }}
-                      onClick={() =>
-                        handleButtonClick({
-                          type: ACTION_TYPES.SUBTRACT_SCORE,
-                          player,
-                        })
-                      }
-                    >
-                      Incorrect
-                    </Button>
-                  </Flex>
-                </Card>
+                  isFinalLeopardy={isFinalLeopardy}
+                  player={player}
+                  setShowQuestion={setShowQuestion}
+                  playersDispatch={playersDispatch}
+                  currentQuestion={currentQuestion}
+                />
               ))}
               {isFinalLeopardy && (
                 <Card
@@ -185,6 +112,14 @@ const AnswerModal = () => {
             </Flex>
           </Grid>
           <Card sx={{ position: "absolute", right: 0, top: 0 }}>
+            <Button
+              onClick={() => {
+                setIsOpen(false);
+                setShowQuestion(false);
+              }}
+            >
+              X
+            </Button>
             <Button onClick={() => setShowQuestion(!showQuestion)}>
               Question
             </Button>
