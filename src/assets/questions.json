@@ -1,438 +1,438 @@
 { "data": [{
     "stage" : "SINGLE_LEOPARDY",
     "categories": [{
-        "name": "potent potables",
+        "name": "WAMBSGANSMS",
         "id": 1,
         "questions": [{
             "id": 1,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 100,
-            "category": "potent potables"
-        }, {
-            "id": 2,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
+            "answer": "You can't make a _________ without breaking some _______",
+            "question": "What are \"Tomelette\" and \"Greggs\"?",
             "value": 200,
-            "category": "potent potables"
+            "category": "WAMBSGANSMS"
         }, {
             "id": 3,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 300,
-            "category": "potent potables"
+            "answer": "You can’t just march into someone’s office and _________ on the desk.",
+            "question": "What is \"take a dump\"?",
+            "value": 600,
+            "category": "WAMBSGANSMS"
+        }, {
+            "id": 2,
+            "answer": "Look at you all gussied up, you slick little _________",
+            "question": "What is \"fuck\"?",
+            "value": 400,
+            "category": "WAMBSGANSMS"
         }, {
             "id": 4,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 400,
-            "category": "potent potables"
+            "answer": "I wonder if the _________ I\"d be without you would be less than the _________ I get from being with you",
+            "question": "What is \"sad\"?",
+            "value": 800,
+            "category": "WAMBSGANSMS"
         }, {
             "id": 5,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 500,
-            "category": "potent potables"
+            "answer": "King of edible leaves, his Majesty the _________ ",
+            "question": "What is \"spinach\"?",
+            "value": 1000,
+            "category": "WAMBSGANSMS"
         }]
     },{
-        "name": "category 2",
+        "name": "ALSO A TAYLOR SWIFT SONG",
         "id": 2,
         "questions": [{
             "id": 1,
-            "answer": "Imitation Crab Meat",
-            "question": "What is Lorem Ipsum",
-            "value": 100,
-            "category": "category 2"
+            "answer": "Careful! This washing machine cycle using cold water and low spin speed is suggested for lingerie & silk neckties",
+            "question": "What is \"delicate\"?",
+            "value": 200,
+            "category": "ALSO A TAYLOR SWIFT SONG"
         }, {
             "id": 2,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 200,
-            "category": "category 2"
+            "answer": "This color appears in the names of two different MLB teams--one in the northeast, one in the Midwest",
+            "question": "What is \"red\"?",
+            "value": 400,
+            "category": "ALSO A TAYLOR SWIFT SONG"
         }, {
             "id": 3,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 300,
-            "category": "category 2"
+            "answer": "Seen here wearing his signature hat, this country singer was inducted into the Headwear Hall of Fame in 2014",
+            "question": "Who is \"Tim McGraw\"?",
+            "value": 600,
+            "category": "ALSO A TAYLOR SWIFT SONG"
         }, {
             "id": 4,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 400,
-            "category": "category 2"
+            "answer": "It\"s not yours! It\"s this word that comes before \"craft\" & \"sweeper\" in the names of popular video games",
+            "question": "What is \"mine\"?",
+            "value": 800,
+            "category": "ALSO A TAYLOR SWIFT SONG"
         }, {
             "id": 5,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 500,
-            "category": "category 2"
+            "answer": "While crossing the George Washington Bridge from N.J., drivers are greeted by a sign with these 4 words (it\"s been waiting for you)",
+            "question": "What is \"Welcome to New York\"?",
+            "value": 1000,
+            "category": "ALSO A TAYLOR SWIFT SONG"
         }]
     },{
-        "name": "Category 3",
+        "name": "THE REALITY OF TV",
         "id": 3,
         "questions": [{
             "id": 1,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 100,
-            "category": "category 3"
+            "answer": "Celebrities who boogied on this show in 2019 included Lamar Odom, Lauren Alaina & James Van Der Beek",
+            "question": "What is \"Dancing with the Stars\"?",
+            "value": 200,
+            "category": "THE REALITY OF TV"
         }, {
             "id": 2,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 200,
-            "category": "category 3"
+            "answer": "Teresa Giudice & Melissa Gorga dealt with some seriously unreal situations as \"Real Housewives of\" this state",
+            "question": "What is New Jersey?",
+            "value": 400,
+            "category": "THE REALITY OF TV"
         }, {
             "id": 3,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 300,
-            "category": "category 3"
+            "answer": "Gwen Stefani & Blake Shelton have been coaches on this competition",
+            "question": "What is The Voice?",
+            "value": 600,
+            "category": "THE REALITY OF TV"
         }, {
             "id": 4,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 400,
-            "category": "category 3"
+            "answer": "The 2021 \"Homecoming\" of the L.A. season of this \"90s MTV show had the cast including David & Tami relive the blanket incident",
+            "question": "What is The Real World?",
+            "value": 800,
+            "category": "THE REALITY OF TV"
         }, {
             "id": 5,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 500,
-            "category": "category 3"
+            "answer": "Since 2013 Michael Brown has narrated this \"scary\" program about people dealing with 21 days of clotheslessness",           
+            "question": "What is Naked and Afraid?",
+            "value": 1000,
+            "category": "THE REALITY OF TV"
         }]
     },{
-        "name": "Category 4",
+        "name": "90s MUSIC",
         "id": 4,
         "questions": [{
             "id": 1,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 100,
-            "category": "category 4"
+            "answer": "In a 1999 hit Ricky Martin was \"Livin'\" this",
+            "question": "What is \"La Vida Loca\"?",
+            "value": 200,
+            "category": "90s MUSIC"
         }, {
             "id": 2,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 200,
-            "category": "category 4"
+            "answer": "Her 1991 Super Bowl rendition of \"The Star Spangled Banner\" became a Top 20 hit",
+            "question": "Who is Whitney Houston?",
+            "value": 400,
+            "category": "90s MUSIC"
         }, {
             "id": 3,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 300,
-            "category": "category 4"
+            "answer": "With over 20, she had more Top 40 hits in the '90s than her brother, including the song with lyrics: \"Let's go / Escapade /, We'll have a good time...\"",
+            "question": "Who is Janet Jackson?",
+            "value": 600,
+            "category": "90s MUSIC"
         }, {
             "id": 4,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 400,
-            "category": "category 4"
+            "answer": "All the ladies love this rapper/actor whose '90s hits include \"Hey Lover\" & \"Mama Said Knock You Out\"",
+            "question": "Who is LL Cool J?",
+            "value": 800,
+            "category": "90s MUSIC"
         }, {
             "id": 5,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 500,
-            "category": "category 4"
+            "answer": "\"Kiss From A Rose\" earned 3 Grammys for this British singer",
+            "question": "Who is Seal?",
+            "value": 1000,
+            "category": "90s MUSIC"
         }]
     },{
-        "name": "Category 5",
+        "name": "HARRY'S NAMESAKES",
         "id": 5,
         "questions": [{
             "id": 1,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 100,
-            "category": "category 5"
+            "answer": "This prince, born in 1984, is the younger son of Charles, Prince of Wales, and is known for his charitable work and service in the British Army",
+            "question": "Who is Prince Harry?",
+            "value": 200,
+            "category": "HARRY'S NAMESAKES"
         }, {
             "id": 2,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 200,
-            "category": "category 5"
+            "answer": "Known for his catchphrase \"Did I do that?\" this character actually has a middle name that's Harry",
+            "question": "Who is Steve Urkel?",
+            "value": 400,
+            "category": "HARRY'S NAMESAKES"
         }, {
             "id": 3,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 300,
-            "category": "category 5"
+            "answer": "This actor portrayed the title character in the iconic film series \"Harry Potter.\"",
+            "question": "Who is Harry Potter?",
+            "value": 600,
+            "category": "HARRY'S NAMESAKES"
         }, {
             "id": 4,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 400,
-            "category": "category 5"
+            "answer": "This Hungarian-American illusionist, born Erik Weisz, was renowned for his escape acts and feats of endurance, earning him the title \"Handcuff King.\"",
+            "question": "Who is Harry Houdini?",
+            "value": 800,
+            "category": "HARRY'S NAMESAKES"
         }, {
             "id": 5,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 500,
-            "category": "category 5"
+            "answer": "This character in the Spider-Man series, best friend of Peter Parker, later becomes the Green Goblin",
+            "question": "Who is Harry Osborn?",
+            "value": 1000,
+            "category": "HARRY'S NAMESAKES"
         }]
     }, {
-        "name": "Category 6",
+        "name": "TV COUPLING",
         "id": 6,
         "questions": [{
             "id": 1,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 100,
-            "category": "category 6"
+            "answer": "Carrie & Big, in the Big Apple",
+            "question": "What is Sex and the City?",
+            "value": 200,
+            "category": "TV COUPLING"
         }, {
             "id": 2,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 200,
-            "category": "category 6"
+            "answer": "Meredith & Derek, smooth operators",
+            "question": "What is Grey's Anatomy?",
+            "value": 400,
+            "category": "TV COUPLING"
         }, {
             "id": 3,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 300,
-            "category": "category 6"
+            "answer": "Stede & Blackbeard, on the high seas",
+            "question": "What is Our Flag Means Death?",
+            "value": 600,
+            "category": "TV COUPLING"
         }, {
             "id": 4,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 400,
-            "category": "category 6"
+            "answer": "Carol & Mike, combining forces",
+            "question": "What is The Brady Bunch?",
+            "value": 800,
+            "category": "TV COUPLING"
         }, {
             "id": 5,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 500,
-            "category": "category 6"
+            "answer": "Missandei & Grey Worm, more than pawns",
+            "question": "What is Game of Thrones",
+            "value": 1000,
+            "category": "TV COUPLING"
         }]
     }]
 }, {
     "stage" : "DOUBLE_LEOPARDY",
     "categories": [{
-        "name": "potent potables",
+        "name": "MUSIC FROM THE 2000s",
         "id": 1,
         "questions": [{
             "id": 1,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 200,
-            "category": "potent potables"
+            "answer": "Quite the voice before judging \"The Voice\", he had a No. 1 country hit in 2001 with \"Austin\"",
+            "question": "Who is Blake Shelton?",
+            "value": 400,
+            "category": "MUSIC FROM THE 2000s"
         }, {
             "id": 2,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 400,
-            "category": "potent potables"
+            "answer": "Quite the voice before judging \"The Voice\", she had a No. 1 pop hit in 2000 with \"What A Girl Wants\"",
+            "question": "Who is Christina Aguilera?",
+            "value": 800,
+            "category": "MUSIC FROM THE 2000s"
         }, {
             "id": 3,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 600,
-            "category": "potent potables"
+            "answer": "Providing both hip & hop in 2005, this group that included Fergie had a request--\"Don\"t Lie\"",
+            "question": "Who are the Black Eyed Peas?",
+            "value": 1200,
+            "category": "MUSIC FROM THE 2000s"
         }, {
             "id": 4,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 800,
-            "category": "potent potables"
+            "answer": "\"Wake Me Up When September Ends\", requested this \"colorful\" trio in 2005",
+            "question": "Who is Greenday?",
+            "value": 1600,
+            "category": "MUSIC FROM THE 2000s"
         }, {
             "id": 5,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 1000,
-            "category": "potent potables"
+            "answer": "\"Stand Up\" in 2005 was the 4th No. 1 studio album in a row by the band named for this S. Afr.-born man; they\"re big live too",
+            "question": "Who is The Dave Matthews Band",
+            "value": 2000,
+            "category": "MUSIC FROM THE 2000s"
         }]
     },{
-        "name": "category 2",
+        "name": "IN THE ROOM",
         "id": 2,
         "questions": [{
             "id": 1,
-            "answer": "Imitation Crab Meat",
-            "question": "What is Lorem Ipsum",
-            "value": 200,
-            "category": "category 2"
+            "answer": "I love asparagus! I hate asparagus!",
+            "question": "Who is Courtney Miller (6 December, 2012)",
+            "value": 400,
+            "category": "IN THE ROOM"
         }, {
             "id": 2,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 400,
-            "category": "category 2"
+            "answer": "These cat eye sunglasses just make me look mad.",
+            "question": "Who is Julie Chewning (12 April 2011)",
+            "value": 800,
+            "category": "IN THE ROOM"
         }, {
             "id": 3,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 600,
-            "category": "category 2"
+            "answer": "I'm getting potlucky tonight.",
+            "question": "Who is Ginny Jensby (22 November 2010)",
+            "value": 1200,
+            "category": "IN THE ROOM"
         }, {
             "id": 4,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 800,
-            "category": "category 2"
+            "answer": "T-U-R-T-L-E POWER",
+            "question": "Who is Gloria Goode (19 August 2014)",
+            "value": 1600,
+            "category": "IN THE ROOM"
         }, {
             "id": 5,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 1000,
-            "category": "category 2"
+            "answer": "Filming at south congress cafe? Gosling, Portman - show yourselves!",
+            "question": "Who is Danielle Locklear",
+            "value": 2000,
+            "category": "IN THE ROOM"
         }]
     },{
-        "name": "Category 3",
+        "name": "MOVIE REFRESHMENTS",
         "id": 3,
         "questions": [{
             "id": 1,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 200,
-            "category": "category 3"
+            "answer": "\"Tampopo\", about a woman's adventures in her noodle shop in this country, has been called a \"Ramen Western\"",
+            "question": "What is Japan?",
+            "value": 400,
+            "category": "MOVIE REFRESHMENTS"
         }, {
             "id": 2,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 400,
-            "category": "category 3"
+            "answer": "Eva Longoria directed 2023's \"Flamin' Hot\", about Richard Montanez, who claims to have invented these flamin' hot snacks",
+            "question": "What are Flamin' Hot Cheetos?",
+            "value": 800,
+            "category": "MOVIE REFRESHMENTS"
         }, {
             "id": 3,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 600,
-            "category": "category 3"
+            "answer": "Dishes made by Remy, an animated gourmand of the garbage, include an omelet, a roasted mushroom & this title dish",
+            "question": "What is ratatouille?",
+            "value": 1200,
+            "category": "MOVIE REFRESHMENTS"
         }, {
             "id": 4,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 800,
-            "category": "category 3"
+            "answer": "As Harold & Kumar in a 2004 film can attest, this fast food chain hits different after riding a cheetah & hang gliding",
+            "question": "What is White Castle?",
+            "value": 1600,
+            "category": "MOVIE REFRESHMENTS"
         }, {
             "id": 5,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 1000,
-            "category": "category 3"
+            "answer": "At the start of this 1973 sci-fi film, Edward G. Robinson wants more of the title food; by the end, he becomes the title food",
+            "question": "What is Soylent Green?",
+            "value": 2000,
+            "category": "MOVIE REFRESHMENTS"
         }]
     },{
-        "name": "Category 4",
+        "name": "INTERNET CELEBRITIES",
         "id": 4,
         "questions": [{
             "id": 1,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 200,
-            "category": "category 4"
+            "answer": "Forbes said the memes featuring this feline are full of \"existential angst\" & \"nihilism\"",
+            "question": "Who is Grumpy Cat?",
+            "value": 400,
+            "category": "INTERNET CELEBRITIES"
         }, {
             "id": 2,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 400,
-            "category": "category 4"
+            "answer": "Before \"SNL\" this comedy troupe featuring Andy Samberg made the web series \"The 'Bu\", a parody of \"The O.C.\"",
+            "question": "What is The Lonely Island?",
+            "value": 800,
+            "category": "INTERNET CELEBRITIES"
         }, {
             "id": 3,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 600,
-            "category": "category 4"
+            "answer": "Kyle Craven is the real name of the hapless guy in the meme format \"Bad Luck\" this first name",
+            "question": "Who is Bad Luck Brian?",
+            "value": 1200,
+            "category": "INTERNET CELEBRITIES"
         }, {
             "id": 4,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 800,
-            "category": "category 4"
+            "answer": ": This meme, originating from the song \"Never Gonna Give You Up\" by Rick Astley, involves tricking someone into watching the music video",
+            "question": "What is Rickrolling?",
+            "value": 1600,
+            "category": "INTERNET CELEBRITIES"
         }, {
             "id": 5,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 1000,
-            "category": "category 4"
+            "answer": "In 2021 a statue of this late gorilla appeared opposite Wall Street's Charging Bull statue",
+            "question": "Who is Harambe?",
+            "value": 2000,
+            "category": "INTERNET CELEBRITIES"
         }]
     },{
-        "name": "Category 5",
+        "name": "SECOND CHANCE SONGS",
         "id": 5,
         "questions": [{
             "id": 1,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 200,
-            "category": "category 5"
+            "answer": "In an Adele hit, this one-word title precedes, \"It's me, I was wondering if after all these years you'd like to meet\"",
+            "question": "What is Hello?",
+            "value": 400,
+            "category": "SECOND CHANCE SONGS"
         }, {
             "id": 2,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 400,
-            "category": "category 5"
+            "answer": "\"Oh, baby, give me one more chance to show you that I love you\", this quintet sang in 1969",
+            "question": "Who is Jackson Five?",
+            "value": 800,
+            "category": "SECOND CHANCE SONGS"
         }, {
             "id": 3,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 600,
-            "category": "category 5"
+            "answer": "\"I just need one more shot at second chances\", sang this Ontario-born heartthrob in his 2016 chart-topper \"Sorry\"",
+            "question": "Who is Justin Bieber?",
+            "value": 1200,
+            "category": "SECOND CHANCE SONGS"
         }, {
             "id": 4,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 800,
-            "category": "category 5"
+            "answer": "A Grammy winner by Toni Braxton implored an ex to do this to her heart",
+            "question": "What is un-break?",
+            "value": 1600,
+            "category": "SECOND CHANCE SONGS"
         }, {
             "id": 5,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 1000,
-            "category": "category 5"
+            "answer": "\"If we loved again, I swear I'd love you right\", sang Taylor Swift in this hit in which she mentally revisits a certain month",
+            "question": "What is Back to December?",
+            "value": 2000,
+            "category": "SECOND CHANCE SONGS"
         }]
     }, {
-        "name": "Category 6",
+        "name": "CEREAL MASCOTS",
         "id": 6,
         "questions": [{
             "id": 1,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 200,
-            "category": "category 6"
+            "answer": "This mascot once had a spin-off cereal called Tiger Power",
+            "question": "Who is Tony the Tiger?",
+            "value": 400,
+            "category": "CEREAL MASCOTS"
         }, {
             "id": 2,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 400,
-            "category": "category 6"
+            "answer": "Sonny couldn't help being cuckoo for this \"delicious, munchy, crunchy, chocolatey\" cereal",
+            "question": "What is Cocoa Puffs?",
+            "value": 800,
+            "category": "CEREAL MASCOTS"
         }, {
             "id": 3,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 600,
-            "category": "category 6"
+            "answer": "Ad execs were determined to repeatedly torture a hapless animal with \"Silly rabbit\", this cereal was \"for kids\"!",
+            "question": "What is Trix?",
+            "value": 1200,
+            "category": "CEREAL MASCOTS"
         }, {
             "id": 4,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 800,
-            "category": "category 6"
+            "answer": "In 2022 the leprechaun who hawked this cereal turned 58; don't pull a muscle running away with the stuff, man",
+            "question": "What is Lucky Charms?",
+            "value": 1600,
+            "category": "CEREAL MASCOTS"
         }, {
             "id": 5,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
-            "value": 1000,
-            "category": "category 6"
+            "answer": "In the early '70s General Mills said, y'know, we need a cereal featuring a vampire type of guy, so America took a bite of this",
+            "question": "What is Count Chocula?",
+            "value": 2000,
+            "category": "CEREAL MASCOTS"
         }]
     }]
 }, {
     "stage" : "FINAL_LEOPARDY",
     "categories": [{
-        "name": "Final potent potables",
+        "name": "BEFORE & AFTER",
         "id": 1,
         "questions": [{
             "id": 1,
-            "answer": "Lorem Ipsum",
-            "question": "What is Lorem Ipsum",
+            "answer": "Ken's rhyming dream abode in the film \"Barbie\" hatches into a prequel of \"Game of Thrones\"",
+            "question": "What is a Mojo Dojo Casa House of the Dragon?",
             "value": 0,
-            "category": "potent potables"
+            "category": "BEFORE & AFTER"
         }]
     },{
-        "name": "Final category 2",
+        "name": "FAMOUS NAMES",
         "id": 2,
         "questions": [{
             "id": 1,
-            "answer": "Imitation Crab Meat",
-            "question": "What is Lorem Ipsum",
+            "answer": "In 2023, shortly after his death, his name was added to a Brazilian dictionary to describe one who's superior or out of the ordinary",
+            "question": "Who is Pele?",
             "value": 0,
-            "category": "category 2"
+            "category": "FAMOUS NAMES"
         }]
     }]
 }]}

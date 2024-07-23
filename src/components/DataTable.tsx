@@ -1,4 +1,4 @@
-import { Grid, Box, Button, Text, Flex } from "theme-ui";
+import { Grid, Button, Text, Flex } from "theme-ui";
 import {
   ICategory,
   IQuestion,
@@ -47,22 +47,35 @@ const DataTable = ({
       sx={{
         gridTemplateColumns: "repeat(6, 1fr)",
         gridTemplateRows: "repeat(6, 1fr)",
-        gap: "4 4",
+        gap: 2,
       }}
     >
       {columnNamesArr.map((name, index) => (
         <Flex
-          sx={{ bg: "primary", justifyContent: "center", alignItems: "center" }}
+          sx={{
+            flexWrap: "wrap",
+            p: 2,
+            wordBreak: "break-word",
+            bg: "primary",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
           key={index}
         >
-          <Text sx={{ fontSize: [28], color: "text", fontWeight: 700 }}>
+          <Text
+            sx={{
+              fontSize: "clamp(16px, 2vw, 16px)",
+              color: "text",
+              fontWeight: 700,
+            }}
+          >
             {name}
           </Text>
         </Flex>
       ))}
       {values.map((value) =>
         getDataByValue(value).map((question, index) => (
-          <Box key={index}>
+          <Flex key={index}>
             {questionsState.activatedQuestions.indexOf(question) === -1 && (
               <Button
                 sx={{
@@ -73,7 +86,7 @@ const DataTable = ({
                 ${question.value}
               </Button>
             )}
-          </Box>
+          </Flex>
         ))
       )}
     </Grid>
