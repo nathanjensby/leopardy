@@ -47,3 +47,10 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Korinna';
+  src: url('/ITC\ Korinna\ Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

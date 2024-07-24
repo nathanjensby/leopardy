@@ -121,6 +121,7 @@ export type IQuestion = {
   answer: string;
   question: string;
   value: number;
+  isDailyDouble: boolean;
 };
 
 export type GameStateActionTypes =

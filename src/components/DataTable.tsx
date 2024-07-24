@@ -64,9 +64,9 @@ const DataTable = ({
         >
           <Text
             sx={{
-              fontSize: "clamp(16px, 2vw, 16px)",
+              fontSize: "clamp(16px, 4vw, 24px)",
               color: "text",
-              fontWeight: 700,
+              fontFamily: "card",
             }}
           >
             {name}

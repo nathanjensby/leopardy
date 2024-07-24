@@ -7,32 +7,37 @@
             "id": 1,
             "answer": "You can't make a _________ without breaking some _______",
             "question": "What are \"Tomelette\" and \"Greggs\"?",
-            "value": 200,
-            "category": "WAMBSGANSMS"
+            "value": 100,
+            "category": "WAMBSGANSMS",
+            "isDailyDouble": false
         }, {
             "id": 3,
             "answer": "You can’t just march into someone’s office and _________ on the desk.",
             "question": "What is \"take a dump\"?",
-            "value": 600,
-            "category": "WAMBSGANSMS"
+            "value": 200,
+            "category": "WAMBSGANSMS",
+            "isDailyDouble": false
         }, {
             "id": 2,
             "answer": "Look at you all gussied up, you slick little _________",
             "question": "What is \"fuck\"?",
-            "value": 400,
-            "category": "WAMBSGANSMS"
+            "value": 300,
+            "category": "WAMBSGANSMS",
+            "isDailyDouble": false
         }, {
             "id": 4,
             "answer": "I wonder if the _________ I'd be without you would be less than the _________ I get from being with you",
             "question": "What is \"sad\"?",
-            "value": 800,
-            "category": "WAMBSGANSMS"
+            "value": 400,
+            "category": "WAMBSGANSMS",
+            "isDailyDouble": false
         }, {
             "id": 5,
             "answer": "King of edible leaves, his Majesty the _________ ",
             "question": "What is \"spinach\"?",
-            "value": 1000,
-            "category": "WAMBSGANSMS"
+            "value": 500,
+            "category": "WAMBSGANSMS",
+            "isDailyDouble": false
         }]
     },{
         "name": "ALSO A TAYLOR SWIFT SONG",
@@ -41,32 +46,37 @@
             "id": 1,
             "answer": "Careful! This washing machine cycle using cold water and low spin speed is suggested for lingerie & silk neckties",
             "question": "What is \"delicate\"?",
-            "value": 200,
-            "category": "ALSO A TAYLOR SWIFT SONG"
+            "value": 100,
+            "category": "ALSO A TAYLOR SWIFT SONG",
+            "isDailyDouble": false
         }, {
             "id": 2,
             "answer": "This color appears in the names of two different MLB teams--one in the northeast, one in the Midwest",
             "question": "What is \"red\"?",
-            "value": 400,
-            "category": "ALSO A TAYLOR SWIFT SONG"
+            "value": 200,
+            "category": "ALSO A TAYLOR SWIFT SONG",
+            "isDailyDouble": false
         }, {
             "id": 3,
             "answer": "This American country singer, known for hits like \"Live Like You Were Dying\" and \"Humble and Kind,\" is married to fellow country artist Faith Hill",
             "question": "Who is \"Tim McGraw\"?",
-            "value": 600,
-            "category": "ALSO A TAYLOR SWIFT SONG"
+            "value": 300,
+            "category": "ALSO A TAYLOR SWIFT SONG",
+            "isDailyDouble": false
         }, {
             "id": 4,
             "answer": "It's not yours! It's this word that comes before \"craft\" & \"sweeper\" in the names of popular video games",
             "question": "What is \"mine\"?",
-            "value": 800,
-            "category": "ALSO A TAYLOR SWIFT SONG"
+            "value": 400,
+            "category": "ALSO A TAYLOR SWIFT SONG",
+            "isDailyDouble": false
         }, {
             "id": 5,
             "answer": "While crossing the George Washington Bridge from N.J., drivers are greeted by a sign with these 4 words (it's been waiting for you)",
             "question": "What is \"Welcome to New York\"?",
-            "value": 1000,
-            "category": "ALSO A TAYLOR SWIFT SONG"
+            "value": 500,
+            "category": "ALSO A TAYLOR SWIFT SONG",
+            "isDailyDouble": false
         }]
     },{
         "name": "THE REALITY OF TV",
@@ -75,32 +85,37 @@
             "id": 1,
             "answer": "Celebrities who boogied on this show in 2019 included Lamar Odom, Lauren Alaina & James Van Der Beek",
             "question": "What is \"Dancing with the Stars\"?",
-            "value": 200,
-            "category": "THE REALITY OF TV"
+            "value": 100,
+            "category": "THE REALITY OF TV",
+            "isDailyDouble": false
         }, {
             "id": 2,
             "answer": "Teresa Giudice & Melissa Gorga dealt with some seriously unreal situations as \"Real Housewives of\" this state",
             "question": "What is New Jersey?",
-            "value": 400,
-            "category": "THE REALITY OF TV"
+            "value": 200,
+            "category": "THE REALITY OF TV",
+            "isDailyDouble": false
         }, {
             "id": 3,
             "answer": "Gwen Stefani & Blake Shelton have been coaches on this competition",
             "question": "What is The Voice?",
-            "value": 600,
-            "category": "THE REALITY OF TV"
+            "value": 300,
+            "category": "THE REALITY OF TV",
+            "isDailyDouble": false
         }, {
             "id": 4,
             "answer": "The 2021 \"Homecoming\" of the L.A. season of this '90s MTV show had the cast including David & Tami relive the blanket incident",
             "question": "What is The Real World?",
-            "value": 800,
-            "category": "THE REALITY OF TV"
+            "value": 400,
+            "category": "THE REALITY OF TV",
+            "isDailyDouble": false
         }, {
             "id": 5,
             "answer": "Since 2013 Michael Brown has narrated this \"scary\" program about people dealing with 21 days of clotheslessness",           
             "question": "What is Naked and Afraid?",
-            "value": 1000,
-            "category": "THE REALITY OF TV"
+            "value": 500,
+            "category": "THE REALITY OF TV",
+            "isDailyDouble": false
         }]
     },{
         "name": "90s MUSIC",
@@ -109,32 +124,37 @@
             "id": 1,
             "answer": "In a 1999 hit Ricky Martin was \"Livin'\" this",
             "question": "What is \"La Vida Loca\"?",
-            "value": 200,
-            "category": "90s MUSIC"
+            "value": 100,
+            "category": "90s MUSIC",
+            "isDailyDouble": false
         }, {
             "id": 2,
             "answer": "Her 1991 Super Bowl rendition of \"The Star Spangled Banner\" became a Top 20 hit",
             "question": "Who is Whitney Houston?",
-            "value": 400,
-            "category": "90s MUSIC"
+            "value": 200,
+            "category": "90s MUSIC",
+            "isDailyDouble": false
         }, {
             "id": 3,
             "answer": "With over 20, she had more Top 40 hits in the '90s than her brother, including the song with lyrics: \"Let's go / Escapade /, We'll have a good time...\"",
             "question": "Who is Janet Jackson?",
-            "value": 600,
-            "category": "90s MUSIC"
+            "value": 300,
+            "category": "90s MUSIC",
+            "isDailyDouble": false
         }, {
             "id": 4,
             "answer": "All the ladies love this rapper/actor whose '90s hits include \"Hey Lover\" & \"Mama Said Knock You Out\"",
             "question": "Who is LL Cool J?",
-            "value": 800,
-            "category": "90s MUSIC"
+            "value": 400,
+            "category": "90s MUSIC",
+            "isDailyDouble": false
         }, {
             "id": 5,
             "answer": "\"Kiss From A Rose\" earned 3 Grammys for this British singer",
             "question": "Who is Seal?",
-            "value": 1000,
-            "category": "90s MUSIC"
+            "value": 500,
+            "category": "90s MUSIC",
+            "isDailyDouble": false
         }]
     },{
         "name": "HARRY'S NAMESAKES",
@@ -143,32 +163,37 @@
             "id": 1,
             "answer": "This prince, born in 1984, is the younger son of Charles, Prince of Wales, and is known for his charitable work and service in the British Army",
             "question": "Who is Prince Harry?",
-            "value": 200,
-            "category": "HARRY'S NAMESAKES"
+            "value": 100,
+            "category": "HARRY'S NAMESAKES",
+            "isDailyDouble": false
         }, {
             "id": 2,
             "answer": "Known for his catchphrase \"Did I do that?\" this character actually has a middle name that's Harry",
             "question": "Who is Steve Urkel?",
-            "value": 400,
-            "category": "HARRY'S NAMESAKES"
+            "value": 200,
+            "category": "HARRY'S NAMESAKES",
+            "isDailyDouble": true
         }, {
             "id": 3,
             "answer": "This actor portrayed the title character in the iconic film series \"Harry Potter.\"",
             "question": "Who is Daniel Radcliffe?",
-            "value": 600,
-            "category": "HARRY'S NAMESAKES"
+            "value": 300,
+            "category": "HARRY'S NAMESAKES",
+            "isDailyDouble": false
         }, {
             "id": 4,
             "answer": "This Hungarian-American illusionist, born Erik Weisz, was renowned for his escape acts and feats of endurance, earning him the title \"Handcuff King.\"",
             "question": "Who is Harry Houdini?",
-            "value": 800,
-            "category": "HARRY'S NAMESAKES"
+            "value": 400,
+            "category": "HARRY'S NAMESAKES",
+            "isDailyDouble": false
         }, {
             "id": 5,
             "answer": "This character in the Spider-Man series, best friend of Peter Parker, later becomes the Green Goblin",
             "question": "Who is Harry Osborn?",
-            "value": 1000,
-            "category": "HARRY'S NAMESAKES"
+            "value": 500,
+            "category": "HARRY'S NAMESAKES",
+            "isDailyDouble": false
         }]
     }, {
         "name": "TV COUPLING",
@@ -177,32 +202,37 @@
             "id": 1,
             "answer": "Carrie & Big, in the Big Apple",
             "question": "What is Sex and the City?",
-            "value": 200,
-            "category": "TV COUPLING"
+            "value": 100,
+            "category": "TV COUPLING",
+            "isDailyDouble": false
         }, {
             "id": 2,
             "answer": "Meredith & Derek, smooth operators",
             "question": "What is Grey's Anatomy?",
-            "value": 400,
-            "category": "TV COUPLING"
+            "value": 200,
+            "category": "TV COUPLING",
+            "isDailyDouble": false
         }, {
             "id": 3,
             "answer": "Stede & Blackbeard, on the high seas",
             "question": "What is Our Flag Means Death?",
-            "value": 600,
-            "category": "TV COUPLING"
+            "value": 300,
+            "category": "TV COUPLING",
+            "isDailyDouble": false
         }, {
             "id": 4,
             "answer": "Carol & Mike, combining forces",
             "question": "What is The Brady Bunch?",
-            "value": 800,
-            "category": "TV COUPLING"
+            "value": 400,
+            "category": "TV COUPLING",
+            "isDailyDouble": false
         }, {
             "id": 5,
             "answer": "Missandei & Grey Worm, more than pawns",
             "question": "What is Game of Thrones",
-            "value": 1000,
-            "category": "TV COUPLING"
+            "value": 500,
+            "category": "TV COUPLING",
+            "isDailyDouble": false
         }]
     }]
 }, {
@@ -214,32 +244,37 @@
             "id": 1,
             "answer": "Quite the voice before judging \"The Voice\", he had a No. 1 country hit in 2001 with \"Austin\"",
             "question": "Who is Blake Shelton?",
-            "value": 400,
-            "category": "MUSIC FROM THE 2000s"
+            "value": 200,
+            "category": "MUSIC FROM THE 2000s",
+            "isDailyDouble": false
         }, {
             "id": 2,
             "answer": "Quite the voice before judging \"The Voice\", she had a No. 1 pop hit in 2000 with \"What A Girl Wants\"",
             "question": "Who is Christina Aguilera?",
-            "value": 800,
-            "category": "MUSIC FROM THE 2000s"
+            "value": 400,
+            "category": "MUSIC FROM THE 2000s",
+            "isDailyDouble": false
         }, {
             "id": 3,
             "answer": "Providing both hip & hop in 2005, this group that included Fergie had a request--\"Don\"t Lie\"",
             "question": "Who are the Black Eyed Peas?",
-            "value": 1200,
-            "category": "MUSIC FROM THE 2000s"
+            "value": 600,
+            "category": "MUSIC FROM THE 2000s",
+            "isDailyDouble": false
         }, {
             "id": 4,
             "answer": "\"Wake Me Up When September Ends\", requested this \"colorful\" trio in 2005",
             "question": "Who is Greenday?",
-            "value": 1600,
-            "category": "MUSIC FROM THE 2000s"
+            "value": 800,
+            "category": "MUSIC FROM THE 2000s",
+            "isDailyDouble": false
         }, {
             "id": 5,
             "answer": "\"Stand Up\" in 2005 was the 4th No. 1 studio album in a row by the band named for this S. Afr.-born man; they're big live too",
             "question": "Who is The Dave Matthews Band",
-            "value": 2000,
-            "category": "MUSIC FROM THE 2000s"
+            "value": 1000,
+            "category": "MUSIC FROM THE 2000s",
+            "isDailyDouble": false
         }]
     },{
         "name": "IN THE ROOM",
@@ -248,32 +283,37 @@
             "id": 1,
             "answer": "I love asparagus! I hate asparagus!",
             "question": "Who is Courtney Miller (6 December, 2012)",
-            "value": 400,
-            "category": "IN THE ROOM"
+            "value": 200,
+            "category": "IN THE ROOM",
+            "isDailyDouble": false
         }, {
             "id": 2,
             "answer": "These cat eye sunglasses just make me look mad.",
             "question": "Who is Julie Chewning (12 April 2011)",
-            "value": 800,
-            "category": "IN THE ROOM"
+            "value": 400,
+            "category": "IN THE ROOM",
+            "isDailyDouble": false
         }, {
             "id": 3,
             "answer": "I'm getting potlucky tonight.",
             "question": "Who is Ginny Jensby (22 November 2010)",
-            "value": 1200,
-            "category": "IN THE ROOM"
+            "value": 600,
+            "category": "IN THE ROOM",
+            "isDailyDouble": true
         }, {
             "id": 4,
             "answer": "T-U-R-T-L-E POWER",
             "question": "Who is Gloria Goode (19 August 2014)",
-            "value": 1600,
-            "category": "IN THE ROOM"
+            "value": 800,
+            "category": "IN THE ROOM",
+            "isDailyDouble": false
         }, {
             "id": 5,
             "answer": "Filming at south congress cafe? Gosling, Portman - show yourselves!",
             "question": "Who is Danielle Locklear?",
-            "value": 2000,
-            "category": "IN THE ROOM"
+            "value": 1000,
+            "category": "IN THE ROOM",
+            "isDailyDouble": false
         }]
     },{
         "name": "MOVIE REFRESHMENTS",
@@ -282,32 +322,37 @@
             "id": 1,
             "answer": "\"Tampopo\", about a woman's adventures in her noodle shop in this country, has been called a \"Ramen Western\"",
             "question": "What is Japan?",
-            "value": 400,
-            "category": "MOVIE REFRESHMENTS"
+            "value": 200,
+            "category": "MOVIE REFRESHMENTS",
+            "isDailyDouble": false
         }, {
             "id": 2,
             "answer": "Eva Longoria directed 2023's \"Flamin' Hot\", about Richard Montanez, who claims to have invented these flamin' hot snacks",
             "question": "What are Flamin' Hot Cheetos?",
-            "value": 800,
-            "category": "MOVIE REFRESHMENTS"
+            "value": 400,
+            "category": "MOVIE REFRESHMENTS",
+            "isDailyDouble": false
         }, {
             "id": 3,
             "answer": "Dishes made by Remy, an animated gourmand of the garbage, include an omelet, a roasted mushroom & this title dish",
             "question": "What is ratatouille?",
-            "value": 1200,
-            "category": "MOVIE REFRESHMENTS"
+            "value": 600,
+            "category": "MOVIE REFRESHMENTS",
+            "isDailyDouble": false
         }, {
             "id": 4,
             "answer": "As Harold & Kumar in a 2004 film can attest, this fast food chain hits different after riding a cheetah & hang gliding",
             "question": "What is White Castle?",
-            "value": 1600,
-            "category": "MOVIE REFRESHMENTS"
+            "value": 800,
+            "category": "MOVIE REFRESHMENTS",
+            "isDailyDouble": false
         }, {
             "id": 5,
             "answer": "At the start of this 1973 sci-fi film, Edward G. Robinson wants more of the title food; by the end, he becomes the title food",
             "question": "What is Soylent Green?",
-            "value": 2000,
-            "category": "MOVIE REFRESHMENTS"
+            "value": 1000,
+            "category": "MOVIE REFRESHMENTS",
+            "isDailyDouble": false
         }]
     },{
         "name": "INTERNET CELEBRITIES",
@@ -316,32 +361,37 @@
             "id": 1,
             "answer": "Forbes said the memes featuring this feline are full of \"existential angst\" & \"nihilism\"",
             "question": "Who is Grumpy Cat?",
-            "value": 400,
-            "category": "INTERNET CELEBRITIES"
+            "value": 200,
+            "category": "INTERNET CELEBRITIES",
+            "isDailyDouble": false
         }, {
             "id": 2,
             "answer": "Before \"SNL\" this comedy troupe featuring Andy Samberg made the web series \"The 'Bu\", a parody of \"The O.C.\"",
             "question": "What is The Lonely Island?",
-            "value": 800,
-            "category": "INTERNET CELEBRITIES"
+            "value": 400,
+            "category": "INTERNET CELEBRITIES",
+            "isDailyDouble": false
         }, {
             "id": 3,
             "answer": "Kyle Craven is the real name of the hapless guy in the meme format \"Bad Luck\" this first name",
             "question": "What is Brian?",
-            "value": 1200,
-            "category": "INTERNET CELEBRITIES"
+            "value": 600,
+            "category": "INTERNET CELEBRITIES",
+            "isDailyDouble": false
         }, {
             "id": 4,
             "answer": "This meme, originating from the song \"Never Gonna Give You Up\" by Rick Astley, involves tricking someone into watching the music video",
             "question": "What is Rickrolling?",
-            "value": 1600,
-            "category": "INTERNET CELEBRITIES"
+            "value": 800,
+            "category": "INTERNET CELEBRITIES",
+            "isDailyDouble": false
         }, {
             "id": 5,
             "answer": "In 2021 a statue of this late gorilla appeared opposite Wall Street's Charging Bull statue",
             "question": "Who is Harambe?",
-            "value": 2000,
-            "category": "INTERNET CELEBRITIES"
+            "value": 1000,
+            "category": "INTERNET CELEBRITIES",
+            "isDailyDouble": false
         }]
     },{
         "name": "SECOND CHANCE SONGS",
@@ -350,32 +400,37 @@
             "id": 1,
             "answer": "In an Adele hit, this one-word title precedes, \"It's me, I was wondering if after all these years you'd like to meet\"",
             "question": "What is Hello?",
-            "value": 400,
-            "category": "SECOND CHANCE SONGS"
+            "value": 200,
+            "category": "SECOND CHANCE SONGS",
+            "isDailyDouble": false
         }, {
             "id": 2,
             "answer": "\"Oh, baby, give me one more chance to show you that I love you\", this quintet sang in 1969",
             "question": "Who is Jackson Five?",
-            "value": 800,
-            "category": "SECOND CHANCE SONGS"
+            "value": 400,
+            "category": "SECOND CHANCE SONGS",
+            "isDailyDouble": false
         }, {
             "id": 3,
             "answer": "\"I just need one more shot at second chances\", sang this Ontario-born heartthrob in his 2016 chart-topper \"Sorry\"",
             "question": "Who is Justin Bieber?",
-            "value": 1200,
-            "category": "SECOND CHANCE SONGS"
+            "value": 600,
+            "category": "SECOND CHANCE SONGS",
+            "isDailyDouble": false
         }, {
             "id": 4,
             "answer": "A Grammy winner by Toni Braxton implored an ex to do this to her heart",
             "question": "What is un-break?",
-            "value": 1600,
-            "category": "SECOND CHANCE SONGS"
+            "value": 800,
+            "category": "SECOND CHANCE SONGS",
+            "isDailyDouble": false
         }, {
             "id": 5,
             "answer": "\"If we loved again, I swear I'd love you right\", sang Taylor Swift in this hit in which she mentally revisits a certain month",
             "question": "What is Back to December?",
-            "value": 2000,
-            "category": "SECOND CHANCE SONGS"
+            "value": 1000,
+            "category": "SECOND CHANCE SONGS",
+            "isDailyDouble": false
         }]
     }, {
         "name": "CEREAL MASCOTS",
@@ -384,32 +439,37 @@
             "id": 1,
             "answer": "This mascot once had a spin-off cereal called Tiger Power",
             "question": "Who is Tony the Tiger?",
-            "value": 400,
-            "category": "CEREAL MASCOTS"
+            "value": 200,
+            "category": "CEREAL MASCOTS",
+            "isDailyDouble": false
         }, {
             "id": 2,
             "answer": "Sonny couldn't help being cuckoo for this \"delicious, munchy, crunchy, chocolatey\" cereal",
             "question": "What is Cocoa Puffs?",
-            "value": 800,
-            "category": "CEREAL MASCOTS"
+            "value": 400,
+            "category": "CEREAL MASCOTS",
+            "isDailyDouble": false
         }, {
             "id": 3,
             "answer": "Ad execs were determined to repeatedly torture a hapless animal with \"Silly rabbit\", this cereal was \"for kids\"!",
             "question": "What is Trix?",
-            "value": 1200,
-            "category": "CEREAL MASCOTS"
+            "value": 600,
+            "category": "CEREAL MASCOTS",
+            "isDailyDouble": false
         }, {
             "id": 4,
             "answer": "In 2022 the leprechaun who hawked this cereal turned 58; don't pull a muscle running away with the stuff, man",
             "question": "What is Lucky Charms?",
-            "value": 1600,
-            "category": "CEREAL MASCOTS"
+            "value": 800,
+            "category": "CEREAL MASCOTS",
+            "isDailyDouble": false
         }, {
             "id": 5,
             "answer": "In the early '70s General Mills said, y'know, we need a cereal featuring a vampire type of guy, so America took a bite of this",
             "question": "What is Count Chocula?",
-            "value": 2000,
-            "category": "CEREAL MASCOTS"
+            "value": 1000,
+            "category": "CEREAL MASCOTS",
+            "isDailyDouble": true
         }]
     }]
 }, {
@@ -422,7 +482,8 @@
             "answer": "Ken's rhyming dream abode in the film \"Barbie\" hatches into a prequel of \"Game of Thrones\"",
             "question": "What is a Mojo Dojo Casa House of the Dragon?",
             "value": 0,
-            "category": "BEFORE & AFTER"
+            "category": "BEFORE & AFTER",
+            "isDailyDouble": false
         }]
     },{
         "name": "FAMOUS NAMES",
@@ -432,7 +493,8 @@
             "answer": "In 2023, shortly after his death, his name was added to a Brazilian dictionary to describe one who's superior or out of the ordinary",
             "question": "Who is Pele?",
             "value": 0,
-            "category": "FAMOUS NAMES"
+            "category": "FAMOUS NAMES",
+            "isDailyDouble": false
         }]
     }]
 }]}
