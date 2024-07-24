@@ -8,6 +8,7 @@ export const theme: Theme = {
     heading: '"Geopardy", sans-serif',
     monospace: "Menlo, monospace",
     primary: "Roboto, sans-serif",
+    card: "Korinna, serif",
   },
   colors: {
     text: "#fff",
@@ -21,12 +22,15 @@ export const theme: Theme = {
       minHeight: "100px",
       p: 2,
       overflow: "hidden",
-      fontSize: "clamp(16px, 4vw, 42px)",
+      fontSize: "clamp(16px, 3vw, 58px)",
       fontWeight: 900,
       color: "secondary",
     },
     scoring: {
-      border: "1px solid white",
+      px: 3,
+      py: 2,
+      border: (theme) => `1px solid ${theme.colors!.text}`,
+      borderRadius: 6,
     },
     playerActions: {
       m: 2,

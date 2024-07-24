@@ -4,13 +4,13 @@ import { ACTION_TYPES, IPlayer, ActionTypes, IQuestion } from "../types/types";
 import { ModalContext } from "../contexts/modalContext";
 
 const PlayerCard = ({
-  isFinalLeopardy,
+  hasWager,
   player,
   currentQuestion,
   setShowQuestion,
   playersDispatch,
 }: {
-  isFinalLeopardy: boolean;
+  hasWager: boolean;
   player: IPlayer;
   currentQuestion: IQuestion;
   setShowQuestion: Dispatch<React.SetStateAction<boolean>>;
@@ -29,9 +29,9 @@ const PlayerCard = ({
     playersDispatch({
       type,
       player,
-      value: isFinalLeopardy ? wager : currentQuestion.value,
+      value: hasWager ? wager : currentQuestion.value,
     } as ActionTypes);
-    if (!isFinalLeopardy && type === ACTION_TYPES.ADD_SCORE) {
+    if (!hasWager && type === ACTION_TYPES.ADD_SCORE) {
       setIsOpen(false);
     }
     setShowQuestion(false);
@@ -44,12 +44,14 @@ const PlayerCard = ({
         flexDirection: "column",
         alignItems: "center",
         p: 2,
-        border: "1px solid background",
+        border: (theme) => `1px solid ${theme.colors!.text}`,
+        borderRadius: 6,
+        boxShadow: "4px 4px 20px 2px darkslategray",
       }}
     >
       <Text sx={{ fontWeight: 700, fontSize: 24 }}>{player.name}</Text>
       <Text sx={{ fontSize: 18, mb: 2 }}>${player.score}</Text>
-      {isFinalLeopardy && (
+      {hasWager && (
         <Box sx={{ mb: 4, color: "text" }}>
           <Text>Wager:</Text>
           <Input
