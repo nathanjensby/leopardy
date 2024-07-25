@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Box, Grid } from "theme-ui";
+import { Box, Flex } from "theme-ui";
 import DataTable from "./DataTable";
 import { GameContext } from "../contexts/gameContext";
 import AnswerModal from "./AnswerModal";
@@ -14,14 +14,14 @@ const GameBoard = () => {
 
   return (
     <Box>
-      <Grid sx={{ gridTemplateColumns: "5fr 1fr" }}>
+      <Flex sx={{ flexDirection: ["column", "column", "row"] }}>
         {gameState.gameState === GAME_STATE_ACTION_TYPES.FINAL_LEOPARDY ? (
           <FinalLeopardy leopardyStageData={loadedQuestions} />
         ) : (
           <DataTable leopardyStageData={loadedQuestions} />
         )}
         <ScoreBoard />
-      </Grid>
+      </Flex>
       <AnswerModal />
     </Box>
   );

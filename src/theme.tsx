@@ -25,6 +25,7 @@ export const theme: Theme = {
       fontSize: "clamp(16px, 3vw, 58px)",
       fontWeight: 900,
       color: "secondary",
+      textAlign: "center",
     },
     scoring: {
       px: 3,
