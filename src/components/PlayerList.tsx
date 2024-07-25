@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { Box, Button, Flex, Input } from "theme-ui";
+import { Box, Button, Flex, Input, Text } from "theme-ui";
 import { PlayersContext } from "../contexts/playersContext";
 
 import { IPlayer, ACTION_TYPES } from "../types/types";
@@ -30,8 +30,17 @@ function Player({ player }: { player: IPlayer }) {
     playerName = <>{player.name}</>;
   }
   return (
-    <Flex sx={{ justifyContent: "space-between", width: "100%", my: 2 }}>
-      {playerName}
+    <Flex
+      sx={{
+        justifyContent: "space-between",
+        alignItems: "center",
+        width: "100%",
+        my: 2,
+      }}
+    >
+      <Box>
+        <Text sx={{ fontWeight: 900, fontSize: [24, 32] }}>{playerName}</Text>
+      </Box>
       <Box>
         <Button
           sx={{ variant: "buttons.playerActions" }}
@@ -61,7 +70,10 @@ export default function PlayerList() {
   const { players } = state;
 
   return (
-    <Flex as="ul" sx={{ flexDirection: "column" }}>
+    <Flex
+      as="ul"
+      sx={{ height: "60vh", overflow: "auto", flexDirection: "column" }}
+    >
       {players.map((player: IPlayer) => (
         <Flex
           as="li"

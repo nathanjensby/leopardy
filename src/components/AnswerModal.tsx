@@ -79,7 +79,7 @@ const AnswerModal = () => {
                 sx={{
                   fontWeight: 900,
                   color: "slate",
-                  fontSize: "15vw",
+                  fontSize: "clamp(36px, 15vw, 318px)",
                   textWrap: "wrap",
                   lineHeight: "10rem",
                 }}

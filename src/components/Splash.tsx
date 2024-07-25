@@ -13,7 +13,11 @@ const Splash = () => {
 
   return (
     <Flex
-      sx={{ p: 6, flexDirection: "column", justifyContent: "space-between" }}
+      sx={{
+        width: "100%",
+        maxWidth: "1024px",
+        flexDirection: "column",
+      }}
     >
       <Text
         as="h1"
@@ -22,11 +26,12 @@ const Splash = () => {
           fontSize: "clamp(36px, 12vw, 128px)",
           color: "secondary",
           fontFamily: "Geopardy",
+          textAlign: "center",
         }}
       >
         Leopardy!
       </Text>
-      <Box sx={{ maxWidth: "50%", mb: 4 }}>
+      <Box sx={{ maxWidth: ["100%", "75%", "50%"], mb: 4 }}>
         <Label sx={{ mb: 2 }} htmlFor="addPlayer">
           Add player
         </Label>

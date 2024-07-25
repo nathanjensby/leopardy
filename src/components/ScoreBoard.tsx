@@ -21,7 +21,9 @@ const ScoreBoard = () => {
   };
 
   return (
-    <Flex sx={{ flexDirection: "column", justifyContent: "space-between" }}>
+    <Flex
+      sx={{ flexDirection: "column", justifyContent: "space-between", ml: 2 }}
+    >
       <Flex
         sx={{
           flexDirection: "column",
@@ -30,7 +32,7 @@ const ScoreBoard = () => {
         }}
       >
         {players.map((player, index) => (
-          <Box key={index}>
+          <Box key={index} sx={{ pl: 4 }}>
             <Box>
               <Text sx={{ fontWeight: "700", fontSize: 24 }}>
                 {player.name}

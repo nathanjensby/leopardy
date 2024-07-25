@@ -48,6 +48,7 @@ const DataTable = ({
         gridTemplateColumns: "repeat(6, 1fr)",
         gridTemplateRows: "repeat(6, 1fr)",
         gap: 2,
+        maxHeight: "85vh",
       }}
     >
       {columnNamesArr.map((name, index) => (
@@ -59,6 +60,7 @@ const DataTable = ({
             bg: "primary",
             justifyContent: "center",
             alignItems: "center",
+            textAlign: "center",
           }}
           key={index}
         >
