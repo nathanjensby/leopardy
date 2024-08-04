@@ -504,7 +504,7 @@
             "question": "What is Greece?",
             "value": 1200,
             "category": "THE OLYMPICS",
-            "isDailyDouble": false
+            "isDailyDouble": true
         }, {
             "id": 5,
             "answer": "Reminiscent of witches, it's the bowl-like structure that holds the flame in the host stadium; Torino's was placed 190 feet up",
@@ -536,7 +536,7 @@
             "question": "What is Ruby?",
             "value": 900,
             "category": "40",
-            "isDailyDouble": true
+            "isDailyDouble": false
         }, {
             "id": 4,
             "answer": "In the \"Arabian Nights\", this poor woodcutter discovers 40 thieves & their treasure hidden in a cave",
@@ -568,7 +568,7 @@
             "question": "What is Community?",
             "value": 600,
             "category": "TV SHOWS BY CHARACTER",
-            "isDailyDouble": false
+            "isDailyDouble": true
         }, {
             "id": 3,
             "answer": "Vault dweller Lucy MacLean, supersoldier Maximus",
@@ -628,7 +628,7 @@
             "question": "What is Tombstone?",
             "value": 1500,
             "category": "U.S. PLACE NICKNAMES",
-            "isDailyDouble": false
+            "isDailyDouble": true
         }]
     },{
         "name": "THEY MAKE THAT",
@@ -706,7 +706,7 @@
             "question": "What is Rooty Tooty Fresh'N Fruity?",
             "value": 1500,
             "category": "SIX DEGREES OF ACTUAL BACON",
-            "isDailyDouble": true
+            "isDailyDouble": false
         }]
     }]
 }, {
@@ -727,7 +727,7 @@
             "question": "What is Everybody Hurts?",
             "value": 800,
             "category": "SAD SONGS",
-            "isDailyDouble": false
+            "isDailyDouble": true
         }, {
             "id": 3,
             "answer": "At the 2020 Grammys, Alicia Keys & this trio sang \"It's So Hard To Say Goodbye To Yesterday\" in a tribute to Kobe Bryant",
@@ -773,14 +773,14 @@
             "question": "What is \"Adore You\"?",
             "value": 1200,
             "category": "FINE IT'S HARRY STYLES",
-            "isDailyDouble": true
+            "isDailyDouble": false
         }, {
             "id": 4,
             "answer": "This 2023 Apple TV+ series, co-produced by Harry Styles, explores the life and career of a fictional 1970s rock band",
             "question": "What is \"Daisy Jones & The Six\"",
             "value": 1600,
             "category": "FINE IT'S HARRY STYLES",
-            "isDailyDouble": false
+            "isDailyDouble": true
         }, {
             "id": 5,
             "answer": "In 2018, Harry Styles became the face of this luxury Italian fashion brand, known for its bold designs and campaigns.",
@@ -819,7 +819,7 @@
             "question": "What is Up in the Air Force One?",
             "value": 1600,
             "category": "MOVIE BEFORE & AFTER",
-            "isDailyDouble": false
+            "isDailyDouble": true
         }, {
             "id": 5,
             "answer": "Drew Barrymore & the rest of her crime-fighting undercover trio win baseball games with some heavenly assistance",
@@ -876,7 +876,7 @@
             "question": "What is Hurricane Katrina?",
             "value": 400,
             "category": "COLLEGES & UNIVERSITIES",
-            "isDailyDouble": false
+            "isDailyDouble": true
         }, {
             "id": 2,
             "answer": "Confusingly, the University of Miami is in Florida, while Miami University is in this state",
@@ -943,7 +943,7 @@
             "question": "Who is Devo?",
             "value": 2000,
             "category": "HALLOWEEN COSTUME IDEAS",
-            "isDailyDouble": true
+            "isDailyDouble": false
         }]
     }]
 }, {

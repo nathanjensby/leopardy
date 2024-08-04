@@ -11,7 +11,6 @@ import useLoadData from "../hooks/useLoadData";
 const GameBoard = () => {
   const [gameState] = useContext(GameContext);
   const { loadedQuestions } = useLoadData(gameState.gameState);
-  console.log("gameState: ", gameState);
 
   return (
     <Box>
