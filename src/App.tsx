@@ -49,6 +49,20 @@ function App() {
 
   const { isOpen, toggleModal, setIsOpen } = useModal();
 
+  const GameBoardComponent = () => {
+    switch (gameState.gameState) {
+      case GAME_STATE_ACTION_TYPES.START: {
+        return <Splash />;
+      }
+      case GAME_STATE_ACTION_TYPES.RESULTS: {
+        return <Results />;
+      }
+      default: {
+        return <GameBoard />;
+      }
+    }
+  };
+
   return (
     <GameContext.Provider value={[gameState, gameDispatch]}>
       <PlayersContext.Provider value={[playersState, playersDispatch]}>
@@ -56,26 +70,7 @@ function App() {
           <QuestionsContext.Provider
             value={[questionsState, quesitonsDispatch]}
           >
-            {gameState.gameState === GAME_STATE_ACTION_TYPES.START && (
-              <Splash />
-            )}
-            {gameState.gameState ===
-              GAME_STATE_ACTION_TYPES.SINGLE_LEOPARDY && (
-              // pass in single leopardy data
-              <GameBoard />
-            )}
-            {gameState.gameState ===
-              GAME_STATE_ACTION_TYPES.DOUBLE_LEOPARDY && (
-              // pass in double leopardy data
-              <GameBoard />
-            )}
-            {gameState.gameState === GAME_STATE_ACTION_TYPES.FINAL_LEOPARDY && (
-              // pass in final leopardy data
-              <GameBoard />
-            )}
-            {gameState.gameState === GAME_STATE_ACTION_TYPES.RESULTS && (
-              <Results />
-            )}
+            <GameBoardComponent />
           </QuestionsContext.Provider>
         </ModalContext.Provider>
       </PlayersContext.Provider>

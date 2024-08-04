@@ -13,6 +13,8 @@ export enum GAME_STATE_ACTION_TYPES {
   START = "START",
   SINGLE_LEOPARDY = "SINGLE_LEOPARDY",
   DOUBLE_LEOPARDY = "DOUBLE_LEOPARDY",
+  TRIPLE_LEOPARDY = "TRIPLE_LEOPARDY",
+  QUADRUPLE_LEOPARDY = "QUADRUPLE_LEOPARDY",
   FINAL_LEOPARDY = "FINAL_LEOPARDY",
   RESULTS = "RESULTS",
 }
@@ -32,6 +34,14 @@ export type SingleLeopardyGameAction = {
 
 export type DoubleLeopardyGameAction = {
   type: typeof GAME_STATE_ACTION_TYPES.DOUBLE_LEOPARDY;
+};
+
+export type TripleLeopardyGameAction = {
+  type: typeof GAME_STATE_ACTION_TYPES.TRIPLE_LEOPARDY;
+};
+
+export type QuadrupleLeopardyGameAction = {
+  type: typeof GAME_STATE_ACTION_TYPES.QUADRUPLE_LEOPARDY;
 };
 
 export type FinalLeopardyGameAction = {
@@ -128,6 +138,8 @@ export type GameStateActionTypes =
   | StartGameAction
   | SingleLeopardyGameAction
   | DoubleLeopardyGameAction
+  | TripleLeopardyGameAction
+  | QuadrupleLeopardyGameAction
   | FinalLeopardyGameAction
   | ResultsGameAction;
 

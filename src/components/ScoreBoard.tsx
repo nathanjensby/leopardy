@@ -68,6 +68,26 @@ const ScoreBoard = () => {
         <Button
           sx={{ m: 2 }}
           onClick={() =>
+            handleAdvance({
+              stage: GAME_STATE_ACTION_TYPES.TRIPLE_LEOPARDY,
+            })
+          }
+        >
+          Triple
+        </Button>
+        <Button
+          sx={{ m: 2 }}
+          onClick={() =>
+            handleAdvance({
+              stage: GAME_STATE_ACTION_TYPES.QUADRUPLE_LEOPARDY,
+            })
+          }
+        >
+          Quadruple
+        </Button>
+        <Button
+          sx={{ m: 2 }}
+          onClick={() =>
             handleAdvance({ stage: GAME_STATE_ACTION_TYPES.FINAL_LEOPARDY })
           }
         >

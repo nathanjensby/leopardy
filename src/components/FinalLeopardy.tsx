@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Button, Flex } from "theme-ui";
+import { Button, Flex, Text } from "theme-ui";
 import {
   ACTIVATED_QUESTIONS_TYPES,
   IQuestion,
@@ -39,15 +39,25 @@ const FinalLeopardy = ({
         minHeight: "644px",
         justifyContent: "space-evenly",
         alignItems: "center",
+        flexWrap: "wrap",
       }}
     >
-      {categories.map((category) => (
-        <Flex sx={{ minWidth: "400px", height: "33%" }}>
+      {categories.map((category, i) => (
+        <Flex
+          key={i}
+          sx={{
+            maxWidth: "40vw",
+            width: "100%",
+            height: "33%",
+          }}
+        >
           <Button
             onClick={() => handleActivatedCategory(category.questions)}
             sx={{ width: "100%" }}
           >
-            {category.name}
+            <Text sx={{ fontSize: "clamp(16px, 4vw, 24px)" }}>
+              {category.name}
+            </Text>
           </Button>
         </Flex>
       ))}
