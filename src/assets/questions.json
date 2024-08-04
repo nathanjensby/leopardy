@@ -473,6 +473,480 @@
         }]
     }]
 }, {
+    "stage" : "TRIPLE_LEOPARDY",
+    "categories": [{
+        "name": "THE OLYMPICS",
+        "id": 1,
+        "questions": [{
+            "id": 1,
+            "answer": "Olympic medley swimming events have these 4 strokes in one race",
+            "question": "What are breaststroke, butterfly, freestyle, and backstroke?",
+            "value": 300,
+            "category": "THE OLYMPICS",
+            "isDailyDouble": false
+        }, {
+            "id": 2,
+            "answer": "This 18-year-old from Louisville won the light heavyweight boxing gold medal in 1960",
+            "question": "Who is Muhammad Ali",
+            "value": 600,
+            "category": "THE OLYMPICS",
+            "isDailyDouble": false
+        }, {
+            "id": 3,
+            "answer": "Denmark's Ellen Osiier foiled many of her opponents in 1924 to become the 1st woman to win a gold medal in this sport",
+            "question": "What is Fencing?",
+            "value": 900,
+            "category": "THE OLYMPICS",
+            "isDailyDouble": false
+        }, {
+            "id": 4,
+            "answer": "During the opening ceremony's parade of nations, this country traditionally goes first",
+            "question": "What is Greece?",
+            "value": 1200,
+            "category": "THE OLYMPICS",
+            "isDailyDouble": false
+        }, {
+            "id": 5,
+            "answer": "Reminiscent of witches, it's the bowl-like structure that holds the flame in the host stadium; Torino's was placed 190 feet up",
+            "question": "What is the Olympic Cauldron?",
+            "value": 1500,
+            "category": "THE OLYMPICS",
+            "isDailyDouble": false
+        }]
+    },{
+        "name": "40",
+        "id": 2,
+        "questions": [{
+            "id": 1,
+            "answer": "In this sport, 40 is the third point reached in a game",
+            "question": "What is Tennis?",
+            "value": 300,
+            "category": "40",
+            "isDailyDouble": false
+        }, {
+            "id": 2,
+            "answer": "In Venice, plague caused ships to be isolated in harbors for 40 days, leading to this modern word",
+            "question": "What is quarantine?",
+            "value": 600,
+            "category": "40",
+            "isDailyDouble": false
+        }, {
+            "id": 3,
+            "answer": "If you make it to 40 years of marriage, know that it's termed this gem anniversary (a variety of corundum)",
+            "question": "What is Ruby?",
+            "value": 900,
+            "category": "40",
+            "isDailyDouble": true
+        }, {
+            "id": 4,
+            "answer": "In the \"Arabian Nights\", this poor woodcutter discovers 40 thieves & their treasure hidden in a cave",
+            "question": "Who is Ali Baba?",
+            "value": 1200,
+            "category": "40",
+            "isDailyDouble": false
+        }, {
+            "id": 5,
+            "answer": "As told in chapter 16, verse 35 of this book of the Bible, the Israelites wandered for 40 years in the desert after leaving Egypt",
+            "question": "What is Exodus?",
+            "value": 1500,
+            "category": "40",
+            "isDailyDouble": false
+        }]
+    },{
+        "name": "TV SHOWS BY CHARACTER",
+        "id": 3,
+        "questions": [{
+            "id": 1,
+            "answer": "FBI Assistant Director Walter Skinner, Teena Mulder",
+            "question": "What is The X-Files?",
+            "value": 300,
+            "category": "TV SHOWS BY CHARACTER",
+            "isDailyDouble": false
+        }, {
+            "id": 2,
+            "answer": "Troy Barnes, Señor Chang",
+            "question": "What is Community?",
+            "value": 600,
+            "category": "TV SHOWS BY CHARACTER",
+            "isDailyDouble": false
+        }, {
+            "id": 3,
+            "answer": "Vault dweller Lucy MacLean, supersoldier Maximus",
+            "question": "What is Fallout?",
+            "value": 900,
+            "category": "TV SHOWS BY CHARACTER",
+            "isDailyDouble": false
+        }, {
+            "id": 4,
+            "answer": "Jason Mendoza, Tahani Al-Jamil",
+            "question": "What is The Good Place?",
+            "value": 1200,
+            "category": "TV SHOWS BY CHARACTER",
+            "isDailyDouble": false
+        }, {
+            "id": 5,
+            "answer": "Billy Butcher, Shockwave, Mindstorm",
+            "question": "What is The Boys?",
+            "value": 1500,
+            "category": "TV SHOWS BY CHARACTER",
+            "isDailyDouble": false
+        }]
+    },{
+        "name": "U.S. PLACE NICKNAMES",
+        "id": 4,
+        "questions": [{
+            "id": 1,
+            "answer": "The \"Venice of America\" &, at the height of spring break, \"Fort Liquor-Dale\"",
+            "question": "What is Fort Lauderdale?",
+            "value": 300,
+            "category": "U.S. PLACE NICKNAMES",
+            "isDailyDouble": false
+        }, {
+            "id": 2,
+            "answer": "\"The Home of the Blues\", Tennessee",
+            "question": "What is Memphis?",
+            "value": 600,
+            "category": "U.S. PLACE NICKNAMES",
+            "isDailyDouble": false
+        }, {
+            "id": 3,
+            "answer": "\"The Weather Capital of the World\", Pennsylvania",
+            "question": "What is Punxsutawney?",
+            "value": 900,
+            "category": "U.S. PLACE NICKNAMES",
+            "isDailyDouble": false
+        }, {
+            "id": 4,
+            "answer": "\"The Spa City\", Arkansas",
+            "question": "What is Hot Springs?",
+            "value": 1200,
+            "category": "U.S. PLACE NICKNAMES",
+            "isDailyDouble": false
+        }, {
+            "id": 5,
+            "answer": "\"The Town Too Tough to Die\", Arizona",
+            "question": "What is Tombstone?",
+            "value": 1500,
+            "category": "U.S. PLACE NICKNAMES",
+            "isDailyDouble": false
+        }]
+    },{
+        "name": "THEY MAKE THAT",
+        "id": 5,
+        "questions": [{
+            "id": 1,
+            "answer": "The Coppertop battery",
+            "question": "What is Duracell?",
+            "value": 300,
+            "category": "THEY MAKE THAT",
+            "isDailyDouble": false
+        }, {
+            "id": 2,
+            "answer": "Baseball Nut & Gold Medal Ribbon ice cream",
+            "question": "What is Baskin-Robbins?",
+            "value": 600,
+            "category": "THEY MAKE THAT",
+            "isDailyDouble": false
+        }, {
+            "id": 3,
+            "answer": "The WetJet mop starter kit",
+            "question": "What is Swiffer?",
+            "value": 900,
+            "category": "THEY MAKE THAT",
+            "isDailyDouble": false
+        }, {
+            "id": 4,
+            "answer": "The trademarked version of Tater Tots: this brand",
+            "question": "What is Ore-Ida?",
+            "value": 1200,
+            "category": "THEY MAKE THAT",
+            "isDailyDouble": false
+        }, {
+            "id": 5,
+            "answer": "The Artisan Series 5 Quart Tilt-Head Stand Mixer",
+            "question": "What is KitchenAid?",
+            "value": 1500,
+            "category": "THEY MAKE THAT",
+            "isDailyDouble": false
+        }]
+    }, {
+        "name": "SIX DEGREES OF ACTUAL BACON",
+        "id": 6,
+        "questions": [{
+            "id": 1,
+            "answer": "Mozzarella is in caprese salad with tomato, & tomato is with bacon in this 3-initial sandwich",
+            "question": "What is a BLT?",
+            "value": 300,
+            "category": "SIX DEGREES OF ACTUAL BACON",
+            "isDailyDouble": false
+        }, {
+            "id": 2,
+            "answer": "Mayo is in egg salad with hard-boiled eggs, which are with bacon atop this salad, first served at LA's Brown Derby",
+            "question": "What is a Cobb Salad?",
+            "value": 600,
+            "category": "SIX DEGREES OF ACTUAL BACON",
+            "isDailyDouble": false
+        }, {
+            "id": 3,
+            "answer": "Milk is in custard with eggs, & eggs are with bacon in this quiche, named for a region of France",
+            "question": "What is (Quiche) Lorraine?",
+            "value": 900,
+            "category": "SIX DEGREES OF ACTUAL BACON",
+            "isDailyDouble": false
+        }, {
+            "id": 4,
+            "answer": "Tomato sauce is in Sloppy Joes with beef, & beef is with bacon in this beloved Wendy's burger, introduced in 2007",
+            "question": "What is The Baconator?",
+            "value": 1200,
+            "category": "SIX DEGREES OF ACTUAL BACON",
+            "isDailyDouble": false
+        }, {
+            "id": 5,
+            "answer": "Sugar is in jam with fruit, & fruit is with pancakes & bacon in this classic IHOP dish with a kooky name",
+            "question": "What is Rooty Tooty Fresh'N Fruity?",
+            "value": 1500,
+            "category": "SIX DEGREES OF ACTUAL BACON",
+            "isDailyDouble": true
+        }]
+    }]
+}, {
+    "stage" : "QUADRUPLE_LEOPARDY",
+    "categories": [{
+        "name": "SAD SONGS",
+        "id": 1,
+        "questions": [{
+            "id": 1,
+            "answer": "This weepy Sinéad O'Connor ballad might not be about lost love; Prince is rumored to have written it about his housekeeper",
+            "question": "What is Nothing Compares 2 U?",
+            "value": 400,
+            "category": "SAD SONGS",
+            "isDailyDouble": false
+        }, {
+            "id": 2,
+            "answer": "Existential pain & stand-still traffic, life's essential struggles, are on display in the video for this 1992 R.E.M. hit",
+            "question": "What is Everybody Hurts?",
+            "value": 800,
+            "category": "SAD SONGS",
+            "isDailyDouble": false
+        }, {
+            "id": 3,
+            "answer": "At the 2020 Grammys, Alicia Keys & this trio sang \"It's So Hard To Say Goodbye To Yesterday\" in a tribute to Kobe Bryant",
+            "question": "Who are Boys II Men?",
+            "value": 1200,
+            "category": "SAD SONGS",
+            "isDailyDouble": false
+        }, {
+            "id": 4,
+            "answer": "This 1976 ballad by Eric Clapton was written about the tragic loss of his son, featuring the line \"Would it be the same if I saw you in heaven?\"",
+            "question": "What is Tears in Heaven?",
+            "value": 1600,
+            "category": "SAD SONGS",
+            "isDailyDouble": false
+        }, {
+            "id": 5,
+            "answer": "You hardly notice that this Simon & Garfunkel song has no rhymes; maybe you're busy counting the cars on the New Jersey turnpike",
+            "question": "What is America?",
+            "value": 2000,
+            "category": "SAD SONGS",
+            "isDailyDouble": false
+        }]
+    },{
+        "name": "FINE IT'S HARRY STYLES",
+        "id": 2,
+        "questions": [{
+            "id": 1,
+            "answer": "This 2017 debut solo single by Harry Styles references a “summer afternoon” and became an instant hit",
+            "question": "What is \"Sign of the Times\"?",
+            "value": 400,
+            "category": "FINE IT'S HARRY STYLES",
+            "isDailyDouble": false
+        }, {
+            "id": 2,
+            "answer": "Harry Styles starred in this 2017 Christopher Nolan film, portraying a young soldier during World War II.",
+            "question": "What is Dunkirk?",
+            "value": 800,
+            "category": "FINE IT'S HARRY STYLES",
+            "isDailyDouble": false
+        }, {
+            "id": 3,
+            "answer": "This track from Harry Styles' album \"Fine Line\" reflects on the theme of choosing happiness and features the chorus, \"We'll be alright.\"",
+            "question": "What is \"Adore You\"?",
+            "value": 1200,
+            "category": "FINE IT'S HARRY STYLES",
+            "isDailyDouble": true
+        }, {
+            "id": 4,
+            "answer": "This 2023 Apple TV+ series, co-produced by Harry Styles, explores the life and career of a fictional 1970s rock band",
+            "question": "What is \"Daisy Jones & The Six\"",
+            "value": 1600,
+            "category": "FINE IT'S HARRY STYLES",
+            "isDailyDouble": false
+        }, {
+            "id": 5,
+            "answer": "In 2018, Harry Styles became the face of this luxury Italian fashion brand, known for its bold designs and campaigns.",
+            "question": "What is Gucci?",
+            "value": 2000,
+            "category": "FINE IT'S HARRY STYLES",
+            "isDailyDouble": false
+        }]
+    },{
+        "name": "MOVIE BEFORE & AFTER",
+        "id": 3,
+        "questions": [{
+            "id": 1,
+            "answer": "Darth Vader chops off Luke's hand, so Marty fills in on guitar at the dance",
+            "question": "What is The Empire Strikes Back to the Future?",
+            "value": 400,
+            "category": "MOVIE BEFORE & AFTER",
+            "isDailyDouble": false
+        }, {
+            "id": 2,
+            "answer": "Gollum plummets into the crack of Doom, causing Sauron to plummet from the top of the Empire State Building",
+            "question": "What is The Return of the King Kong?",
+            "value": 800,
+            "category": "MOVIE BEFORE & AFTER",
+            "isDailyDouble": false
+        }, {
+            "id": 3,
+            "answer": "Michael Cera fights his girlfriend's exes as Robin Williams fights to get out of his mother's shadow",
+            "question": "What is Scott Pilgrim vs The World According to Garp?",
+            "value": 1200,
+            "category": "MOVIE BEFORE & AFTER",
+            "isDailyDouble": false
+        }, {
+            "id": 4,
+            "answer": "George Clooney travels around firing people while flying with U.S. President Harrison Ford",
+            "question": "What is Up in the Air Force One?",
+            "value": 1600,
+            "category": "MOVIE BEFORE & AFTER",
+            "isDailyDouble": false
+        }, {
+            "id": 5,
+            "answer": "Drew Barrymore & the rest of her crime-fighting undercover trio win baseball games with some heavenly assistance",
+            "question": "What is Charlie's Angels in the Outfield?",
+            "value": 2000,
+            "category": "MOVIE BEFORE & AFTER",
+            "isDailyDouble": false
+        }]
+    },{
+        "name": "TV COMEDIES BY WORKPLACE",
+        "id": 4,
+        "questions": [{
+            "id": 1,
+            "answer": "The Dunder Mifflin Paper Company",
+            "question": "What is The Office?",
+            "value": 400,
+            "category": "TV COMEDIES BY WORKPLACE",
+            "isDailyDouble": false
+        }, {
+            "id": 2,
+            "answer": "The Sunshine Cab Company",
+            "question": "What is Taxi?",
+            "value": 800,
+            "category": "TV COMEDIES BY WORKPLACE",
+            "isDailyDouble": false
+        }, {
+            "id": 3,
+            "answer": "99th Precinct of the New York City Police Department",
+            "question": "What is Brooklyn Nine-Nine?",
+            "value": 1200,
+            "category": "TV COMEDIES BY WORKPLACE",
+            "isDailyDouble": false
+        }, {
+            "id": 4,
+            "answer": "Cleveland's Winfred-Louder Department Store",
+            "question": "What is The Drew Carey Show?",
+            "value": 1600,
+            "category": "TV COMEDIES BY WORKPLACE",
+            "isDailyDouble": false
+        }, {
+            "id": 5,
+            "answer": "Sacred Heart Hospital",
+            "question": "What is Scrubs?",
+            "value": 2000,
+            "category": "TV COMEDIES BY WORKPLACE",
+            "isDailyDouble": false
+        }]
+    },{
+        "name": "COLLEGES & UNIVERSITIES",
+        "id": 5,
+        "questions": [{
+            "id": 1,
+            "answer": "Following this disaster in 2005, Tulane was forced to close for several months, the first time since the Civil War",
+            "question": "What is Hurricane Katrina?",
+            "value": 400,
+            "category": "COLLEGES & UNIVERSITIES",
+            "isDailyDouble": false
+        }, {
+            "id": 2,
+            "answer": "Confusingly, the University of Miami is in Florida, while Miami University is in this state",
+            "question": "What is Ohio?",
+            "value": 800,
+            "category": "COLLEGES & UNIVERSITIES",
+            "isDailyDouble": false
+        }, {
+            "id": 3,
+            "answer": "This school's Brigade of Midshipmen regularly present formal dress parades accompanied by its band",
+            "question": "What is NAVY?",
+            "value": 1200,
+            "category": "COLLEGES & UNIVERSITIES",
+            "isDailyDouble": false
+        }, {
+            "id": 4,
+            "answer": "This college located in Emily Dickinson's hometown runs a museum that celebrates her life & work",
+            "question": "What is Amherst?",
+            "value": 1600,
+            "category": "COLLEGES & UNIVERSITIES",
+            "isDailyDouble": false
+        }, {
+            "id": 5,
+            "answer": "This university's College of Veterinary Medicine is one of the oldest and most respected in the United States, and it's home to Jordan-Hare Stadium",
+            "question": "What is Auburn?",
+            "value": 2000,
+            "category": "COLLEGES & UNIVERSITIES",
+            "isDailyDouble": false
+        }]
+    }, {
+        "name": "HALLOWEEN COSTUME IDEAS",
+        "id": 6,
+        "questions": [{
+            "id": 1,
+            "answer": "Dye some gauze in black tea for an aged look & wrap yourself up as this guy whom Abbott & Costello met in a 1955 film",
+            "question": "Who is The Mummy?",
+            "value": 400,
+            "category": "HALLOWEEN COSTUME IDEAS",
+            "isDailyDouble": false
+        }, {
+            "id": 2,
+            "answer": "If the guys are gangsters, wear fringed dresses & be these '20s gals found in a Fitzgerald title",
+            "question": "What are Flappers?",
+            "value": 800,
+            "category": "HALLOWEEN COSTUME IDEAS",
+            "isDailyDouble": false
+        }, {
+            "id": 3,
+            "answer": "A costume for 2: This double-crossing pair from Mad magazine, one in black & one in white, created by Antonio Prohías",
+            "question": "What is Spy vs Spy?",
+            "value": 1200,
+            "category": "HALLOWEEN COSTUME IDEAS",
+            "isDailyDouble": false
+        }, {
+            "id": 4,
+            "answer": "Roll up the sleeves of a blue denim workshirt, put a red bandana in your hair & you can be this feminist WWII icon",
+            "question": "Who is Rosie the Riveter?",
+            "value": 1600,
+            "category": "HALLOWEEN COSTUME IDEAS",
+            "isDailyDouble": false
+        }, {
+            "id": 5,
+            "answer": "Dress in black with a red plastic flowerpot for a hat & you can \"Whip It\" good like a member of this New Wave group",
+            "question": "Who is Devo?",
+            "value": 2000,
+            "category": "HALLOWEEN COSTUME IDEAS",
+            "isDailyDouble": true
+        }]
+    }]
+}, {
     "stage" : "FINAL_LEOPARDY",
     "categories": [{
         "name": "BEFORE & AFTER",

@@ -72,7 +72,7 @@ export default function PlayerList() {
   return (
     <Flex
       as="ul"
-      sx={{ height: "60vh", overflow: "auto", flexDirection: "column" }}
+      sx={{ height: "40vh", overflow: "auto", flexDirection: "column" }}
     >
       {players.map((player: IPlayer) => (
         <Flex

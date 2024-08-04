@@ -2,42 +2,11 @@ import { GAME_STATE_ACTION_TYPES, IGameState } from "../types/types";
 
 export function gameStateReducer(
   state: IGameState,
-  action: { type: string }
+  action: { type: GAME_STATE_ACTION_TYPES }
 ): IGameState {
-  switch (action.type) {
-    case GAME_STATE_ACTION_TYPES.START: {
-      return {
-        ...state,
-        gameState: action.type,
-      };
-    }
-    case GAME_STATE_ACTION_TYPES.SINGLE_LEOPARDY: {
-      return {
-        ...state,
-        gameState: action.type,
-      };
-    }
-    case GAME_STATE_ACTION_TYPES.DOUBLE_LEOPARDY: {
-      return {
-        ...state,
-        gameState: action.type,
-      };
-    }
-    case GAME_STATE_ACTION_TYPES.FINAL_LEOPARDY: {
-      return {
-        ...state,
-        gameState: action.type,
-      };
-    }
-    case GAME_STATE_ACTION_TYPES.RESULTS: {
-      return {
-        ...state,
-        gameState: action.type,
-      };
-    }
-
-    default: {
-      throw Error("Unknown action: " + action.type);
-    }
+  if (action.type) {
+    return { ...state, gameState: action.type };
+  } else {
+    throw Error("Missing type: " + action);
   }
 }
