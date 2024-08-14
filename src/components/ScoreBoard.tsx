@@ -63,7 +63,7 @@ const ScoreBoard = () => {
             })
           }
         >
-          Double
+          2x
         </Button>
         <Button
           sx={{ m: 2 }}
@@ -73,7 +73,7 @@ const ScoreBoard = () => {
             })
           }
         >
-          Triple
+          3x
         </Button>
         <Button
           sx={{ m: 2 }}
@@ -83,7 +83,7 @@ const ScoreBoard = () => {
             })
           }
         >
-          Quadruple
+          4x
         </Button>
         <Button
           sx={{ m: 2 }}
