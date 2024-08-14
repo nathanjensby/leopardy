@@ -310,7 +310,7 @@
         }, {
             "id": 5,
             "answer": "Filming at south congress cafe? Gosling, Portman - show yourselves!",
-            "question": "Who is Danielle Locklear?",
+            "question": "Who is Danielle Locklear? (29 October 2012)",
             "value": 1000,
             "category": "IN THE ROOM",
             "isDailyDouble": false
@@ -751,42 +751,42 @@
             "isDailyDouble": false
         }]
     },{
-        "name": "FINE IT'S HARRY STYLES",
+        "name": "IDIOMS & EXPRESSIONS",
         "id": 2,
         "questions": [{
             "id": 1,
-            "answer": "This 2017 debut solo single by Harry Styles references a “summer afternoon” and became an instant hit",
-            "question": "What is \"Sign of the Times\"?",
+            "answer": "In a sporty idiom, to make expectations higher is to do this, from field events like the pole vault",
+            "question": "What is raise the bar?",
             "value": 400,
-            "category": "FINE IT'S HARRY STYLES",
+            "category": "IDIOMS & EXPRESSIONS",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "Harry Styles starred in this 2017 Christopher Nolan film, portraying a young soldier during World War II.",
-            "question": "What is Dunkirk?",
+            "answer": "Someone of unappealing visage is said to have \"a face for\" this medium; Fred Allen said it of himself",
+            "question": "What is radio?",
             "value": 800,
-            "category": "FINE IT'S HARRY STYLES",
+            "category": "IDIOMS & EXPRESSIONS",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "This track from Harry Styles' album \"Fine Line\" reflects on the theme of choosing happiness and features the chorus, \"We'll be alright.\"",
-            "question": "What is \"Adore You\"?",
+            "answer": "Completing \"give him his...\". it means to free him, but completing \"hand him his...\". it means to beat him",
+            "question": "What is head?",
             "value": 1200,
-            "category": "FINE IT'S HARRY STYLES",
+            "category": "IDIOMS & EXPRESSIONS",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "This 2023 Apple TV+ series, co-produced by Harry Styles, explores the life and career of a fictional 1970s rock band",
-            "question": "What is \"Daisy Jones & The Six\"",
+            "answer": "You'll find the French word for \"beautiful\" in this phrase for the most attractive person in a given setting",
+            "question": "What is belle of the ball?",
             "value": 1600,
-            "category": "FINE IT'S HARRY STYLES",
+            "category": "IDIOMS & EXPRESSIONS",
             "isDailyDouble": true
         }, {
             "id": 5,
-            "answer": "In 2018, Harry Styles became the face of this luxury Italian fashion brand, known for its bold designs and campaigns.",
-            "question": "What is Gucci?",
+            "answer": "This 2-part phrase meaning \"completely settled\" has a variation that's been used as a hair salon name",
+            "question": "What is cut and dried?",
             "value": 2000,
-            "category": "FINE IT'S HARRY STYLES",
+            "category": "IDIOMS & EXPRESSIONS",
             "isDailyDouble": false
         }]
     },{
