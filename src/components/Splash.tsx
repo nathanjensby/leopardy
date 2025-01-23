@@ -13,6 +13,7 @@ const Splash = () => {
 
   return (
     <Flex
+      as="main"
       sx={{
         width: "100%",
         maxWidth: "1024px",

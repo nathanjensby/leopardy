@@ -6,6 +6,7 @@ export enum ACTION_TYPES {
   DELETE = "DELETE_PLAYER",
   ADD_SCORE = "ADD_SCORE",
   SUBTRACT_SCORE = "SUBTRACT_SCORE",
+  EDIT_SCORE = "EDIT_SCORE",
   RESET = "RESET",
 }
 
@@ -107,6 +108,12 @@ export type SubtractScorePlayerAction = {
   value: number;
 };
 
+export type EditScorePlayerAction = {
+  type: typeof ACTION_TYPES.EDIT_SCORE;
+  player: IPlayer;
+  value: number;
+};
+
 export type ResetPlayersAction = {
   type: typeof ACTION_TYPES.RESET;
   player: IPlayer;
@@ -148,6 +155,7 @@ export type ActionTypes =
   | DeletePlayerAction
   | EditPlayerAction
   | AddScorePlayerAction
+  | EditScorePlayerAction
   | SubtractScorePlayerAction
   | ResetPlayersAction;
 

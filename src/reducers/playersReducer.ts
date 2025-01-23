@@ -60,6 +60,18 @@ export function playersReducer(
         }),
       };
     }
+    case ACTION_TYPES.EDIT_SCORE: {
+      return {
+        players: state.players.map((player) => {
+          if (player.id === action.player.id) {
+            const newScore = action.value ?? player.score;
+            return { ...player, score: newScore };
+          } else {
+            return player;
+          }
+        }),
+      };
+    }
     case ACTION_TYPES.RESET: {
       return {
         players: [],
