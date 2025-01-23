@@ -99,15 +99,19 @@ const AnswerModal = () => {
                 alignItems: "center",
                 textAlign: "center",
                 flexDirection: "column",
+                overflow: "hidden", // Prevent overflow
+                maxHeight: "100%", // Constrain height to the parent container
               }}
             >
               <Text
                 as="h2"
                 sx={{
-                  fontSize: "clamp( 24px, 6vw, 128px)",
+                  fontSize: "clamp(16px, 5vw, 128px)",
                   fontFamily: "card",
                   color: "text",
                   textShadow: "4px 4px 0 black",
+                  whiteSpace: "pre-wrap",
+                  overflow: "hidden",
                 }}
               >
                 {currentQuestion.answer}
@@ -116,8 +120,11 @@ const AnswerModal = () => {
                 <Text
                   sx={{
                     color: "secondary",
-                    fontSize: "clamp( 24px, 5vw, 96px)",
+                    fontSize: "clamp(16px, 4.5vw, 96px)",
                     fontWeight: "900",
+                    whiteSpace: "pre-wrap",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
                   }}
                 >
                   {currentQuestion.question}
