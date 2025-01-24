@@ -7,6 +7,9 @@ import { GAME_STATE_ACTION_TYPES } from "../types/types";
 import { QuestionsContext } from "../contexts/questionsContext";
 import { GameContext } from "../contexts/gameContext";
 import PlayerCard from "./PlayerCard";
+import { io } from "socket.io-client";
+
+const socket = io("https://leopardybackend.uc.r.appspot.com");
 
 const AnswerModal = () => {
   const { isOpen, setIsOpen } = useContext(ModalContext);
@@ -163,6 +166,13 @@ const AnswerModal = () => {
             onClick={() => setShowQuestion(!showQuestion)}
           >
             Question
+          </Button>
+
+          <Button
+            sx={{ variant: "buttons.scoring", mr: 4 }}
+            onClick={() => socket.emit("reset")}
+          >
+            Go
           </Button>
 
           <Button

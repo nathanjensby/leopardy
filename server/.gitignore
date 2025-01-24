@@ -1,0 +1,27 @@
+# Node.js dependencies
+/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# npm packages
+package-lock.json
+yarn.lock
+
+# Build artifacts
+/dist
+/build
+
+# VS Code and other editor settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
