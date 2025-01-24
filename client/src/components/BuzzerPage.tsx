@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { io } from "socket.io-client";
+import { socket } from "../utils/utils";
 
 const BuzzerPage: React.FC = () => {
   const [playerName, setPlayerName] = useState("");
   const [joined, setJoined] = useState(false);
   const [buzzerLocked, setBuzzerLocked] = useState(true);
-
-  const socket = io("https://leopardybackend.uc.r.appspot.com");
 
   useEffect(() => {
     // Listen for the 'reset' event and unlock the buzzer

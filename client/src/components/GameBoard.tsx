@@ -1,5 +1,4 @@
 import { useContext, useEffect } from "react";
-import { io } from "socket.io-client";
 import { Box, Grid } from "theme-ui";
 import DataTable from "./DataTable";
 import { GameContext } from "../contexts/gameContext";
@@ -8,8 +7,7 @@ import ScoreBoard from "./ScoreBoard";
 import { GAME_STATE_ACTION_TYPES } from "../types/types";
 import FinalLeopardy from "./FinalLeopardy";
 import useLoadData from "../hooks/useLoadData";
-
-const socket = io("https://leopardybackend.uc.r.appspot.com");
+import { socket } from "../utils/utils";
 
 const GameBoard = () => {
   const [gameState] = useContext(GameContext);

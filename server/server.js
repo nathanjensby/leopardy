@@ -6,19 +6,27 @@ const cors = require("cors");
 const app = express();
 const server = http.createServer(app);
 
+app.use(cors({
+  origin: 'https://leopardy.netlify.app', 
+  methods: ['GET', 'POST'],
+  allowedHeaders: ['Content-Type'],
+}));
+
 const io = new Server(server, {
   cors: {
-    origin: "https://leopardy.netlify.app/", 
+    origin: "https://leopardy.netlify.app", 
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],
   },
+  transports: ['websocket']
 });
 
 // Store state to track who buzzed first
 let firstBuzz = null;
 
 io.on("connection", (socket) => {
-  console.log(`Player connected: ${socket.id}`);
+  console.log(`Player connected: ${socket.id}, Transport: ${socket.conn.transport.name}`);
+  
 
   socket.on("buzz", (data) => {
     if (!firstBuzz) {
