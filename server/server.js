@@ -8,6 +8,7 @@ const server = http.createServer(app);
 
 app.use(cors({
   origin: 'https://leopardy.netlify.app', 
+  // origin: 'http://localhost:5173',
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type'],
 }));
@@ -15,6 +16,7 @@ app.use(cors({
 const io = new Server(server, {
   cors: {
     origin: "https://leopardy.netlify.app", 
+    // origin: 'http://localhost:5173',
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],
   },
@@ -29,6 +31,7 @@ io.on("connection", (socket) => {
   
 
   socket.on("buzz", (data) => {
+    console.log('buzzed: ', data);
     if (!firstBuzz) {
       firstBuzz = data.playerName;
       io.emit("buzzed", { playerName: data.playerName });
@@ -36,6 +39,7 @@ io.on("connection", (socket) => {
   });
 
   socket.on("reset", () => {
+    console.log('reset happened')
     firstBuzz = null;
     io.emit("reset");
   });

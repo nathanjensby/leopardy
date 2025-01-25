@@ -14,9 +14,10 @@ const BuzzerPage: React.FC = () => {
 
     // Cleanup the socket connection on component unmount
     return () => {
-      socket.disconnect();
+      socket.off("connect");
+      socket.off("reset");
     };
-  }, [socket]);
+  }, []);
 
   const handleBuzz = () => {
     if (!buzzerLocked && playerName) {
