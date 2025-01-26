@@ -8,6 +8,7 @@ import {
 import { useContext } from "react";
 import { ModalContext } from "../contexts/modalContext";
 import { QuestionsContext } from "../contexts/questionsContext";
+import { socket } from "../utils/utils";
 
 const DataTable = ({
   leopardyStageData,
@@ -35,6 +36,7 @@ const DataTable = ({
     );
 
   const handleActivatedQuestion = (question: IQuestion) => {
+    socket.emit("reset");
     setIsOpen(true);
     questionsDispatch({
       type: ACTIVATED_QUESTIONS_TYPES.ACTIVATED_QUESTION,

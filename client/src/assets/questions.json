@@ -949,14 +949,14 @@
 }, {
     "stage" : "FINAL_LEOPARDY",
     "categories": [{
-        "name": "21st CENTRUY BUSINESS",
+        "name": "21st CENTURY BUSINESS",
         "id": 1,
         "questions": [{
             "id": 1,
             "answer": "An early version of this app was called Matchbox but that name was too similar to another company that offered the same service",
             "question": "What is Tinder?",
             "value": 0,
-            "category": "21st CENTRUY BUSINESS",
+            "category": "21st CENTURY BUSINESS",
             "isDailyDouble": false
         }]
     },{
