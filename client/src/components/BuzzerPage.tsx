@@ -7,6 +7,11 @@ const BuzzerPage: React.FC = () => {
   const [buzzerLocked, setBuzzerLocked] = useState(true);
 
   useEffect(() => {
+    socket.on("connect_error", (err) => {
+      // the reason of the error, for example "xhr poll error"
+      console.log("err: ", err);
+      console.log(err.message);
+    });
     // Listen for the 'reset' event and unlock the buzzer
     socket.on("reset", () => {
       setBuzzerLocked(false); // Unlock the buzzer when reset is triggered
