@@ -8,20 +8,23 @@ import { GAME_STATE_ACTION_TYPES } from "../types/types";
 import FinalLeopardy from "./FinalLeopardy";
 import useLoadData from "../hooks/useLoadData";
 import { socket } from "../utils/utils";
+import { SOCKET_ACTIONS } from "../utils/enums";
+import { useToast } from "../hooks/useToast";
 
 const GameBoard = () => {
   const [gameState] = useContext(GameContext);
   const { loadedQuestions } = useLoadData(gameState.gameState);
+  const { addToast } = useToast();
 
   useEffect(() => {
-    // Listen for the "buzzed" event
-    socket.on("buzzed", (data: { playerName: string }) => {
-      alert(`${data.playerName} buzzed in first!`);
+    // Listen for the SOCKET_ACTIONS.BUZZED event
+    socket.on(SOCKET_ACTIONS.BUZZED, (data: { playerName: string }) => {
+      addToast(`${data.playerName} buzzed in`, "success");
     });
 
     // Clean up the socket listener on unmount
     return () => {
-      socket.off("buzzed");
+      socket.off(SOCKET_ACTIONS.BUZZED);
     };
   }, []);
 
