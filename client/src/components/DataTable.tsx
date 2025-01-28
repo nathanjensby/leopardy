@@ -9,6 +9,7 @@ import { useContext } from "react";
 import { ModalContext } from "../contexts/modalContext";
 import { QuestionsContext } from "../contexts/questionsContext";
 import { socket } from "../utils/utils";
+import { SOCKET_ACTIONS } from "../utils/enums";
 
 const DataTable = ({
   leopardyStageData,
@@ -36,7 +37,7 @@ const DataTable = ({
     );
 
   const handleActivatedQuestion = (question: IQuestion) => {
-    socket.emit("reset");
+    socket.emit(SOCKET_ACTIONS.CLOSE_BUZZERS);
     setIsOpen(true);
     questionsDispatch({
       type: ACTIVATED_QUESTIONS_TYPES.ACTIVATED_QUESTION,

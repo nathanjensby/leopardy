@@ -1,32 +1,43 @@
 import React, { useState, useEffect } from "react";
 import { socket } from "../utils/utils";
+import { SOCKET_ACTIONS } from "../utils/enums";
+import { useToast } from "../hooks/useToast";
 
 const BuzzerPage: React.FC = () => {
   const [playerName, setPlayerName] = useState("");
   const [joined, setJoined] = useState(false);
   const [buzzerLocked, setBuzzerLocked] = useState(true);
+  const { addToast } = useToast();
 
   useEffect(() => {
-    socket.on("connect_error", (err) => {
+    socket.on(SOCKET_ACTIONS.CONNECT_ERROR, (err) => {
       // the reason of the error, for example "xhr poll error"
-      console.log("err: ", err);
-      console.log(err.message);
+      addToast(`Connection error: ${err.message}`, "error");
+    });
+    socket.on(SOCKET_ACTIONS.CONNECT, () => {
+      addToast(`Connected`, "success");
     });
     // Listen for the 'reset' event and unlock the buzzer
-    socket.on("reset", () => {
+    socket.on(SOCKET_ACTIONS.BUZZER_OPEN, () => {
       setBuzzerLocked(false); // Unlock the buzzer when reset is triggered
+    });
+
+    socket.on(SOCKET_ACTIONS.BUZZER_CLOSED, () => {
+      setBuzzerLocked(true);
     });
 
     // Cleanup the socket connection on component unmount
     return () => {
-      socket.off("connect");
-      socket.off("reset");
+      socket.off(SOCKET_ACTIONS.CONNECT);
+      socket.off(SOCKET_ACTIONS.CONNECT_ERROR);
+      socket.off(SOCKET_ACTIONS.BUZZER_OPEN);
+      socket.off(SOCKET_ACTIONS.BUZZER_CLOSED);
     };
   }, []);
 
   const handleBuzz = () => {
     if (!buzzerLocked && playerName) {
-      socket.emit("buzz", { playerName });
+      socket.emit(SOCKET_ACTIONS.BUZZ, { playerName });
       setBuzzerLocked(true); // Lock buzzer after buzzing
     }
   };

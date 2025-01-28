@@ -8,6 +8,7 @@ import { QuestionsContext } from "../contexts/questionsContext";
 import { GameContext } from "../contexts/gameContext";
 import PlayerCard from "./PlayerCard";
 import { socket } from "../utils/utils";
+import { SOCKET_ACTIONS } from "../utils/enums";
 
 const AnswerModal = () => {
   const { isOpen, setIsOpen } = useContext(ModalContext);
@@ -48,6 +49,11 @@ const AnswerModal = () => {
       color: theme.colors?.secondary,
       backgroundColor: theme.colors?.primary,
     },
+  };
+
+  const handleOpenBuzzer = () => {
+    socket.emit(SOCKET_ACTIONS.BUZZER_OPEN);
+    // Start timer
   };
 
   if (!currentQuestion) {
@@ -168,7 +174,7 @@ const AnswerModal = () => {
 
           <Button
             sx={{ variant: "buttons.scoring", mr: 4 }}
-            onClick={() => socket.emit("reset")}
+            onClick={handleOpenBuzzer}
           >
             Go
           </Button>
