@@ -22,29 +22,32 @@ const io = new Server(server, {
   }
 });
 
-// Store state to track who buzzed first
-let firstBuzz = null;
+let buzzes = [];
 
 io.on("connection", (socket) => {
   console.log(`Player connected: ${socket.id}, Transport: ${socket.conn.transport.name}`);
   
 
-  socket.on("buzz", (data) => {
-    console.log('buzzed: ', data);
-    if (!firstBuzz) {
-      firstBuzz = data.playerName;
-      io.emit("buzzed", { playerName: data.playerName });
+  socket.on("buzz", ({ playerName }) => {
+    if (buzzes.length < 3 && !buzzes.includes(playerName)) {
+      buzzes.push(playerName)
+      io.emit("buzzed", { playerName: playerName });
     }
   });
 
-  socket.on("reset", () => {
-    console.log('reset happened')
-    firstBuzz = null;
-    io.emit("reset");
+  socket.on("openBuzzers", () => {
+    console.log('openBuzzers happened')
+    io.emit("buzzerOpen");
   });
+
+  socket.on("closeBuzzers", () => {
+    buzzes = [];
+    io.emit("buzzerClosed")
+  })
 
   socket.on("disconnect", () => {
     console.log(`Player disconnected: ${socket.id}`);
+    io.emit('disconnected', { socketId: socket.id })
   });
 });
 
