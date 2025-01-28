@@ -52,7 +52,7 @@ const AnswerModal = () => {
   };
 
   const handleOpenBuzzer = () => {
-    socket.emit(SOCKET_ACTIONS.BUZZER_OPEN);
+    socket.emit(SOCKET_ACTIONS.OPEN_BUZZERS);
     // Start timer
   };
 
