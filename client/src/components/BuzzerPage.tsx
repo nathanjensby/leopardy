@@ -37,7 +37,7 @@ const BuzzerPage: React.FC = () => {
 
   const handleBuzz = () => {
     if (!buzzerLocked && playerName) {
-      socket.emit("buzz", { playerName });
+      socket.emit(SOCKET_ACTIONS.BUZZ, { playerName });
       setBuzzerLocked(true); // Lock buzzer after buzzing
     }
   };
