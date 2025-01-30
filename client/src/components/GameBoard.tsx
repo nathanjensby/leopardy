@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react";
-import { Box, Grid } from "theme-ui";
+import { Box, Button, Grid } from "theme-ui";
 import DataTable from "./DataTable";
 import { GameContext } from "../contexts/gameContext";
 import AnswerModal from "./AnswerModal";
@@ -9,12 +9,12 @@ import FinalLeopardy from "./FinalLeopardy";
 import useLoadData from "../hooks/useLoadData";
 import { socket } from "../utils/utils";
 import { SOCKET_ACTIONS } from "../utils/enums";
-import { useToast } from "../hooks/useToast";
+import { useToastContext } from "../contexts/toastProvider";
 
 const GameBoard = () => {
   const [gameState] = useContext(GameContext);
   const { loadedQuestions } = useLoadData(gameState.gameState);
-  const { addToast } = useToast();
+  const { addToast } = useToastContext();
 
   useEffect(() => {
     // Listen for the SOCKET_ACTIONS.BUZZED event
@@ -39,6 +39,7 @@ const GameBoard = () => {
         <ScoreBoard />
       </Grid>
       <AnswerModal />
+      <Button onClick={() => addToast("test", "success")}>test</Button>
     </Box>
   );
 };

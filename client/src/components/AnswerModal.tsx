@@ -9,6 +9,7 @@ import { GameContext } from "../contexts/gameContext";
 import PlayerCard from "./PlayerCard";
 import { socket } from "../utils/utils";
 import { SOCKET_ACTIONS } from "../utils/enums";
+import { useToastContext } from "../contexts/toastProvider";
 
 const AnswerModal = () => {
   const { isOpen, setIsOpen } = useContext(ModalContext);
@@ -19,6 +20,20 @@ const AnswerModal = () => {
   const [showDailyDouble, setShowDailyDouble] = useState(false);
   const context = useThemeUI();
   const { theme } = context;
+
+  const { addToast } = useToastContext();
+
+  useEffect(() => {
+    // Listen for the SOCKET_ACTIONS.BUZZED event
+    socket.on(SOCKET_ACTIONS.BUZZED, (data: { playerName: string }) => {
+      addToast(`${data.playerName} buzzed in`, "success");
+    });
+
+    // Clean up the socket listener on unmount
+    return () => {
+      socket.off(SOCKET_ACTIONS.BUZZED);
+    };
+  }, [addToast]);
 
   const { currentQuestion } = questionsState;
   const { players } = playersState;
@@ -177,6 +192,13 @@ const AnswerModal = () => {
             onClick={handleOpenBuzzer}
           >
             Go
+          </Button>
+
+          <Button
+            sx={{ variant: "buttons.scoring", mr: 4 }}
+            onClick={() => addToast("toastTest", "success")}
+          >
+            Test
           </Button>
 
           <Button

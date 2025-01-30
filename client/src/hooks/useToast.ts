@@ -1,15 +1,8 @@
 import { useState } from "react";
-
-export type ToastType = "info" | "success" | "error";
-
-export interface Toast {
-  id: number;
-  message: string;
-  type: ToastType;
-}
+import { IToast, ToastType } from "../types/types";
 
 export const useToast = () => {
-  const [toasts, setToasts] = useState<Toast[]>([]);
+  const [toasts, setToasts] = useState<IToast[]>([]);
 
   const addToast = (
     message: string,
