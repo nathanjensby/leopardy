@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react";
-import { Box, Button, Grid } from "theme-ui";
+import { Box, Grid } from "theme-ui";
 import DataTable from "./DataTable";
 import { GameContext } from "../contexts/gameContext";
 import AnswerModal from "./AnswerModal";
@@ -39,7 +39,6 @@ const GameBoard = () => {
         <ScoreBoard />
       </Grid>
       <AnswerModal />
-      <Button onClick={() => addToast("test", "success")}>test</Button>
     </Box>
   );
 };
