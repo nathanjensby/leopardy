@@ -173,3 +173,17 @@ export type IQuestionData = {
   stage: string;
   categories: ICategory[];
 };
+
+export type ToastType = "info" | "success" | "error";
+
+export type IToast = {
+  id: number;
+  message: string;
+  type: ToastType;
+};
+
+export type IToastContext = {
+  toasts: IToast[];
+  addToast: (message: string, type?: ToastType, duration?: number) => void;
+  removeToast: (id: number) => void;
+};

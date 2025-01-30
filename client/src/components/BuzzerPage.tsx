@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { socket } from "../utils/utils";
 import { SOCKET_ACTIONS } from "../utils/enums";
-import { useToast } from "../hooks/useToast";
+import { useToastContext } from "../contexts/toastProvider";
 
 const BuzzerPage: React.FC = () => {
   const [playerName, setPlayerName] = useState("");
   const [joined, setJoined] = useState(false);
   const [buzzerLocked, setBuzzerLocked] = useState(true);
-  const { addToast } = useToast();
+  const { addToast } = useToastContext();
 
   useEffect(() => {
     socket.on(SOCKET_ACTIONS.CONNECT_ERROR, (err) => {

@@ -9,12 +9,12 @@ import FinalLeopardy from "./FinalLeopardy";
 import useLoadData from "../hooks/useLoadData";
 import { socket } from "../utils/utils";
 import { SOCKET_ACTIONS } from "../utils/enums";
-import { useToast } from "../hooks/useToast";
+import { useToastContext } from "../contexts/toastProvider";
 
 const GameBoard = () => {
   const [gameState] = useContext(GameContext);
   const { loadedQuestions } = useLoadData(gameState.gameState);
-  const { addToast } = useToast();
+  const { addToast } = useToastContext();
 
   useEffect(() => {
     // Listen for the SOCKET_ACTIONS.BUZZED event

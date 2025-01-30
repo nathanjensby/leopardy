@@ -1,8 +1,8 @@
 import { Box } from "theme-ui";
-import { Toast as ToastType } from "../hooks/useToast";
+import { IToast } from "../types/types";
 
 interface ToastProps {
-  toast: ToastType;
+  toast: IToast;
   removeToast: (id: number) => void;
 }
 
@@ -10,13 +10,7 @@ const Toast: React.FC<ToastProps> = ({ toast, removeToast }) => {
   return (
     <Box
       sx={{
-        bg:
-          toast.type === "success"
-            ? "green.500"
-            : toast.type === "error"
-            ? "red.500"
-            : "blue.500",
-        color: "white",
+        variant: `alerts.${toast.type}`,
         padding: 3,
         borderRadius: "md",
         boxShadow: "md",

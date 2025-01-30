@@ -15,6 +15,38 @@ export const theme: Theme = {
     background: "#000",
     primary: "#060CE9",
     secondary: "#FFCC00",
+    success: "#4CAF50",
+    warn: "#FFEB3B",
+    error: "#F44336",
+    successLight: "#A5D6A7",
+    warnLight: "#FFF59D",
+    errorLight: "#EF9A9A",
+  },
+  alerts: {
+    success: {
+      bg: "successLight",
+      border: "2px solid",
+      borderColor: "success",
+      color: "background",
+    },
+    warn: {
+      bg: "warnLight",
+      border: "2px solid",
+      borderColor: "warn",
+      color: "background",
+    },
+    error: {
+      bg: "errorLight",
+      border: "2px solid",
+      borderColor: "error",
+      color: "background",
+    },
+    info: {
+      bg: "primary",
+      border: "2px solid",
+      borderColor: "secondary",
+      color: "background",
+    },
   },
   buttons: {
     dataTable: {
