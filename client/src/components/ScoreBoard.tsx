@@ -22,17 +22,37 @@ const ScoreBoard = () => {
 
   return (
     <Flex
-      sx={{ flexDirection: "column", justifyContent: "space-between", ml: 2 }}
+      sx={{
+        flexDirection: "column",
+        justifyContent: "space-between",
+        ml: 2,
+        "@media screen and (max-width: 1100px)": {
+          ml: 0,
+          mt: 2,
+          gap: 3,
+        },
+      }}
     >
       <Flex
         sx={{
           flexDirection: "column",
           height: "100%",
           justifyContent: "space-evenly",
+          "@media screen and (max-width: 1100px)": {
+            gap: 2,
+          },
         }}
       >
         {players.map((player, index) => (
-          <Box key={index} sx={{ pl: 4 }}>
+          <Box
+            key={index}
+            sx={{
+              pl: 4,
+              "@media screen and (max-width: 1100px)": {
+                pl: 0,
+              },
+            }}
+          >
             <Box>
               <Text sx={{ fontWeight: "700", fontSize: 24 }}>
                 {player.name}
@@ -53,6 +73,10 @@ const ScoreBoard = () => {
           justifyContent: "space-evenly",
           alignSelf: "end",
           flexWrap: "wrap",
+          "@media screen and (max-width: 1100px)": {
+            alignSelf: "stretch",
+            justifyContent: "flex-start",
+          },
         }}
       >
         <Button

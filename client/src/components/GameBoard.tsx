@@ -30,7 +30,17 @@ const GameBoard = () => {
 
   return (
     <Box>
-      <Grid sx={{ height: "100%", gridTemplateColumns: "5fr 1fr" }}>
+      <Grid
+        sx={{
+          height: "100%",
+          gridTemplateColumns: "5fr 1fr",
+          alignItems: "start",
+          "@media screen and (max-width: 1100px)": {
+            gridTemplateColumns: "1fr",
+            gap: 3,
+          },
+        }}
+      >
         {gameState.gameState === GAME_STATE_ACTION_TYPES.FINAL_LEOPARDY ? (
           <FinalLeopardy leopardyStageData={loadedQuestions} />
         ) : (
