@@ -1,279 +1,279 @@
 { "data": [{
     "stage" : "SINGLE_LEOPARDY",
     "categories": [{
-        "name": "TIME FOR A COCKTAIL?",
+        "name": "AROUND NEW YORK CITY",
         "id": 1,
         "questions": [{
             "id": 1,
-            "answer": "Coextensive with New York County, it was acquired for trade goods worth about 60 guilders",
-            "question": "What is Manhattan?",
+            "answer": " It was the tallest building in the world when it opened in 1931 & would remain so for 40 years",
+            "question": "What is the Empire State Building?",
             "value": 100,
-            "category": "TIME FOR A COCKTAIL?",
+            "category": "AROUND NEW YORK CITY",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "The one dubbed Andrew ravaged the Bahamas & South Florida in 1992",
-            "question": "What is a hurricane?",
+            "answer": "You must be a least 48 inches high to ride the Sling Shot, an extreme thrill ride found at Luna Park in this Brooklyn location",
+            "question": "What is Coney Island?",
             "value": 200,
-            "category": "TIME FOR A COCKTAIL?",
+            "category": "AROUND NEW YORK CITY",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "Helen Gurley Brown became this publication's first female editor in the 1960s",
-            "question": "What is Cosmopolitan",
+            "answer": "Serving over 500,000 passengers each weekday, this transport hub is partly located under Madison Square Garden",
+            "question": "What is Penn Station?",
             "value": 300,
-            "category": "TIME FOR A COCKTAIL?",
+            "category": "AROUND NEW YORK CITY",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "Celebrated Cardinals pitcher Bob or Dodgers outfielder Kirk",
-            "question": "What is Gibson?",
+            "answer": "4th Avenue? There's no 4th avenue! Actually the avenue with this name was once 4th Avenue & in part of Lower Manhattan, still is",
+            "question": "What is Park Avenue?",
             "value": 400,
-            "category": "TIME FOR A COCKTAIL?",
+            "category": "AROUND NEW YORK CITY",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "Byname of the 1550s British queen who imposed Catholicism on her subjects with a lethal fervor",
-            "question": "What is Bloody Mary?",
+            "answer": "When the smell of orchids gives way to lion sweat, you're going from the New York Botanical Garden to this neighbor facility",
+            "question": "What is the Bronx Zoo?",
             "value": 500,
-            "category": "TIME FOR A COCKTAIL?",
+            "category": "AROUND NEW YORK CITY",
             "isDailyDouble": false
         }]
     },{
-        "name": "POP CULTURE PEOPLE",
+        "name": "POP CULTURE 2000",
         "id": 2,
         "questions": [{
             "id": 1,
-            "answer": "This actress said, \"In the first Harry Potter film, if you watch carefully in some scenes, you can see me mouthing Harry & Ron's lines\"",
-            "question": "Who is Emma Watson?",
+            "answer": "Matthew Perry & Courteney Cox were among the friends who attended her lavish wedding to Brad Pitt",
+            "question": "Who is Jennifer Aniston?",
             "value": 100,
-            "category": "POP CULTURE PEOPLE",
+            "category": "POP CULTURE 2000",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "In 2024, he led the American League with 58 homers & 144 RBIs; our verdict--guilty, of being very good at his job",
-            "question": "Who is Aaron Judge?",
+            "answer": "The multiple Oscar-nominated films of 2000 included \"Gladiator\" & this one with co-stars including Helen Hunt & a ball",
+            "question": "What is Cast Away?",
             "value": 200,
-            "category": "POP CULTURE PEOPLE",
+            "category": "POP CULTURE 2000",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "In 2024 she made news by using her voice to question OpenAI's practices after a new ChatGPT voice sounded an awful lot like her",
-            "question": "Who is Scarlett Johansson",
+            "answer": "This hot new video game of the year had players controlling the day-to-day lives of virtual people",
+            "question": "What is The Sims?",
             "value": 300,
-            "category": "POP CULTURE PEOPLE",
+            "category": "POP CULTURE 2000",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": " Oh, doctor! When it comes to \"The Hangover\", he's Mr. Chow, that's his name, that name again is Mr. Chow",
-            "question": "Who is Ken Jeong",
+            "answer": "Eminem released this \"LP\", his follow-up to \"The Slim Shady LP\", & often considered his best album",
+            "question": "What is The Marshall Mathers LP?",
             "value": 400,
-            "category": "POP CULTURE PEOPLE",
+            "category": "POP CULTURE 2000",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "2 differing Hot 100 tunes in Oct. 2024: Tate McRae's \"It's OK I'm OK\" & \"I Am Not Okay\" by this singer with a sponge cake name",
-            "question": "Who is Jelly Roll?",
+            "answer": "In 2000 this future Oscar winner won an Emmy & a Golden Globe for her portrayal of Dorothy Dandridge",
+            "question": "Who is Halle Berry?",
             "value": 500,
-            "category": "POP CULTURE PEOPLE",
+            "category": "POP CULTURE 2000",
             "isDailyDouble": false
         }]
     },{
-        "name": "REALITY & COMPETITION TV SHOWS",
+        "name": "DEALING WITH TV REALITY",
         "id": 3,
         "questions": [{
             "id": 1,
-            "answer": "Bobby & Judy Edwards with the \"Squatty Potty\" won backing on this show",
-            "question": "What is Shark Tank?",
+            "answer": "This Netflix show: \"The Challenge\" used bits based on the drama series, but with one important difference: players did not really die",
+            "question": "What is Squid Game?",
             "value": 100,
-            "category": "REALITY & COMPETITION TV SHOWS",
+            "category": "DEALING WITH TV REALITY",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "With help from experts like Camille Coffey, this show on TLC features brides-to-be in search of matrimonial wear",
-            "question": "What is Say Yes to the Dress?",
+            "answer": "Oh, the Scandoval! Let's say Ariana did not wish Tom well after he cheated on her with Raquel on this show that debuted in 2013",
+            "question": "What is Vanderpump Rules?",
             "value": 200,
-            "category": "REALITY & COMPETITION TV SHOWS",
+            "category": "DEALING WITH TV REALITY",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "Taking place mainly in the Klondike but in the present day, not in 1897, this is one of Discovery's top-rated shows",
-            "question": "What is Gold Rush?",
+            "answer": "Jennifer Lawrence said she'd give her Oscar to Heather Gay, Monica Garcia & \"The Real Housewives of\" here for that season finale in '24",
+            "question": "What is Salt Lake City?",
             "value": 300,
-            "category": "REALITY & COMPETITION TV SHOWS",
+            "category": "DEALING WITH TV REALITY",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "\"The Super Salmon Ladder\" & \"The Warped Wall\" are obstacles on this show hosted by Matt, Akbar & Zuri",
-            "question": "What is American Ninja Warrior?",
+            "answer": "From 2012 to 2020 Dave Navarro hosted this series that had episodes like \"Drill Baby, Drill\"",
+            "question": "What is Ink Master?",
             "value": 400,
-            "category": "REALITY & COMPETITION TV SHOWS",
+            "category": "DEALING WITH TV REALITY",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "Joe Tessitore & Rob Riggle host this show where folks putt their mini golf skills to the test on a supersized course",           
-            "question": "What is Holey Moley?",
+            "answer": "Pod save us! Lydia saw through the premise of this dating show by recognizing the voice of Uche, an ex",           
+            "question": "What is Love Is Blind?",
             "value": 500,
-            "category": "REALITY & COMPETITION TV SHOWS",
+            "category": "DEALING WITH TV REALITY",
             "isDailyDouble": false
         }]
     },{
-        "name": "SLOGANS",
+        "name": "CHICAGOLAND DINING OPTIONS",
         "id": 4,
         "questions": [{
             "id": 1,
-            "answer": "The Ted Bates Ad Agency came up with the slogan \"Melts in your mouth, not in your hand\" for this candy",
-            "question": "What are M&Ms",
+            "answer": "At Mr. Beef, the inspiration for TV's \"The Bear\", you want to get your sandwich dipped in this; none of that drizzling a bit in",
+            "question": "What is gravy or au jus?",
             "value": 100,
-            "category": "SLOGANS",
+            "category": "CHICAGOLAND DINING OPTIONS",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "\"Don't leave home without it\" is a classic slogan of this company that also says, \"Don't live life without it\"",
-            "question": "What is American Express?",
+            "answer": "Lou Malnati's has specialized in this alliterative kind of pizza since opening in Lincolnwood, Illinois in 1971",
+            "question": "What is deep-dish?",
             "value": 200,
-            "category": "SLOGANS",
+            "category": "CHICAGOLAND DINING OPTIONS",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "This company's \"Yeah, we've got that\" slogan was replaced in 2003",
-            "question": "What is Staples?",
+            "answer": "Classic Windy City street food is a veggie-laden hot dog, aka dragged through this",
+            "question": "What is the garden?",
             "value": 300,
-            "category": "SLOGANS",
+            "category": "CHICAGOLAND DINING OPTIONS",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "In '90s ads parents just didn't understand why kids liked this cereal; the common response was \"We eat what we like\"",
-            "question": "What is Apple Jacks?",
+            "answer": "A creation of Chicago's Puerto Rican community, the jibarito is a sandwich with this banana relative fried as the bread",
+            "question": "What is a plantain?",
             "value": 400,
-            "category": "SLOGANS",
+            "category": "CHICAGOLAND DINING OPTIONS",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "In the 1980s this investors newspaper billed itself as \"the daily diary of the American dream\"",
-            "question": "What is The Wall Street Journal?",
+            "answer": "At the blues club called this man's \"Legends\", you can get po'boys & gumbo, which originated in Louisiana as did the musician himself",
+            "question": "Who is Buddy Guy?",
             "value": 500,
-            "category": "SLOGANS",
+            "category": "CHICAGOLAND DINING OPTIONS",
             "isDailyDouble": false
         }]
     },{
-        "name": "BLACK",
+        "name": "SONG LYRICS",
         "id": 5,
         "questions": [{
             "id": 1,
-            "answer": "If you've got one of these in karate, it's kuro obi in Japanesee",
-            "question": "What is a black belt?",
+            "answer": "Miley Cyrus sings, \"I can\" do this, \"write my name in the sand\"",
+            "question": "What is a buy myself flowers?",
             "value": 100,
-            "category": "BLACK",
+            "category": "SONG LYRICS",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "According to legend it was across the Black Sea that this guy & his Argonauts set out in search of the Golden Fleece",
-            "question": "Who is Jason?",
+            "answer": "A very popular tune by HUNTR/X says, \"You know together we're glowing, gonna be, gonna be\" this",
+            "question": "What is golden?",
             "value": 200,
-            "category": "BLACK",
+            "category": "SONG LYRICS",
             "isDailyDouble": true
         }, {
             "id": 3,
-            "answer": "Hit songs by these heavy metal pioneers include \"Iron Man\" & \"Paranoid\", both from 1970",
-            "question": "Who is Black Sabbath?",
+            "answer": "This rock & roll classic says, \"Never ever learned to read or write so well but... could play a guitar just like a-ringin' a bell\"",
+            "question": "What is \"Johnny B. Goode\"?",
             "value": 300,
-            "category": "BLACK",
+            "category": "SONG LYRICS",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "Males of this spider marked by an hourglass sign can be one-fourth the size of females & often get eaten post mating",
-            "question": "What is a black widow?",
+            "answer": "This title ends the Lady Gaga lyric \"I'm beautiful in my way 'cause God makes no mistakes, I'm on the right track, baby, I was...\"",
+            "question": "What is \"Born This Way\"?",
             "value": 400,
-            "category": "BLACK",
+            "category": "SONG LYRICS",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "This versatile entertainer lent his voice to a martial arts-loving panda and is part of a Grammy-winning comedy rock duo",
-            "question": "Who is Jack Black?",
+            "answer": "A No. 1 hit by Taylor Swift says, \"You dug me out of my grave & saved my heart from\" this, a Shakespeare reference",
+            "question": "What is \"the fate of Ophelia\"?",
             "value": 500,
-            "category": "BLACK",
+            "category": "SONG LYRICS",
             "isDailyDouble": false
         }]
     }, {
-        "name": "PLAYTIME",
+        "name": "POP CULTURE MISSING LINKS",
         "id": 6,
         "questions": [{
             "id": 1,
-            "answer": "This board game requires a number of bishops, knights & pawns",
-            "question": "What is chess?",
+            "answer": "Game:\nSuper Mario\n____\nof Warcraft",
+            "question": "What is World?",
             "value": 100,
-            "category": "PLAYTIME",
+            "category": "POP CULTURE MISSING LINKS",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "5-card stud is a popular version of this card game",
-            "question": "What is poker?",
+            "answer": "Movies:\nTurning\n____\nDragon",
+            "question": "What is Red?",
             "value": 200,
-            "category": "PLAYTIME",
+            "category": "POP CULTURE MISSING LINKS",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "This game is also known as noughts & crosses or X's & O's",
-            "question": "What is tic-tac-toe?",
+            "answer": "Animation:\nCow &\n____\nRun",
+            "question": "What is Chicken?",
             "value": 300,
-            "category": "PLAYTIME",
+            "category": "POP CULTURE MISSING LINKS",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "In this backyard game, players throw curved metal pieces at a post & score points on how close they land",
-            "question": "What is horseshoes?",
+            "answer": "Podcasts:\nCrime, Conspiracy, Cults &\n____\nwith My Husband",
+            "question": "What is Murder?",
             "value": 400,
-            "category": "PLAYTIME",
+            "category": "POP CULTURE MISSING LINKS",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "Examples of games played using these objects include Red Dog & Yahtzee",
-            "question": "What are dice",
+            "answer": "Musicians:\nPaloma\n____\nHill",
+            "question": "What is Faith?",
             "value": 500,
-            "category": "PLAYTIME",
+            "category": "POP CULTURE MISSING LINKS",
             "isDailyDouble": false
         }]
     }]
 }, {
     "stage" : "DOUBLE_LEOPARDY",
     "categories": [{
-        "name": "TV THIS CENTURY",
+        "name": "TEACHING",
         "id": 1,
         "questions": [{
             "id": 1,
-            "answer": "In 2014 \"The Tonight Show\" turned 60 & got this new host who turned 40",
-            "question": "Who is Jimmy Fallon?",
+            "answer": "A method of assigning letter grades based on rank among the class is called \"grading on\" this, perhaps a bell one",
+            "question": "What is a curve?",
             "value": 200,
-            "category": "TV THIS CENTURY",
+            "category": "TEACHING",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "This Kristen Bell show is set in a a spot where people couldn't use curse words & ended up saying \"shirt\" & \"fork\" instead",
-            "question": "What is The Good Place?",
+            "answer": "This president with only a little time at school called education \"the most important subject which we... can be engaged in\"",
+            "question": "Who is Abraham Lincoln?",
             "value": 400,
-            "category": "TV THIS CENTURY",
+            "category": "TEACHING",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "As Valery Legasov, Jared Harris starred in this 2019 miniseries about the aftermath of a real-life deadly accident",
-            "question": "What is Chernobyl?",
+            "answer": "Sounding like an advantage in a foot race, this program recognizes parents as a child's first & most influential teacher",
+            "question": "What is Head Start?",
             "value": 600,
-            "category": "TV THIS CENTURY",
+            "category": "TEACHING",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "Vhagar, Seasmoke & Arrax are among the airborne creatures on this show",
-            "question": "What is House of the Dragon?",
+            "answer": "This organization started in 1990 with 500 idealistic young people working in schools in low-income communities",
+            "question": "What is Teach For America?",
             "value": 800,
-            "category": "TV THIS CENTURY",
+            "category": "TEACHING",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "\"Slough\" must be a U.K. punchline--it's the town of \"The Office\" & Slough House is for failed spies on this Apple TV+ show",
-            "question": "What is Slow Horses?",
+            "answer": "This term for a list of items to be covered in a course is from the Greek for \"parchment label\"",
+            "question": "What is a syllabus?",
             "value": 1000,
-            "category": "TV THIS CENTURY",
+            "category": "TEACHING",
             "isDailyDouble": false
         }]
     },{
@@ -281,467 +281,506 @@
         "id": 2,
         "questions": [{
             "id": 1,
-            "answer": "This just in: I endorse Del Dotto Wines as a place to visit in Napa. It is legit.",
-            "question": "Who is Chris Cook (16 September 2012)",
+            "answer": "__________ is contemplating how and why the last of the pot of coffee he just finished tasted a little bit like pork sausage.",
+            "question": "Who is Gabe Saravia (21 December 2009)",
             "value": 200,
             "category": "IN THE ROOM",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "__________ is a great name for a sandwich",
-            "question": "Who is Nathan Jensby (18 November 2008)",
+            "answer": "__________ is its 6:45. Do you know where your kids are?",
+            "question": "Who is Ginny Jensby (16 December 2008)",
             "value": 400,
             "category": "IN THE ROOM",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "someone pleaseee make me pancakesss",
-            "question": "Who is Sarah Condon (6 May 2010)",
+            "answer": "__________ is wondering just how big can purses really get?!",
+            "question": "Who is Michael Wehrley (28 March 2009)",
             "value": 600,
             "category": "IN THE ROOM",
             "isDailyDouble": true
         }, {
             "id": 4,
-            "answer": "just chased a mouse with 30 italians.",
-            "question": "Who is Ginny Jensby (25 September 2009)",
+            "answer": "Hot pink!!",
+            "question": "Who is Zoe Burgess (16 October 2012)",
             "value": 800,
             "category": "IN THE ROOM",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "__________ is poopshoes",
-            "question": "Who is Samer Khuri? (27 April 2009)",
+            "answer": "Woman attacking on roller skates.  If you haven't seen it, it is an adventure you must witness.",
+            "question": "Who is Michael Wehrley? (17 June 2011)",
             "value": 1000,
             "category": "IN THE ROOM",
             "isDailyDouble": false
         }]
     },{
-        "name": "BEVERAGES",
+        "name": "SPORTS IDIOMS",
         "id": 3,
         "questions": [{
             "id": 1,
-            "answer": "It's the most recognized trademark in the world",
-            "question": "What is Coca-Cola?",
+            "answer": "\"Down for the count\"",
+            "question": "What is boxing?",
             "value": 200,
-            "category": "BEVERAGES",
+            "category": "SPORTS IDIOMS",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "In 1967 it was named the official state beverage of Florida",
-            "question": "What is orange juice?",
+            "answer": "\"Buzzer beater\"",
+            "question": "What is basketball?",
             "value": 400,
-            "category": "BEVERAGES",
+            "category": "SPORTS IDIOMS",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "Originally called Fruit Smack & sold as a syrup, it was reformulated as a powder in 1927 & renamed this",
-            "question": "What is kool-aid?",
+            "answer": "\"Call an audible\"",
+            "question": "What is football?",
             "value": 600,
-            "category": "BEVERAGES",
+            "category": "SPORTS IDIOMS",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "Hallie Eisenberg is the kid pushing the joy of this cola",
-            "question": "What is Pepsi?",
+            "answer": "\"Knock for six\" (to shock or upset)",
+            "question": "What is cricket?",
             "value": 800,
-            "category": "BEVERAGES",
+            "category": "SPORTS IDIOMS",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "Quick, tell us this company makes Quik, the chocolate milk maker",
-            "question": "What is Nestle?",
+            "answer": "\"Making the cut\"",
+            "question": "What is golf?",
             "value": 1000,
-            "category": "BEVERAGES",
+            "category": "SPORTS IDIOMS",
             "isDailyDouble": false
         }]
     },{
-        "name": "WHERE'S THE BEEF?",
+        "name": "AROUND ALABAMA",
         "id": 4,
         "questions": [{
             "id": 1,
-            "answer": "In 2023 this fast food chain tweaked its famous slogan, introducing \"Square's the Beef\"",
-            "question": "What is Wendy's?",
+            "answer": "With millions made there, Albertville is \"capital of the world\" for these, which we love when our house is burning & hate when parking",
+            "question": "What are fire hydrants?",
             "value": 200,
-            "category": "WHERE'S THE BEEF?",
+            "category": "AROUND ALABAMA",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "This huge steak that includes a ribeye is named after a Native American weapon",
-            "question": "What is a tomahawk?",
+            "answer": "Home to the Tigers, this college town founded in 1836 has a name inspired by Oliver Goldsmith's poem \"The Deserted Village\"",
+            "question": "What is Auburn?",
             "value": 400,
-            "category": "WHERE'S THE BEEF?",
+            "category": "AROUND ALABAMA",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "Actually, there's no beef at all in the beefsteak variety of this (& no boy in the big boy)",
-            "question": "What is a tomato?",
+            "answer": "This National Forest in the center of the state shares its name with a NASCAR superspeedway nearby",
+            "question": "What is Talladega National Forest?",
             "value": 600,
-            "category": "WHERE'S THE BEEF?",
+            "category": "AROUND ALABAMA",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "Wrapped in pastry, it makes an elegant dish at Christmas",
-            "question": "What is beef Wellington?",
+            "answer": "In 1919, the city of Enterprise erected a monument to this pest that forced its farmers to shift to growing different crops",
+            "question": "What is the boll weevil?",
             "value": 800,
-            "category": "WHERE'S THE BEEF?",
+            "category": "AROUND ALABAMA",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "Including the Spanish word for meat in its 2-word name, it's spicy marinated strips of steak served with rice & beans",
-            "question": "What is carne asada?",
+            "answer": "Once occupied by the French, Alabama's southernmost point is on this island that has a name like an heir to the French throne",
+            "question": "What is Dauphin Island?",
             "value": 1000,
-            "category": "WHERE'S THE BEEF?",
+            "category": "AROUND ALABAMA",
             "isDailyDouble": false
         }]
     },{
-        "name": "COMMON BANDS",
+        "name": "EVERYDAY ARROWS",
         "id": 5,
         "questions": [{
             "id": 1,
-            "answer": "He was a drummer for Nirvana & plays guitar & sings as a Fighter of Foo",
-            "question": "Who is Dave Grohl?",
+            "answer": "Since the late '60s the logo of this food chain has had arrows coming out of the \"S\" & the \"Y\"",
+            "question": "What is Subway?",
             "value": 200,
-            "category": "COMMON BANDS",
+            "category": "EVERYDAY ARROWS",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "Damon Albarn co-created Blur & this band known for \"Feel Good Inc.\"",
-            "question": "What is the Gorillaz?",
+            "answer": "Fittingly, his arrow is the only one mentioned in \"Romeo & Juliet\"",
+            "question": "Who is Cupid?",
             "value": 400,
-            "category": "COMMON BANDS",
+            "category": "EVERYDAY ARROWS",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "He brought us to our knees as a guitarist for Cream, The Yardbirds & Derek & the Dominos",
-            "question": "Who is Eric Clapton?",
+            "answer": "18th c. cartographer Friedrich Bernhard Werner used arrows to show this for rivers like the Oder; why doesn't every map do that?",
+            "question": "What is the direction of flow?",
             "value": 600,
-            "category": "COMMON BANDS",
+            "category": "EVERYDAY ARROWS",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "He was \"frontin'\" The Neptunes & N.E.R.D.",
-            "question": "Who is Pharrell?",
+            "answer": "The Moylan arrow, named for the Ford engineer whose idea it was, is that little triangle on your dashboard that tells you this",
+            "question": "What is which side the gas tank is on?",
             "value": 800,
-            "category": "COMMON BANDS",
+            "category": "EVERYDAY ARROWS",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "He's raged on guitar in Prophets of Rage & Rage Against the Machine",
-            "question": "Who is Tom Morello?",
+            "answer": "Upvote & downvote arrows are used by them, commenters on posts on the social media forum that's \"the heart of the Internet\"",
+            "question": "What are redditors?",
             "value": 1000,
-            "category": "COMMON BANDS",
+            "category": "EVERYDAY ARROWS",
             "isDailyDouble": false
         }]
     }, {
-        "name": "FOUND ON TEMU",
+        "name": "LOUISIANA",
         "id": 6,
         "questions": [{
             "id": 1,
-            "answer": "Perfect for your small fry, you can buy a plush one of these; McDonald's uses white meat for their edible ones",
-            "question": "What is a chicken nugget?",
+            "answer": "In New Orleans you can jazz things up aboard the steamboat Natchez for a jazz cruise along this river",
+            "question": "What is the Mississippi River?",
             "value": 200,
-            "category": "FOUND ON TEMU",
+            "category": "LOUISIANA",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "How about a sticker for your toilet that makes it look like this rodent, maybe a red or eastern gray one, is popping out to say hi",
-            "question": "What is a squirrel?",
+            "answer": "During the 1800s the growing of sugar & this fiber became big business in Louisiana",
+            "question": "What is cotton?",
             "value": 400,
-            "category": "FOUND ON TEMU",
+            "category": "LOUISIANA",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "A blanket with the words \"Hey Baby Girl\" over the huge beautiful nose of this green ogre? Enchanting!",
-            "question": "Who is Shrek?",
+            "answer": "450 feet tall with 34 floors, the Capitol building in this Louisiana city is the tallest state Capitol",
+            "question": "What is Baton Rouge?",
             "value": 600,
-            "category": "FOUND ON TEMU",
+            "category": "LOUISIANA",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "Why go to Houston when you can buy these teeth fronts over on Temu? One place sells them as \"hip hop braces\"",
-            "question": "What are grills?",
+            "answer": "During Carnival season, nearly a million visitors attend this Shrove Tuesday celebration in New Orleans",
+            "question": "What is Mardi Gras?",
             "value": 800,
-            "category": "FOUND ON TEMU",
+            "category": "LOUISIANA",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "Get a 2025 calendar of the \"World's Greatest\" types of this hairstyle that's business in the front & a party in the back",
-            "question": "What is a mullet?",
+            "answer": "Louisiana was included in that famous purchase bought from this Frenchman in 1803",
+            "question": "Who is Napoleon Bonaparte?",
             "value": 1000,
-            "category": "FOUND ON TEMU",
+            "category": "LOUISIANA",
             "isDailyDouble": true
         }]
     }]
 }, {
     "stage" : "TRIPLE_LEOPARDY",
     "categories": [{
-        "name": "EVERY TIME I DO IT MAKES ME LAUGH",
+        "name": "VIDEO GAME ON!",
         "id": 1,
         "questions": [{
             "id": 1,
-            "answer": "Awkwafina, in this film: \"They came to Singapore... & they built all of this... these people are so posh & snobby, they're snoshy\"",
-            "question": "What is Crazy Rich Asians?",
+            "answer": "Jumpman was the original name of this iconic character who debuted in 1981, a couple of years before his bro",
+            "question": "Who is Mario?",
             "value": 300,
-            "category": "EVERY TIME I DO IT MAKES ME LAUGH",
+            "category": "VIDEO GAME ON!",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "Ty Burrell as him on \"Modern Family\": \"I'm the cool dad... I text... omg, oh my god, wtf, why the face?\"",
-            "question": "Who is Phil Dunphy",
+            "answer": "George R.R. Martin helped create the backstory for the game in which players attempt to restore this shattered ring",
+            "question": "What is Elden Ring?",
             "value": 600,
-            "category": "EVERY TIME I DO IT MAKES ME LAUGH",
+            "category": "VIDEO GAME ON!",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "Belushi & Aykroyd wonder about the usual music in a bar in this film & learn, \"Oh, we got both kinds--we got Country & Western\"",
-            "question": "What is The Blues Brothers?",
+            "answer": "San Andreas in this long-running game series is a crime-ridden fictional state, not a seismic fault",
+            "question": "What is Grand Theft Auto?",
             "value": 900,
-            "category": "EVERY TIME I DO IT MAKES ME LAUGH",
+            "category": "VIDEO GAME ON!",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "Det. Rosa Diaz talks in her sleep on this sitcom: \"I'm gonna rip your head off. I'm gonna rip your damn head off, grandma\"",
-            "question": "What is Brooklyn Nine Nine?",
+            "answer": "This 3-word title comes before \"Warzone\", \"Modern Warfare\" & more",
+            "question": "What is Call of Duty?",
             "value": 1200,
-            "category": "EVERY TIME I DO IT MAKES ME LAUGH",
+            "category": "VIDEO GAME ON!",
             "isDailyDouble": true
         }, {
             "id": 5,
-            "answer": "\"Cruel Shoes\" by this comedian & book writer includes stories like \"Women Without Bones\" & \"How to Fold Soup\"",
-            "question": "Who is Steve Martin?",
+            "answer": "An award-winning 2009 game saw Batman facing down the Joker & other villains in this title institution",
+            "question": "What is Batman: Arkham Asylum?",
             "value": 1500,
-            "category": "EVERY TIME I DO IT MAKES ME LAUGH",
+            "category": "VIDEO GAME ON!",
             "isDailyDouble": false
         }]
     },{
-        "name": "\"MOM\" & \"DAD\"",
+        "name": "BROADWAY MUSICALS BY OPENING NUMBER",
         "id": 2,
         "questions": [{
             "id": 1,
-            "answer": "It's defined as an embarrassing, unoriginal attempt at humor--wanna hear one?",
-            "question": "What is a dad joke?",
+            "answer": "\"Food, Glorious Food\"",
+            "question": "What is Oliver?",
             "value": 300,
-            "category": "\"MOM\" & \"DAD\"",
+            "category": "BROADWAY MUSICALS BY OPENING NUMBER",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "Merriam-Webster defines this as \"a typically suburban mother who accompanies her children to their...games\"",
-            "question": "What is a soccer mom?",
+            "answer": "At the Delta Nu sorority house: \"Omigod You Guys\"",
+            "question": "What is Legally Blonde?",
             "value": 600,
-            "category": "\"MOM\" & \"DAD\"",
+            "category": "BROADWAY MUSICALS BY OPENING NUMBER",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "This paternal name for a rich benefactor comes from \"Little Orphan Annie\"",
-            "question": "What is Daddy Warbucks?",
+            "answer": "Opening in 2000: \"Oh, The Thinks You Can Think!\"",
+            "question": "What is Seussical?",
             "value": 900,
-            "category": "\"MOM\" & \"DAD\"",
+            "category": "BROADWAY MUSICALS BY OPENING NUMBER",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "Cripes! It's time to scram! To beat it! To do this, originally Civil War-era slang for retreating in haste",
-            "question": "What is skedaddle?",
+            "answer": "\"Opening Night\"/ \"The King of Broadway\"",
+            "question": "What is The Producers?",
             "value": 1200,
-            "category": "\"MOM\" & \"DAD\"",
+            "category": "BROADWAY MUSICALS BY OPENING NUMBER",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "This spice of the ginger family is popular in Indian food",
-            "question": "What is cardamom?",
+            "answer": "Overture, followed by the \"Fisch Schlapping Song\"",
+            "question": "What is Spamalot?",
             "value": 1500,
-            "category": "\"MOM\" & \"DAD\"",
+            "category": "BROADWAY MUSICALS BY OPENING NUMBER",
             "isDailyDouble": false
         }]
     },{
-        "name": "THE HUMAN BODY",
+        "name": "THE MOVIES",
         "id": 3,
         "questions": [{
             "id": 1,
-            "answer": "Whether an innie or an outie, it marks the spot where the umbilical cord was once attached",
-            "question": "What is a belly button?",
+            "answer": " Liam Neeson plays Frank Drebin Jr., son of Leslie Nielsen's character, in the 2025 version of this film",
+            "question": "What is The Naked Gun?",
             "value": 300,
-            "category": "THE HUMAN BODY",
+            "category": "THE MOVIES",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "Men & women both have this \"fruity\" lump in the front of the throat; it's just more noticeable in men",
-            "question": "What is an Adam's apple?",
+            "answer": "In this film & its sequel, Emily Blunt plays a mom who keeps her kids safe while not having a whole lot to say aloud",
+            "question": "What is A Quiet Place?",
             "value": 600,
-            "category": "THE HUMAN BODY",
+            "category": "THE MOVIES",
             "isDailyDouble": true
         }, {
             "id": 3,
-            "answer": "Among these in the body are the abs, pecs & biceps",
-            "question": "What are muscles?",
+            "answer": "Rolling Stone named this Spike Lee film in which he played Mookie the greatest movie of the 1980s",
+            "question": "What is Do the Right Thing?",
             "value": 900,
-            "category": "THE HUMAN BODY",
+            "category": "THE MOVIES",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "Of the 4 types of teeth, these back ones, including the wisdom teeth, are used for grinding & mashing",
-            "question": "What are molars?",
+            "answer": "Unlike in the novel, James Caan's character Paul Sheldon gets to keep both of his hobbled feet in this film",
+            "question": "What is Misery?",
             "value": 1200,
-            "category": "THE HUMAN BODY",
+            "category": "THE MOVIES",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "Named for their shape, the 2 kinds of light-sensitive cells in your eye's retina are rods & these",
-            "question": "What are cones?",
+            "answer": "Dustin Hoffman played the roles of Michael Dorsey & Dorothy Michaels in this film, but only got one Oscar nomination for it",
+            "question": "What is Tootsie?",
             "value": 1500,
-            "category": "THE HUMAN BODY",
+            "category": "THE MOVIES",
             "isDailyDouble": false
         }]
     },{
-        "name": "COLORS",
+        "name": "BUT FIRST, COFFEE",
         "id": 4,
         "questions": [{
             "id": 1,
-            "answer": "Royal & navy",
-            "question": "What is blue?",
+            "answer": "When this stimulant is removed from coffee, it's often resold to pharmaceutical companies & soft drink manufacturers",
+            "question": "What is caffeine?",
             "value": 300,
-            "category": "COLORS",
+            "category": "BUT FIRST, COFFEE",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "Mint & moss",
-            "question": "What is green?",
+            "answer": "In 2023, noted devotee Ben Affleck appeared in this Massachusetts-based coffee chain's first ever Super Bowl ad",
+            "question": "What is Dunkin'?",
             "value": 600,
-            "category": "COLORS",
+            "category": "BUT FIRST, COFFEE",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "Maize & dandelion",
-            "question": "What is yellow?",
+            "answer": "Adding this flavor, in powder or syrup form, turns a latte into a mocha",
+            "question": "What is chocolate?",
             "value": 900,
-            "category": "COLORS",
+            "category": "BUT FIRST, COFFEE",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "Battleship & ash",
-            "question": "What is gray?",
+            "answer": "The honor code of this Provo, Utah university instructs students to abstain from drinking coffee",
+            "question": "What is Brigham Young University?",
             "value": 1200,
-            "category": "COLORS",
+            "category": "BUT FIRST, COFFEE",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "Seal & raw sienna",
-            "question": "What is brown?",
+            "answer": "During WWII, many U.S. soldiers felt Italian coffee was too strong & created this drink--it's basically watered-down espresso",
+            "question": "What is a caffè americano?",
             "value": 1500,
-            "category": "COLORS",
+            "category": "BUT FIRST, COFFEE",
             "isDailyDouble": true
         }]
     },{
-        "name": "ANIMATED FILMS IN OTHER WORDS",
+        "name": "SNACKS ON A PLANE",
         "id": 5,
         "questions": [{
             "id": 1,
-            "answer": "2003: Locating the captain of the Nautilus",
-            "question": "What is Finding Nemo?",
+            "answer": "Bon appetit! On long flights, this airline serves baguettes, cheese & champagne in the \"affaires\" cabin",
+            "question": "What is Air France?",
             "value": 300,
-            "category": "ANIMATED FILMS IN OTHER WORDS",
+            "category": "SNACKS ON A PLANE",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "2012: Destroy that thing, Mr. Nader",
-            "question": "What is Wreck-it Ralph?",
+            "answer": "Allergy concerns have caused most carriers to discontinue these snacks, but Northwest still serves 'em",
+            "question": "What are peanuts?",
             "value": 600,
-            "category": "ANIMATED FILMS IN OTHER WORDS",
+            "category": "SNACKS ON A PLANE",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "2006: Jubilant tootsies",
-            "question": "What is Happy Feet?",
+            "answer": "USA! USA! This red-white-&-blue carrier will sell you a 4-ounce chocolate chip cookie for just 3 bucks",
+            "question": "What is American Airlines?",
             "value": 900,
-            "category": "ANIMATED FILMS IN OTHER WORDS",
+            "category": "SNACKS ON A PLANE",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "1999: The ferrous leviathan",
-            "question": "What is The Iron Giant?",
+            "answer": "United's \"classic snackbox\" includes this brand of gourmet jelly beans",
+            "question": "What is Jelly Belly?",
             "value": 1200,
-            "category": "ANIMATED FILMS IN OTHER WORDS",
+            "category": "SNACKS ON A PLANE",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "1989: Every canine shows up in Elysium",
-            "question": "What is All Dogs Go to Heaven?",
+            "answer": "This Atlanta-based airline's \"flight delights\" includes hummus, pita chips & a deck of miniature playing cards",
+            "question": "What is Delta Air Lines?",
             "value": 1500,
-            "category": "ANIMATED FILMS IN OTHER WORDS",
+            "category": "SNACKS ON A PLANE",
             "isDailyDouble": false
         }]
     }, {
-        "name": "A LEAGUE OF THEIR OWN",
+        "name": "AUSTIN",
         "id": 6,
         "questions": [{
             "id": 1,
-            "answer": "The Vegas Golden Knights",
-            "question": "What is the NHL?",
+            "answer": "Antone's in Austin, Texas is the \"home of\" this genre & modern master Gary Clark Jr. first played there at age 15",
+            "question": "What is the blues?",
             "value": 300,
-            "category": "A LEAGUE OF THEIR OWN",
+            "category": "AUSTIN",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "The New York Liberty",
-            "question": "What is the WNBA?",
+            "answer": "At dusk, April through October, millions of these mammals fly out from under the Congress Ave. Bridge to feed",
+            "question": "What are bats?",
             "value": 600,
-            "category": "A LEAGUE OF THEIR OWN",
+            "category": "AUSTIN",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "The New England Revolution",
-            "question": "What is the MLS?",
+            "answer": "At 30 years, this PBS series from the Austin music scene is the longest-running music showcase now on TV",
+            "question": "What is Austin City Limits?",
             "value": 900,
-            "category": "A LEAGUE OF THEIR OWN",
+            "category": "AUSTIN",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "The Saskatchewan Roughriders",
-            "question": "What is the CFL?",
+            "answer": "Austin's African-American history is chronicled in a museum named for this agricultural scientist",
+            "question": "Who is George Washington Carver?",
             "value": 1200,
-            "category": "A LEAGUE OF THEIR OWN",
+            "category": "AUSTIN",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "The Wolverhampton Wanderers",
-            "question": "What is the EPL?",
+            "answer": "This Old West cattle trail that ran from Texas to Kansas crossed the eastern part of Austin",
+            "question": "What is the Chisolm Trail?",
             "value": 1500,
-            "category": "A LEAGUE OF THEIR OWN",
+            "category": "AUSTIN",
             "isDailyDouble": false
         }]
     }]
 }, {
     "stage" : "QUADRUPLE_LEOPARDY",
     "categories": [{
-        "name": "POTPOURRI",
+        "name": "MOVIE SEQUELS",
         "id": 1,
         "questions": [{
             "id": 1,
-            "answer": "This actress is behind a line of hair care products called Blake Brown",
-            "question": "Who is Blake Lively?",
+            "answer": "This one goes to... II? \"The End Continues\" is the subtitle of the 2025 sequel to this, the progenitor of the mockumentary form",
+            "question": "What is This is Spinal Tap?",
+            "value": 400,
+            "category": "MOVIE SEQUELS",
+            "isDailyDouble": false
+        }, {
+            "id": 2,
+            "answer": "\"Hasta la vista, baby\" was one of Arnold Schwarzenegger's memorable lines from \"Terminator 2:\" this event",
+            "question": "What is Judgment Day?",
+            "value": 800,
+            "category": "MOVIE SEQUELS",
+            "isDailyDouble": true
+        }, {
+            "id": 3,
+            "answer": "Julie Delpy & Ethan Hawke had adventures \"Before Sunrise\"; the first sequel was sensibly called \"Before\" this",
+            "question": "What is Sunset?",
+            "value": 1200,
+            "category": "MOVIE SEQUELS",
+            "isDailyDouble": false
+        }, {
+            "id": 4,
+            "answer": "The THX sound system was first used in this 1983 film in the \"Star Wars\" franchise",
+            "question": "What is Return of the Jedi?",
+            "value": 1600,
+            "category": "MOVIE SEQUELS",
+            "isDailyDouble": false
+        }, {
+            "id": 5,
+            "answer": "Films based on this anime series include \"Mugen Train\" & now one with Tanjiro facing foes at \"the Infinity Castle\"",
+            "question": "What is Demon Slayer?",
+            "value": 2000,
+            "category": "MOVIE SEQUELS",
+            "isDailyDouble": false
+        }]
+    },{
+        "name": "POTPOURRI",
+        "id": 2,
+        "questions": [{
+            "id": 1,
+            "answer": "The \"Star Trek\" gesture called the Vulcan salute is accompanied by this four-word phrase",
+            "question": "What is Live Long and Prosper?",
             "value": 400,
             "category": "POTPOURRI",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "A brand of jeans & a Jeep model both have this name that can also refer to someone who saddles horses",
-            "question": "What is wrangler?",
+            "answer": "Although this company says it's unintentional, the blue & white collar of the redheaded girl in its logo spells \"Mom\"",
+            "question": "What is Wendy's?",
             "value": 800,
             "category": "POTPOURRI",
-            "isDailyDouble": true
+            "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "This maximum security correctional facility in New York was originally called Mount Pleasant Prison",
-            "question": "What is Sing Sing?",
+            "answer": "Among the first group of toys inducted into the National Toy Hall of Fame were the teddy bear, Erector Set & this plastic platter",
+            "question": "What is the frisbee?",
             "value": 1200,
             "category": "POTPOURRI",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "This New Jersey university was founded in 1766 with a charter signed by Ben Franklin's son",
-            "question": "What is Rutgers?",
+            "answer": "This social media platform was originally called musical.ly",
+            "question": "What is TikTok?",
             "value": 1600,
             "category": "POTPOURRI",
-            "isDailyDouble": false
+            "isDailyDouble": true
         }, {
             "id": 5,
             "answer": "Hindi & Urdu give us the name of this clay oven that uses charcoal",
@@ -751,223 +790,184 @@
             "isDailyDouble": false
         }]
     },{
-        "name": "MOVIE PROFESSION IN COMMON",
-        "id": 2,
-        "questions": [{
-            "id": 1,
-            "answer": "Harrison Ford in \"Air Force One\" & Bill Pullman in \"Independence Day\"",
-            "question": "What is President of the United States?",
-            "value": 400,
-            "category": "MOVIE PROFESSION IN COMMON",
-            "isDailyDouble": false
-        }, {
-            "id": 2,
-            "answer": "Will Ferrell in \"Blades of Glory\" & Jon Heder in \"Blades of Glory\"",
-            "question": "What is figure skater?",
-            "value": 800,
-            "category": "MOVIE PROFESSION IN COMMON",
-            "isDailyDouble": false
-        }, {
-            "id": 3,
-            "answer": "Jack Nicholson in \"Chinatown\" & Russell Crowe in \"The Nice Guys\"",
-            "question": "What is detective?",
-            "value": 1200,
-            "category": "MOVIE PROFESSION IN COMMON",
-            "isDailyDouble": false
-        }, {
-            "id": 4,
-            "answer": "Sally Hawkins in \"The Shape of Water\" & Matt Damon in \"Good Will Hunting\"",
-            "question": "What is janitor?",
-            "value": 1600,
-            "category": "MOVIE PROFESSION IN COMMON",
-            "isDailyDouble": true
-        }, {
-            "id": 5,
-            "answer": "Rick Moranis in \"Ghostbusters\" & Ben Affleck as Christian Wolff (the title profession)",
-            "question": "What is accountant?",
-            "value": 2000,
-            "category": "MOVIE PROFESSION IN COMMON",
-            "isDailyDouble": false
-        }]
-    },{
-        "name": "WORLD OF BARBIE",
+        "name": "NOW YOU'RE COOKING",
         "id": 3,
         "questions": [{
             "id": 1,
-            "answer": "In 2023 she & Ryan Gosling were the leads for a big-screen live-action \"Barbie\" adventure",
-            "question": "Who is Margot Robbie?",
+            "answer": "Varieties of this baking ingredient include pastry, all-purpose & self-rising",
+            "question": "What is Flour?",
             "value": 400,
-            "category": "WORLD OF BARBIE",
+            "category": "NOW YOU'RE COOKING",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "Creators Ruth & Elliot Handler named Barbie & Ken for their children & also co-founded this company that still makes the dolls",
-            "question": "What is Mattel?",
+            "answer": "Because the rotation keeps the juices moving, rotisserie chicken is self-this, a process of adding moisture",
+            "question": "What is basting?",
             "value": 800,
-            "category": "WORLD OF BARBIE",
+            "category": "NOW YOU'RE COOKING",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "In an immersive & interactive experience, you can enter the World of Barbie & visit this iconic home of hers, brought to life",
-            "question": "What is the Barbie Dreamhouse?",
+            "answer": "Type of fish dish made by a Cajun method incorporating high heat, resulting in a charred crust",
+            "question": "What is blackened?",
             "value": 1200,
-            "category": "WORLD OF BARBIE",
+            "category": "NOW YOU'RE COOKING",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "In 2016 Barbie got 3 new & diverse body types in addition to her original: tall, petite & this 5-letter adjective",
-            "question": "What is curvy?",
+            "answer": "Tread lightly after popping one of these puffy dishes into the oven, from the French for \"to blow\"",
+            "question": "What is soufflé?",
             "value": 1600,
-            "category": "WORLD OF BARBIE",
+            "category": "NOW YOU'RE COOKING",
             "isDailyDouble": true
         }, {
             "id": 5,
-            "answer": "In 1989 Barbie became an ambassador for this U.N. agency that helps children around the world",
-            "question": "What is UNICEF?",
+            "answer": "Bon Appetit offers 29 recipes with this Mexican pork sausage because \"it makes everything taste better\"",
+            "question": "What is chorizo?",
             "value": 2000,
-            "category": "WORLD OF BARBIE",
+            "category": "NOW YOU'RE COOKING",
             "isDailyDouble": false
         }]
     },{
-        "name": "ALSO A CANDY",
+        "name": "SOUTHERN CALIFORNIA ATTRACTIONS",
         "id": 4,
         "questions": [{
             "id": 1,
-            "answer": "Athos, Porthos & Aramise",
-            "question": "What are the Three Musketeers?",
+            "answer": "Of course you can tour our Sony Pictures Studio lot, which, back in the day, was this studio famous for its musicals",
+            "question": "What is MGM?",
             "value": 400,
-            "category": "ALSO A CANDY",
+            "category": "SOUTHERN CALIFORNIA ATTRACTIONS",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "It's when you get your peanuts for all your hard work",
-            "question": "What is payday?",
+            "answer": "This iconic venue has been presenting summer concerts for more than 100 years",
+            "question": "What is The Hollywood Bowl?",
             "value": 800,
-            "category": "ALSO A CANDY",
+            "category": "SOUTHERN CALIFORNIA ATTRACTIONS",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "An article called the Chicago Bears of 1938 this kind of team since they set \"a season's record of 56 fumbles\"",
-            "question": "What is a butterfinger team?",
+            "answer": "It covers over 4,200 acres & it's where you'll find the Greek Theatre & a world famous observatory",
+            "question": "What is Griffith Park?",
             "value": 1200,
-            "category": "ALSO A CANDY",
+            "category": "SOUTHERN CALIFORNIA ATTRACTIONS",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "This purrrfect club of Whig leaders in London sounds just like a chocolate wafer bar",
-            "question": "What is a Kit-Cat?",
+            "answer": "Long Beach is home to this historic ocean liner with a royal name",
+            "question": "What is the Queen Mary?",
             "value": 1600,
-            "category": "ALSO A CANDY",
+            "category": "SOUTHERN CALIFORNIA ATTRACTIONS",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "NASA called the activity in this type of galaxy reminiscent of the end of a pyrotechnics show",
-            "question": "What is a starburst galaxy?",
+            "answer": "This sports venue popularly known as \"The House that Kobe Built\" was recently renamed the Crypto.com Arena",
+            "question": "What is the Staples Center?",
             "value": 2000,
-            "category": "ALSO A CANDY",
+            "category": "SOUTHERN CALIFORNIA ATTRACTIONS",
             "isDailyDouble": false
         }]
     },{
-        "name": "IF YOU KNOW WHAT'S GOOD FOR YOU",
+        "name": "AD SLOGANS",
         "id": 5,
         "questions": [{
             "id": 1,
-            "answer": "It's often said that this is \"the best medicine\"--it's fun to share, adds joy to life & it relieves stress",
-            "question": "What is laughter?",
+            "answer": "This emotion. \"It's what makes a Subaru, a Subaru\"",
+            "question": "What is love?",
             "value": 400,
-            "category": "IF YOU KNOW WHAT'S GOOD FOR YOU",
+            "category": "AD SLOGANS",
             "isDailyDouble": true
         }, {
             "id": 2,
-            "answer": "Doing this before bed can help you sleep better; try the bridge or legs up the wall poses",
-            "question": "What is yoga?",
+            "answer": "These 2 adverbs complete the classic Federal Express ad slogan \"When it ____, ____ has to be there over night\"",
+            "question": "What are absolutely and positively?",
             "value": 800,
-            "category": "IF YOU KNOW WHAT'S GOOD FOR YOU",
+            "category": "AD SLOGANS",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "You're advised to brush your teeth & floss daily because of a link between heart disease & this 11-letter type of gum disease",
-            "question": "What is periodontal disease?",
+            "answer": "In the 1970s the U.K.'s Conservative party used the slogan this rival political party \"isn't working\"",
+            "question": "What is Labour?",
             "value": 1200,
-            "category": "IF YOU KNOW WHAT'S GOOD FOR YOU",
+            "category": "AD SLOGANS",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "Short on time but want to get in a good workout? Some people enjoy this form of exercise, HIIT for short, but don't overdo it",
-            "question": "What is high intensity interval training?",
+            "answer": "\"When it rains, it pours\" & it has for this salt brand",
+            "question": "What is Morton?",
             "value": 1600,
-            "category": "IF YOU KNOW WHAT'S GOOD FOR YOU",
+            "category": "AD SLOGANS",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "Plain & simple, give someone a hug; it releases these feel-good hormones, named in part for a narcotic",
-            "question": "What are endorphins?",
+            "answer": "The makers of Maxwell House coffee attributed this description of its taste to Theodore Roosevelt",
+            "question": "What is good to the last drop?",
             "value": 2000,
-            "category": "IF YOU KNOW WHAT'S GOOD FOR YOU",
+            "category": "AD SLOGANS",
             "isDailyDouble": false
         }]
     }, {
-        "name": "POP MUSIC",
+        "name": "AN APRIL TO REMEMBER",
         "id": 6,
         "questions": [{
             "id": 1,
-            "answer": "In May 2000 she released her second album, \"Oops!...I Did It Again\"",
-            "question": "Who is Britney Spears?",
+            "answer": "An April 1985 attempt to make the regular kind of this soda taste more like the diet kind led to marketing disaster",
+            "question": "What is Coke?",
             "value": 400,
-            "category": "POP MUSIC",
+            "category": "AN APRIL TO REMEMBER",
             "isDailyDouble": false
         }, {
             "id": 2,
-            "answer": "\"Bye Bye Bye\" from the album \"No Strings Attached\" was a hit for this group",
-            "question": "What is 'N Sync?",
+            "answer": "In April 1906 an earthquake hit this U.S. city followed by a massive fire & the loss of 3,000 lives",
+            "question": "What is San Francisco?",
             "value": 800,
-            "category": "POP MUSIC",
+            "category": "AN APRIL TO REMEMBER",
             "isDailyDouble": false
         }, {
             "id": 3,
-            "answer": "Their 1998 album \"Dizzy Up the Girl\" includes the songs \"Slide\", \"Broadway\" & \"Black Balloon\"",
-            "question": "Who are the Goo Goo Dolls?",
+            "answer": "Major League Baseball's first of these postponed the opening of the 1972 season to April 15",
+            "question": "What is a strike?",
             "value": 1200,
-            "category": "POP MUSIC",
+            "category": "AN APRIL TO REMEMBER",
             "isDailyDouble": false
         }, {
             "id": 4,
-            "answer": "His song \"You Make Me Wanna\" was nominated for a Grammy",
-            "question": "Who is Usher?",
+            "answer": "In April 1513 Ponce de Leon landed in what he named Florida, searching for this legendary spring",
+            "question": "What is the Fountain of Youth?",
             "value": 1600,
-            "category": "POP MUSIC",
+            "category": "AN APRIL TO REMEMBER",
             "isDailyDouble": false
         }, {
             "id": 5,
-            "answer": "This single-named singer-turned aactress is aalphabetically first in \"The Billboard Book of Top 40 Hits\"",
-            "question": "Who is Aaliyah?",
+            "answer": "On April 15, 1974, as everyone else paid taxes, this radical \"Army\", the S.L.A., was robbing a bank of $11,000",
+            "question": "What is the Symbionese Liberation Army?",
             "value": 2000,
-            "category": "POP MUSIC",
+            "category": "AN APRIL TO REMEMBER",
             "isDailyDouble": false
         }]
     }]
 }, {
     "stage" : "FINAL_LEOPARDY",
     "categories": [{
-        "name": "21st CENTURY BUSINESS",
+        "name": "'90s TELEVISION",
         "id": 1,
         "questions": [{
             "id": 1,
-            "answer": "An early version of this app was called Matchbox but that name was too similar to another company that offered the same service",
-            "question": "What is Tinder?",
+            "answer": "\"Northwest Passage\" was a working title of this series that was renamed for mountains",
+            "question": "What is Twin Peaks?",
             "value": 0,
-            "category": "21st CENTURY BUSINESS",
+            "category": "'90s TELEVISION",
             "isDailyDouble": false
         }]
     },{
-        "name": "ANIMALS",
+        "name": "MAMMALS",
         "id": 2,
         "questions": [{
             "id": 1,
-            "answer": "The Aztecs called this animal ayotochtli, meaning a \"turtle rabbit\" for its rabbit-like ears & its turtle-like shell",
-            "question": "What is an armadillo?",
+            "answer": "Wrangel Island, off the coast of Siberia, may have been the last place on Earth where this 2-word prehistoric mammal lived",
+            "question": "What is the wooly mammoth?",
             "value": 0,
-            "category": "ANIMALS",
+            "category": "MAMMALS",
             "isDailyDouble": false
         }]
     }]
